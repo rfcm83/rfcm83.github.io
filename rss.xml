@@ -1,4 +1,196 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>https://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 May 2020 05:52:17 GMT</lastBuildDate><item><title><![CDATA[GitHub Pages]]></title><description><![CDATA[Hola, bienvenidos. Hace años que no escribo en un blog, pero lo cierto es que de un tiempo hacía aquí, he pensado en volver a escribir, y…]]></description><link>https://setvalue.net/2020/05/10/</link><guid isPermaLink="false">https://setvalue.net/2020/05/10/</guid><pubDate>Sun, 10 May 2020 16:45:00 GMT</pubDate><content:encoded>&lt;p&gt;Hola, bienvenidos. Hace años que no escribo en un blog, pero lo cierto es que de un tiempo hacía aquí, he pensado en volver a escribir, y después de estar trasteando con algunos CMS basados en todo tipo de tecnologías (principalmente en .NET Core), me he decidido a probar GitHub Pages, y la verdad es que me he llevado una grata sorpresa.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>https://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 16 May 2020 15:01:12 GMT</lastBuildDate><item><title><![CDATA[GitHub Pages + GatsbyJS]]></title><description><![CDATA[Generic badge En el anterior post se hablaba de qué era GitHub Pages, y cómo construir un sitio estático para documentar los repositorios o…]]></description><link>https://setvalue.net/2020/05/16/</link><guid isPermaLink="false">https://setvalue.net/2020/05/16/</guid><pubDate>Sat, 16 May 2020 13:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;En el anterior &lt;a href=&quot;../10&quot;&gt;post&lt;/a&gt; se hablaba de qué era GitHub Pages, y cómo construir un sitio estático para documentar los repositorios o un sitio web para un uso no comercial. &lt;/p&gt;
+&lt;p&gt;Un sitio estático, no deja de ser contenido html, css y js. Aunque podemos utilizar una de las plantillas que nos ofrece GitHub Pages y a partir de ahí únicamente debemos subir ficheros markdown y ya la propia plantilla se encarga de construir la web estática. Sin embargo, esta aproximación no nos da mucho juego de cara a personalizar nuestro sitio.&lt;/p&gt;
+&lt;p&gt;Para poder crear nuestro propio sitio, personalizado, con el formato y los contenidos que prefiramos, existen múltiples framework que facilitan esta acción. &lt;/p&gt;
+&lt;p&gt;En este post, hacemos referencia a &lt;a href=&quot;https://gatsby.js/&quot; target=&quot;_blank&quot;&gt;GatsbyJS&lt;/a&gt;, un framework gratuito y opensource basado en React que permite construir sitios estáticos fácilmente.&lt;/p&gt;
+&lt;h2&gt;Requisitos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Node.js&lt;/li&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Visual Studio Code&lt;/li&gt;
+&lt;li&gt;Repositorio GitHub&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Let&apos;s go&lt;/h2&gt;
+&lt;p&gt;Si no está instalado Node, se puede descargar la versión apropiada para nuestro Sistema Operativo desde &lt;a href=&quot;https://nodejs.org/&quot; target=&quot;_blank&quot;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Repetimos la misma operativa para Git, si no está instalado, están son los enlaces a las versiones de cada sistema operativo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/install-git#mac-os-x&quot; target=&quot;_blank&quot;&gt;macOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/install-git#windows&quot; target=&quot;_blank&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/install-git#linux&quot; target=&quot;_blank&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para poder editar los ficheros de una forma ágil y sencilla, utilizaremos &lt;a href=&quot;https://code.visualstudio.com/#alt-downloads&quot; target=&quot;_blank&quot;&gt;Visual Studio Code&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Gatsby-cli&lt;/h3&gt;
+&lt;p&gt;Se trata de una herramienta publicada como paquete &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt; que permite crear rápidamente nuevos desarrollos basados en Gatsby y ejecutar comandos para sitios Gatsby.&lt;/p&gt;
+&lt;p&gt;Este cliente nos va a permitir crear un sitio web en minutos, para ello instalamos el paquete npm de forma global desde línea de comandos.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 930px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b546d9897c519d949be63e683bfd1d7e/416ee/Gatsby-CLI.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95.4732510288066%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACv0lEQVQ4y5VUyXLaQBDV0WbRBkKAFiSB2AyElFNJKDt25T/t8nb0NRVySPnm73rp1/Ioim85vOrRTM/r18vI+nH8jZ/HXzgej3h5ecHr6yuen59xd3eHp6dHPDw84PGxsvf394rmmqDv7e0tbm5uYJ3vc3z9MEEeLbCYL3B2tsZ0OsV8XqIsZ5jNZrKe616/30cQBAjDUNeDwQC9Xk8tv33fh3W2SrAqxMmPkMQJ8jxHkiSCVC9yHUURJpPJ236FNE11L47j2iphHKUYR+IwqZxGo5GoqJQQjE5ig+EbeLnb7f6DTqcDK4hDeEEPnt+H1+vDccXRceG6HjzP04tN67gubDnrOh46XRvtdrtGRTiO4fQCIR0qfIHt9eF6vtaHtflrfSXrOBLUD8R6aLVaNZkSFlKz0XCozr4vSjxR5ziwbVsd6NxMy3Fs2LRyzrUrirlfK2RB2UkqaLXaODk5kQInWC6XKIpC68rasZ5Mm2pp6e+9WUcE1IQch/V6rfU5PT1VsGOLxUJBYlqODgMzgGkes6C/IaO1eJhlGYaStnHiWGw2m5qIo8TRYSB2ncGbnW3CIhlV8BLlsya8TCKCpPRhYO4zXYLNaMJ02srzrFbGDUZnvbjHi9zjmQFVdGVcfJmMcBjW82qaY401lUQQqQIqJRlLQMUmtYqwq/ur5RwfdzMU2VSfpGmcvpTdtsRmmWFaSNHLWV18OjJVBmgiy3KsVyXWZYC+U2VCMloKsA6fMhz2ASZpqT8EQzQej7U5HCsq54XqHcdyFkm6UZ0Vm0V/VXj5OcX3wwBpJmRF1c33PwCSmXIYAsL4mMBKePFljsO5RIozUZnW9TNjZFLit/lBNNM0fmYCrGwSYhxK4W1Hn5R5Rs1xMEPbHI/3PwWCr8y6/HaFi8srXF9f4XA4YL/fY7fbYbvdanP+B2VZ4g+NDQlgtM1HJgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby-CLI!&quot;
+        title=&quot;Gatsby-CLI!&quot;
+        src=&quot;/static/b546d9897c519d949be63e683bfd1d7e/416ee/Gatsby-CLI.png&quot;
+        srcset=&quot;/static/b546d9897c519d949be63e683bfd1d7e/8aea6/Gatsby-CLI.png 243w,
+/static/b546d9897c519d949be63e683bfd1d7e/44c61/Gatsby-CLI.png 485w,
+/static/b546d9897c519d949be63e683bfd1d7e/416ee/Gatsby-CLI.png 930w&quot;
+        sizes=&quot;(max-width: 930px) 100vw, 930px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Una vez completada la instalación, podemos consultar la lista de comandos disponible en cualquier momento con el comando &lt;code class=&quot;language-text&quot;&gt;gatsby --help&lt;/code&gt;. &lt;/p&gt;
+&lt;h3&gt;Crear sitio desde plantilla&lt;/h3&gt;
+&lt;p&gt;Con el Gatsby-CLI instalado, creamos un nuevo sitio a partir de una de las &lt;a href=&quot;https://www.gatsbyjs.org/starters/?v=2&quot; target=&quot;_blank&quot;&gt;plantillas&lt;/a&gt; gratuitas que ofrece Gatsby y la comunidad.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gatsby new DemoGatsbyJS https://github.com/gatsbyjs/gatsby-starter-default&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 930px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7f7e244c6e6e5f67db949357e5b1e818/416ee/Gatsby-StarterTemplate.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.55144032921811%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABnklEQVQ4y32T246CUAxFefV+V0QUvIPEn9YYkS9wEp0H3/2mDquZEoaYedhpT3PY3bs9OI/ntzyfD3m9XvJ+v+V+/5LL5SJZlkqapnK73TQaOGdZpiAH1+tVzueznE4ncXa7ncRxLEmSyHq9lsViIUEQSBj4Eoah1jhT50w+mUwU4/FYMRwOpdlsSqvVEme73crhcFCsVivZbDbi+750ez1pt9sKLhsajYbUarU/qNfrWgdOFEUCUGk5gBxVs9lMO5dJ/4ODMshMmeu60svVAS7Q3WAqqjDlSrjf7yXJSbHOXEajkc4ElOdEHfudTqeIoKre2UexHI9HWS6XugCIiVjGOsppSg3i6XRaNGIcOGGOxQy3mzBfSKIfQcoWDZ7naW0+n+vH9gLIGQ85cTAYKFDsBMuF8HT8ua+du92uWqIzF/r9vtbI+YgcWE60eavl6He7dMMmbw1bzJDLEALOzNFqtqTqwhzXneYWPJVugJxt24LKiyJHbfW5FFtGVfmtEQF2zDbRbBM/PZfCsv5muU1IscoiAKSfbBGrqsr4ATr2aE38IxPVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby Starter Template!&quot;
+        title=&quot;Gatsby Starter Template!&quot;
+        src=&quot;/static/7f7e244c6e6e5f67db949357e5b1e818/416ee/Gatsby-StarterTemplate.png&quot;
+        srcset=&quot;/static/7f7e244c6e6e5f67db949357e5b1e818/8aea6/Gatsby-StarterTemplate.png 243w,
+/static/7f7e244c6e6e5f67db949357e5b1e818/44c61/Gatsby-StarterTemplate.png 485w,
+/static/7f7e244c6e6e5f67db949357e5b1e818/416ee/Gatsby-StarterTemplate.png 930w&quot;
+        sizes=&quot;(max-width: 930px) 100vw, 930px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Cuando ya está completada la instalación, accedemos al directorio nuevo, e iniciamos la aplicación para explorar el nuevo sitio web.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; DemoGatsbyJS
+gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;En el navegador, accediendo a &lt;a href=&quot;http://localhost:8000/&quot; _target=&quot;_blank&quot;&gt;localhost:8000&lt;/a&gt; podemos explorar el nuevo sitio web.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 954px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/48c8e8563c688eb7299330092b26b5a2/eb2af/Gatsby-StarterWeb.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.78189300411523%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGklEQVQ4y52S3UtTYRzHz5+RJJNlkUVBRbGVbtkKFpQrNXsj36666MK8KKiLXkTzohcvHNZFhKFRlikRtagoU2JBeREaTDNp7GwELd3b2dx2zj6dcxbWInL64/nwPAe+z4ff8zxHMJvNlNssbN9ZhtVWyjaLiVUlK1huWEZhUYGOtv4XhYYCDMZCjMUGfY+xuAhhb2kte7bWUlFWz27TERzqbN9yGOv6/VjW7dMp31CJbVNVDjs2VrJr8wEc1joqbY0csh+n2t6AcMreQ9vRAc5V3edsxT1a1fWFmn7OVz+kpUbl4AAnTLeoW91F49rrNKzJpb6kS+fYSidnHL0I3Rdf8+DaO/quuOm77OZO+wi97cPcbhmi99IwPW1vuHH6OZ1NT3E2u3Ce/IvmLJ1NLrpbXyD4Az4mJj1MT39hfHwMKR5jqTWXSiDMzszg8/kQRT9er5dIJEIymUSRFTKZTBbl/ygqqCMajSFEo1FCoTDaHFVlweAPwuHwLxm/pQugVSymCucSCRIq8biEJEnEE3FkRdYDejCz8FFzhLIs596DJPO238Pst1hOOH9hOo06kAJfmRz5xOij9wx2fEBOyUsTKkqauJRh9O5jnl0dZOjmS8TPYS2Wcz95C9Nae2p9nw7g6niCODaVDSlKXrI/hdobCOlUVhj0x/j4ykdgKqR/67/CIo+sNTcvFCeCeNyi+iip+dBiO9SEPwEo5rQGGNnkOAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby Starte Web&quot;
+        title=&quot;Gatsby Starte Web&quot;
+        src=&quot;/static/48c8e8563c688eb7299330092b26b5a2/eb2af/Gatsby-StarterWeb.png&quot;
+        srcset=&quot;/static/48c8e8563c688eb7299330092b26b5a2/8aea6/Gatsby-StarterWeb.png 243w,
+/static/48c8e8563c688eb7299330092b26b5a2/44c61/Gatsby-StarterWeb.png 485w,
+/static/48c8e8563c688eb7299330092b26b5a2/eb2af/Gatsby-StarterWeb.png 954w&quot;
+        sizes=&quot;(max-width: 954px) 100vw, 954px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Editar en Visual Studio Code&lt;/h3&gt;
+&lt;p&gt;Para poder editar el nuevo sitio web, accedemos a Visual Studio Code desde el directorio en el que hemos creado la aplicación Web.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;code &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Una vez abierto el IDE, actualizamos el fichero &lt;code class=&quot;language-text&quot;&gt;src/components/header.js&lt;/code&gt; y lo editamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Link &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; PropTypes &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;prop-types&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Header&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; siteTitle &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;header
+    style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      background&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;#154D28&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      marginBottom&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;1.45rem&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div
+      style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        margin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;0 auto&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        maxWidth&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;960&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        padding&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;1.45rem 1.0875rem&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; margin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Link
+          to&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/&quot;&lt;/span&gt;
+          style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            color&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            textDecoration&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;siteTitle&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Link&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;header&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Si no has cerrado la sesión del navegador con la web de la plantilla en &lt;code class=&quot;language-text&quot;&gt;localhost:8000&lt;/code&gt;, el sitio se habrá actualizado el color morado por un verde oscuro. Si lo cerraste, vuelve a acceder después de lanzar un &lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 954px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dc5fc30662e0ff9162cfad7e359223a8/eb2af/Gatsby-StarterWeb-Green.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.78189300411523%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACHElEQVQ4y52Ry2sTQRzHBw9i/wIRmzZNtSamWBpjXNM0icm24KNor6JeFGyr0IIP8FVaq+hFikU9+Dh7EYqI6EFEEPGgPYgG2lhaYzZRMJrX7qbZ7OzXmW0NLAVN+2M+8/zOl9/MjwR8IYhhEeLuCKLhCEIdQWzd4oLd1ogmm92EzxvrG5bB95vtDmx2bIKrxWmOxCMKaIv40C7uRGtoOzxdAtxBD5p9LjR5nXDscKJFaIXL3wanf5sFd6Ad3m4/hL1BdB6IItQjgriPdiIydBC7+vbAc1xk8150nNwPYWAfAqc4PdjQ68ba6EbUdTegrstWZR1HrDdZE14PL7tPBm9dxOWHN3Dh/jWcv3cV5+6OMEYxNHEJZ++M4PTtYRy7PohDo304fKV/OWP9ODI2wM5P4MzEMMj3VArxmTjm5+YR+xyDqqhYbWhlDSSb/Y1k8hskKYVEIoFCoYByuQydUhiGYUINCkr/DdcVi0UQ3uVyOXNRZGaZzC/k8/mqWa3wkGUZZKFUQomhqgoURYFaUll2uikwhcb/n2ox1HXdcrig6Hj7eBrZH7JFXLthpQLWoKS/Iv4mhqkn7zE5/gG6pq/OkNIKq6yBqUdP8eLmJF4/eAnpS57LLP9Ts2GFp8fi51waz8efQfo0uyhaqlwt8VfHa0Aq2qJhJiXj46sk0rM5c02pseIn8+SItmQozWQw/U5iRdGqopVmyA3/AHECm2d0yDaYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gastby Starter Web Modified&quot;
+        title=&quot;Gastby Starter Web Modified&quot;
+        src=&quot;/static/dc5fc30662e0ff9162cfad7e359223a8/eb2af/Gatsby-StarterWeb-Green.png&quot;
+        srcset=&quot;/static/dc5fc30662e0ff9162cfad7e359223a8/8aea6/Gatsby-StarterWeb-Green.png 243w,
+/static/dc5fc30662e0ff9162cfad7e359223a8/44c61/Gatsby-StarterWeb-Green.png 485w,
+/static/dc5fc30662e0ff9162cfad7e359223a8/eb2af/Gatsby-StarterWeb-Green.png 954w&quot;
+        sizes=&quot;(max-width: 954px) 100vw, 954px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Git&lt;/h3&gt;
+&lt;p&gt;Por último, agregamos los ficheros a un repositorio y hacemos commit.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin https://github.com/rfcm83/DemoGatsbyJS.git
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&apos;First commit Gatsby Web Starter Kit&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin master -f&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[GitHub Pages]]></title><description><![CDATA[Hola, bienvenidos. Hace años que no escribo en un blog, pero lo cierto es que de un tiempo hacía aquí, he pensado en volver a escribir, y…]]></description><link>https://setvalue.net/2020/05/10/</link><guid isPermaLink="false">https://setvalue.net/2020/05/10/</guid><pubDate>Sun, 10 May 2020 16:45:00 GMT</pubDate><content:encoded>&lt;p&gt;Hola, bienvenidos. Hace años que no escribo en un blog, pero lo cierto es que de un tiempo hacía aquí, he pensado en volver a escribir, y después de estar trasteando con algunos CMS basados en todo tipo de tecnologías (principalmente en .NET Core), me he decidido a probar GitHub Pages, y la verdad es que me he llevado una grata sorpresa.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://pages.github.com&quot; target=&quot;_blank&quot;&gt;GitHub Pages&lt;/a&gt;, es un servicio de alojamiento de sitios estáticos que permite crear desde cero un sitio web personal, o crear uno para la documentación de un proyecto en GitHub. Los ficheros HTML, CSS y JavaScript provienen de un repositorio de GitHub.&lt;/p&gt;
 &lt;p&gt;Se puede alojar un sitio en el dominio *.github.io o en un dominio propio.&lt;/p&gt;
 &lt;p&gt;Existen tres tipos de sitios, proyecto, usuario y organización. &lt;/p&gt;
@@ -40,7 +232,7 @@
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;Clonar el repositorio&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/username/username.github.io.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/username/username.github.io.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;Agregar un fichero index.html con un &quot;Hola Mundo&quot;&lt;/li&gt;
 &lt;/ol&gt;
@@ -56,7 +248,7 @@
 &lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Push de los cambios&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; --all
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; --all
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&quot;Primer commit, hola mundo&quot;&lt;/span&gt; 
 &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push -u origin master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;5&quot;&gt;
