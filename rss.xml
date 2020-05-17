@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>https://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 May 2020 10:30:18 GMT</lastBuildDate><item><title><![CDATA[GatsbyJS en GitHub Pages con Azure DevOps]]></title><description><![CDATA[Generic badge Siguiendo con el anterior post en el que contruíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado…]]></description><link>https://setvalue.net/2020/05/17/</link><guid isPermaLink="false">https://setvalue.net/2020/05/17/</guid><pubDate>Sun, 17 May 2020 06:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Siguiendo con el anterior &lt;a href=&quot;../16&quot;&gt;post&lt;/a&gt; en el que contruíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado de esta web en un nuevo sitio de GitHub Pages.&lt;/p&gt;
-&lt;p&gt;Para desplegar la aplicación, utilizaremos &lt;a href=&quot;https://dev.azure.com&quot; target=&quot;_blank&quot;&gt;Azure DevOps&lt;/a&gt;, creando dos pipelines, uno para la integración continua (CI &lt;em&gt;Continuous Integration&lt;/em&gt;) y otro para la entrega continua (CD &lt;em&gt;Continuous Deployment&lt;/em&gt;).&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>https://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 May 2020 17:30:51 GMT</lastBuildDate><item><title><![CDATA[GatsbyJS en GitHub Pages con Azure DevOps]]></title><description><![CDATA[Generic badge Siguiendo con el anterior post en el que construíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado…]]></description><link>https://setvalue.net/2020/05/17/</link><guid isPermaLink="false">https://setvalue.net/2020/05/17/</guid><pubDate>Sun, 17 May 2020 06:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Siguiendo con el anterior &lt;a href=&quot;../16&quot;&gt;post&lt;/a&gt; en el que construíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado de esta web en un nuevo sitio de GitHub Pages.&lt;/p&gt;
+&lt;p&gt;Para desplegar la aplicación, utilizaremos &lt;a href=&quot;https://dev.azure.com&quot; target=&quot;_blank&quot;&gt;Azure DevOps&lt;/a&gt;, creando dos pipelines, uno para la integración continua (CI &lt;em&gt;Continuous Integration&lt;/em&gt;) y otro para la entrega continua (CD &lt;em&gt;Continuous Delivery&lt;/em&gt;).&lt;/p&gt;
 &lt;h2&gt;Configurando el repositorio&lt;/h2&gt;
 &lt;p&gt;El primer paso que debemos realizar es preparar el repositorio para activar y configurar GitHub Pages.&lt;/p&gt;
-&lt;p&gt;Creamos un nuevo branch llamado &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; en el repositorio dónde tenemos el sitio estático hecho con GatsbyJS.&lt;/p&gt;
+&lt;p&gt;Creamos un nuevo branch llamado &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; en el repositorio donde tenemos el sitio estático hecho con GatsbyJS.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
@@ -34,7 +34,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Configuramos GitHub Pages para el repositorio desde la pestaña de settings.&lt;/p&gt;
+&lt;p&gt;Configuramos GitHub Pages en este repositorio desde la pestaña de settings.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 741px; &quot;
@@ -67,7 +67,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Si tienes un Custom Domain ya agregado, GitHub Pages te sirve todos los sitios web desde el dominio que has configurado&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Por último necesitaremos configurar un &lt;a href=&quot;https://github.com/settings/tokens&quot; target=&quot;_blank&quot;&gt;PAT (Personal access token)&lt;/a&gt; con permisos sobre repo.&lt;/p&gt;
+&lt;p&gt;Por último, necesitaremos configurar un &lt;a href=&quot;https://github.com/settings/tokens&quot; target=&quot;_blank&quot;&gt;PAT (Personal access token)&lt;/a&gt; con permisos sobre repo.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
@@ -98,7 +98,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Almacenamos el token en algún lugar seguro para utilizarlo más adelante.&lt;/p&gt;
+&lt;p&gt;Almacenamos el token en un lugar seguro para utilizarlo más adelante.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 740px; &quot;
@@ -129,7 +129,7 @@
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Azure DevOps&lt;/h2&gt;
-&lt;p&gt;En Azure DevOps debemos crear dos pipelines, el primero hará la build de la solución y generará un artefacto, el segundo utilizará este artefacto y lo publicará en la rama gh-pages del repositorio en el que estamos trabajando.&lt;/p&gt;
+&lt;p&gt;En Azure DevOps debemos crear dos pipelines, el primero hará la build de la solución y generará un artefacto, el segundo utilizará este artefacto y lo publicará en la rama &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; del repositorio en el que estamos trabajando.&lt;/p&gt;
 &lt;h3&gt;Pipeline&lt;/h3&gt;
 &lt;p&gt;Dentro del Team Project, en el menú seleccionamos el ítem &lt;strong&gt;Pipelines&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -160,7 +160,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Creamos un nuevo pipeline y pulsamos GitHub.&lt;/p&gt;
+&lt;p&gt;Creamos un nuevo pipeline y elegimos como origen GitHub.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 724px; &quot;
@@ -220,7 +220,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Al seleccionar el repositorio, deberemos configurar en GitHub el acceso que va a tener Azure Pipelines sobre nuestro repositorio. Tenemos dos opciones, dejar que tenga acceso a todos los repositorios, o dejar que sólo tenga acceso a los repositorios que seleccionemos.&lt;/p&gt;
+&lt;p&gt;Al escoger el repositorio, deberemos configurar en GitHub el acceso que va a tener Azure Pipelines sobre nuestro repositorio. Tenemos dos opciones, dejar que tenga acceso a todos los repositorios, o dejar que sólo tenga acceso a los repositorios que seleccionemos.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 742px; &quot;
@@ -250,7 +250,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Tras aprobar el acceso a los repositorios, volvemos al pipeline, y configuramos el pipeline para que utilice Node.js.&lt;/p&gt;
+&lt;p&gt;Tras aprobar el acceso al repositorio, volvemos al pipeline, y loconfiguramos para que utilice Node.js.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 885px; &quot;
@@ -281,7 +281,7 @@
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;En el último paso nos encontramos con un fichero YAML, con el nombre preestablecido de azure-pipelines.yml y que se almacenará en el repositorio de GitHub.&lt;/p&gt;
-&lt;p&gt;Este fichero, viene por defecto con un trigger que se desencadenará cuando se consoliden cambios en &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;, además realiza la instalación de Node.js y ejecuta la instalación de los paquetes npm y la compilación de la solución.&lt;/p&gt;
+&lt;p&gt;Este fichero, viene por defecto con un trigger que se desencadenará cuando se consoliden cambios en &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;, además realiza la instalación de Node.js, ejecuta la instalación de los paquetes npm y la compilación de la solución.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Node.js&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;# Build a general Node.js project with npm.&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;# Add steps that analyze code, save build artifacts, deploy, and more:&lt;/span&gt;
@@ -303,7 +303,7 @@
     npm install
     npm run build&lt;/span&gt;
   &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;npm install and build&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Actualizamos el código YAML, modificando los pasos de la operativa para que instale el &lt;em&gt;Gatsby-CLI&lt;/em&gt;, y con &lt;code class=&quot;language-text&quot;&gt;yarn&lt;/code&gt; instale las dependencias y haga la build la solución.&lt;/p&gt;
+&lt;p&gt;Actualizamos el código YAML que viene por defecto, modificando los pasos de la operativa para que instale el &lt;em&gt;Gatsby-CLI&lt;/em&gt;, y con &lt;code class=&quot;language-text&quot;&gt;yarn&lt;/code&gt; instale las dependencias y haga la build la solución.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Build a GatsbyJS solution with npm and yarn.&lt;/span&gt;
 
 &lt;span class=&quot;token key atrule&quot;&gt;trigger&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
@@ -359,7 +359,7 @@
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Agregamos dos pasos nuevos, el primero realizará la copia de los ficheros generados en la build. El segundo paso la publicación del resultado como artefacto.&lt;/p&gt;
-&lt;p&gt;Para la copia de los ficheros, agregamos la tarea de copia y le indicamos que debe copiar los ficheros que se generan en la carpeta &lt;em&gt;public&lt;/em&gt; al &lt;em&gt;Build Artifact Staging Directory&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Para la copia de los ficheros, agregamos la tarea de copia e indicamos que debe copiar los ficheros que se generan en la carpeta &lt;em&gt;public&lt;/em&gt; al &lt;em&gt;Build Artifact Staging Directory&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; CopyFiles@2
   &lt;span class=&quot;token key atrule&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;token key atrule&quot;&gt;sourceFolder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;public&quot;&lt;/span&gt;
@@ -368,7 +368,7 @@
     &lt;span class=&quot;token key atrule&quot;&gt;cleanTargetFolder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
   &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Copy built site&quot;&lt;/span&gt;
   &lt;span class=&quot;token key atrule&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; and(succeeded()&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ne(variables&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Build.Reason&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &apos;PullRequest&apos;))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Tras la copia, publicamos el resultado de la copia de ficheros del &lt;em&gt;Staging Artifact Directory&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Tras la copia de ficheros, publicamos el resultado en el &lt;em&gt;Staging Artifact Directory&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; PublishBuildArtifacts@1
   &lt;span class=&quot;token key atrule&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;token key atrule&quot;&gt;PathtoPublish&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$(Build.ArtifactStagingDirectory)&quot;&lt;/span&gt;
@@ -376,7 +376,7 @@
     &lt;span class=&quot;token key atrule&quot;&gt;publishLocation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Container&quot;&lt;/span&gt;
   &lt;span class=&quot;token key atrule&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; and(succeeded()&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ne(variables&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Build.Reason&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &apos;PullRequest&apos;))
   &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Publish Build Artifacts&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Al finalizar las modificaciones, salvamos, establecemos el mensaje de Commit y automáticamente se lanzará un pipeline que generará los ficheros estáticos para un sitio web de GitHub Pages. &lt;/p&gt;
+&lt;p&gt;Al finalizar las modificaciones, salvamos, establecemos el mensaje de &lt;code class=&quot;language-text&quot;&gt;commit&lt;/code&gt; y automáticamente se lanzará un pipeline que generará los ficheros estáticos necesarios para un sitio web de GitHub Pages. &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 484px; &quot;
@@ -405,7 +405,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Una vez lanzado un pipeline, vemos el resumen de la ejecución, y tenemos la posibilidad de ver los cambios o cancelar el propio pipeline.&lt;/p&gt;
+&lt;p&gt;Una vez lanzado el pipeline, vemos el estado de la ejecución, y tenemos la posibilidad de ver los cambios o cancelar el propio pipeline.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
@@ -469,7 +469,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Tras ejecutarse el pipeline, si no ha habido ningún error tendremos un tick verde en el resumen del Job, e internamente, en los logs, todas las operaciones estarán Ok, y habrá un artefacto generado.&lt;/p&gt;
+&lt;p&gt;Tras ejecutarse el pipeline, si no ha habido ningún error tendremos un tick verde en el resultado del Job, e internamente, en los logs, todas las operaciones estarán Ok y habrá un artefacto generado.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
@@ -560,7 +560,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;En pantalla se nos mostrará un workflow para configurar nuestro Release Pipeline, por defecto Azure DevOps nos ofrece plantillas predefinidas con diversa funcionalidad para facilitar esta tarea. En nuestro caso, seleccionamos una plantilla vacía.&lt;/p&gt;
+&lt;p&gt;En pantalla se nos mostrará un workflow para configurar nuestro &lt;code class=&quot;language-text&quot;&gt;Release Pipeline&lt;/code&gt;, por defecto Azure DevOps nos ofrece plantillas predefinidas con diversa funcionalidad para facilitar esta tarea. En nuestro caso, seleccionamos una plantilla vacía.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
@@ -592,7 +592,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Establecemos un nombre al Stage, y vamos al bloque &lt;code class=&quot;language-text&quot;&gt;Artifacts&lt;/code&gt;, dónde configuraremos el artefacto resultante de la Pipeline que hemos creado en el punto anterior.&lt;/p&gt;
+&lt;p&gt;Establecemos un nombre al Stage, y vamos al bloque &lt;code class=&quot;language-text&quot;&gt;Artifacts&lt;/code&gt;, dónde configuraremos el artefacto resultante de la pipeline que hemos creado en el punto anterior.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 669px; &quot;
@@ -622,7 +622,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Después de agregarlo, configuramos el trigger que desencadenará la Release Pipeline, pulsando en el símbolo del &lt;em&gt;rayo&lt;/em&gt; del artefacto e indicamos el despliegue continuo con cada build que se produzca.&lt;/p&gt;
+&lt;p&gt;Después de agregarlo, configuramos el trigger que desencadenará la &lt;code class=&quot;language-text&quot;&gt;Release Pipeline&lt;/code&gt;, pulsando en el símbolo del &lt;em&gt;rayo&lt;/em&gt; del artefacto e indicamos la entrega continua con cada build que se produzca.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
@@ -850,7 +850,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Establecemos un nombre al Release Pipeline, pinchando sobre el nombre actual, guardamos y pulsamos en &lt;em&gt;Create release&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Establecemos un nombre al &lt;code class=&quot;language-text&quot;&gt;Release Pipeline&lt;/code&gt;, pinchando sobre el nombre actual, guardamos y pulsamos en &lt;em&gt;Create release&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 628px; &quot;
