@@ -1,4 +1,275 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>https://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 May 2020 05:24:49 GMT</lastBuildDate><item><title><![CDATA[GatsbyJS en GitHub Pages con Azure DevOps]]></title><description><![CDATA[Generic badge Siguiendo con el anterior post en el que construíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado…]]></description><link>https://setvalue.net/2020/05/17/</link><guid isPermaLink="false">https://setvalue.net/2020/05/17/</guid><pubDate>Sun, 17 May 2020 06:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>https://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 May 2020 11:34:57 GMT</lastBuildDate><item><title><![CDATA[Integration Assistant Azure AD]]></title><description><![CDATA[Hace poco se ha incluido una novedad en el registro de aplicaciones de Azure Active Directory. Azure siempre está incorporando alguna…]]></description><link>https://setvalue.net/2020/05/23/</link><guid isPermaLink="false">https://setvalue.net/2020/05/23/</guid><pubDate>Sat, 23 May 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hace poco se ha incluido una novedad en el registro de aplicaciones de &lt;strong&gt;Azure Active Directory&lt;/strong&gt;. Azure siempre está incorporando alguna novedad, y ésta no podría ser más útil.&lt;/p&gt;
+&lt;p&gt;Tal y cómo se autodefine, su objetivo es ayudar a construir integraciones de alta calidad y seguras. Te muestra cuáles son las &lt;em&gt;best practices&lt;/em&gt; y recomendaciones para ayudar a evitar descuidos habituales cuando nos integramos con la &lt;strong&gt;Microsoft Identity Platform&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2&gt;App Registration&lt;/h2&gt;
+&lt;p&gt;En la configuración del Azure Active Directory, en el apartado de &lt;a href=&quot;https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps&quot; target=&quot;_blank&quot;&gt;App Registrations&lt;/a&gt;, podemos seleccionar una aplicación que conozcamos cómo está configurada, y accedemos a su información del registro.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f834a1edb1f1188966172f671f384fcd/0f98f/AppRegistration-Overview.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHZttILD//EABkQAAMAAwAAAAAAAAAAAAAAAAACEhATQv/aAAgBAQABBQKFIU1odY//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAykQABAiD/2gAIAQEABj8CGlBpQcrj/8QAGRAAAgMBAAAAAAAAAAAAAAAAEBEAASHB/9oACAEBAAE/IabhwicBz//aAAwDAQACAAMAAAAQn9//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8QV//EABkQAQEBAQEBAAAAAAAAAAAAAAERACFx8f/aAAgBAQABPxAZAMtnKcUPG+F1YLwxW6t//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;App Registration&quot;
+        title=&quot;App Registration&quot;
+        src=&quot;/static/f834a1edb1f1188966172f671f384fcd/ec7ce/AppRegistration-Overview.jpg&quot;
+        srcset=&quot;/static/f834a1edb1f1188966172f671f384fcd/3f316/AppRegistration-Overview.jpg 243w,
+/static/f834a1edb1f1188966172f671f384fcd/0d3a1/AppRegistration-Overview.jpg 485w,
+/static/f834a1edb1f1188966172f671f384fcd/ec7ce/AppRegistration-Overview.jpg 970w,
+/static/f834a1edb1f1188966172f671f384fcd/8010b/AppRegistration-Overview.jpg 1455w,
+/static/f834a1edb1f1188966172f671f384fcd/0f98f/AppRegistration-Overview.jpg 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Integration Assistant&lt;/h2&gt;
+&lt;p&gt;En el menú lateral, encontramos un blade llamado &lt;strong&gt;Integration Assistant (preview)&lt;/strong&gt;. Al acceder a él por primera vez, aparece un check list con el tipo de aplicación.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ddf1921d1d7230dc032e87a08846fd64/0f98f/AppRegistration-IAssistant.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdp0RMoH/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAITEiD/2gAIAQEAAQUCmphSa8f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAABkQAgMTL/2gAIAQEABj8C5CmBTAqf/8QAHBAAAQMFAAAAAAAAAAAAAAAAAAEQESFRgZHx/9oACAEBAAE/IUlohgXtA5x5P//aAAwDAQACAAMAAAAQcM//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxCI/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Qqv/EAB0QAQACAQUBAAAAAAAAAAAAAAEAEUEQIWGB0aH/2gAIAQEAAT8QoHYseEUKUc+EL3P0fNFblp//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant&quot;
+        title=&quot;Integration Assistant&quot;
+        src=&quot;/static/ddf1921d1d7230dc032e87a08846fd64/ec7ce/AppRegistration-IAssistant.jpg&quot;
+        srcset=&quot;/static/ddf1921d1d7230dc032e87a08846fd64/3f316/AppRegistration-IAssistant.jpg 243w,
+/static/ddf1921d1d7230dc032e87a08846fd64/0d3a1/AppRegistration-IAssistant.jpg 485w,
+/static/ddf1921d1d7230dc032e87a08846fd64/ec7ce/AppRegistration-IAssistant.jpg 970w,
+/static/ddf1921d1d7230dc032e87a08846fd64/8010b/AppRegistration-IAssistant.jpg 1455w,
+/static/ddf1921d1d7230dc032e87a08846fd64/0f98f/AppRegistration-IAssistant.jpg 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Una vez definido el tipo de aplicación que es, se evalúa y muestra el resumen de acciones verificadas.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c19cd058a21b05ef3fe854f8c9e0228b/0f98f/IntegrationAssistant-Summary.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAISIP/aAAgBAQABBQKFIUhMf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABMpEg/9oACAEBAAY/ApWEolZx/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQEdHx/9oACAEBAAE/IUnMW4nLTZ//2gAMAwEAAgADAAAAEBPP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAcEAEAAgEFAAAAAAAAAAAAAAABABEQQVHB0fD/2gAIAQEAAT8QWKBrTolCljZM9ZxhUZaf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Summary&quot;
+        title=&quot;Integration Assistant - Summary&quot;
+        src=&quot;/static/c19cd058a21b05ef3fe854f8c9e0228b/ec7ce/IntegrationAssistant-Summary.jpg&quot;
+        srcset=&quot;/static/c19cd058a21b05ef3fe854f8c9e0228b/3f316/IntegrationAssistant-Summary.jpg 243w,
+/static/c19cd058a21b05ef3fe854f8c9e0228b/0d3a1/IntegrationAssistant-Summary.jpg 485w,
+/static/c19cd058a21b05ef3fe854f8c9e0228b/ec7ce/IntegrationAssistant-Summary.jpg 970w,
+/static/c19cd058a21b05ef3fe854f8c9e0228b/8010b/IntegrationAssistant-Summary.jpg 1455w,
+/static/c19cd058a21b05ef3fe854f8c9e0228b/0f98f/IntegrationAssistant-Summary.jpg 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;El resumen nos indica que no hay configurada una URL a la que redirigirse cuando se completa el login, lógico porque en concreto este registro está en blanco, no se ha realizado ninguna acción. Por otro lado, nos indica que si vamos a utilizar el flujo de autenticación implícito, debemos habilitar los ID Tokens. Y si queremos configurar un sign-out, debemos configurar también una URL de Logout.&lt;/p&gt;
+&lt;h3&gt;Develop&lt;/h3&gt;
+&lt;p&gt;En la pestaña de Desarrollo, está información básica,  y recomendaciones de implementación y de Experiencia de Usuario.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6b87a63a4f1bb3249cc81274085b8434/0f98f/IntegrationAssistant-Develop.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSFM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAATKRIP/aAAgBAQAGPwKVhKJWcf/EABkQAAMAAwAAAAAAAAAAAAAAAAABERDB8f/aAAgBAQABPyFJFVaThs0//9oADAMBAAIAAwAAABATz//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAHBABAAICAwEAAAAAAAAAAAAAAQARIUExwdHw/9oACAEBAAE/EEiia0PJyDDpM+M6lDlIqOJaf//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Develop&quot;
+        title=&quot;Integration Assistant - Develop&quot;
+        src=&quot;/static/6b87a63a4f1bb3249cc81274085b8434/ec7ce/IntegrationAssistant-Develop.jpg&quot;
+        srcset=&quot;/static/6b87a63a4f1bb3249cc81274085b8434/3f316/IntegrationAssistant-Develop.jpg 243w,
+/static/6b87a63a4f1bb3249cc81274085b8434/0d3a1/IntegrationAssistant-Develop.jpg 485w,
+/static/6b87a63a4f1bb3249cc81274085b8434/ec7ce/IntegrationAssistant-Develop.jpg 970w,
+/static/6b87a63a4f1bb3249cc81274085b8434/8010b/IntegrationAssistant-Develop.jpg 1455w,
+/static/6b87a63a4f1bb3249cc81274085b8434/0f98f/IntegrationAssistant-Develop.jpg 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Estas recomendaciones nos dan acceso a artículos de la MSDN.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8f3e08218497725c6f72c2d95ae0dbc4/0f98f/IntegrationAssistant-Develop-Recommendation.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAey3gJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSVM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAABMpEAIP/aAAgBAQAGPwJRMomUTj//xAAXEAEBAQEAAAAAAAAAAAAAAAAAERDx/9oACAEBAAE/IYtcOG2v/9oADAMBAAIAAwAAABCTz//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAGxABAAICAwAAAAAAAAAAAAAAAQARIUHB0fD/2gAIAQEAAT8QFlA1o9SpS46RPGcShykVHEtP/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Develop Recommendations&quot;
+        title=&quot;Integration Assistant - Develop Recommendations&quot;
+        src=&quot;/static/8f3e08218497725c6f72c2d95ae0dbc4/ec7ce/IntegrationAssistant-Develop-Recommendation.jpg&quot;
+        srcset=&quot;/static/8f3e08218497725c6f72c2d95ae0dbc4/3f316/IntegrationAssistant-Develop-Recommendation.jpg 243w,
+/static/8f3e08218497725c6f72c2d95ae0dbc4/0d3a1/IntegrationAssistant-Develop-Recommendation.jpg 485w,
+/static/8f3e08218497725c6f72c2d95ae0dbc4/ec7ce/IntegrationAssistant-Develop-Recommendation.jpg 970w,
+/static/8f3e08218497725c6f72c2d95ae0dbc4/8010b/IntegrationAssistant-Develop-Recommendation.jpg 1455w,
+/static/8f3e08218497725c6f72c2d95ae0dbc4/0f98f/IntegrationAssistant-Develop-Recommendation.jpg 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Test&lt;/h3&gt;
+&lt;p&gt;En la pestaña de Test, se incluyen otras recomendaciones relacionadas con el Testing y con la Experiencia de Usuario. Algunas de estas últimas también recomendadas en el apartado de &lt;strong&gt;Develop&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Sugerencias como que verifiques las políticas de Acceso Condicional por si pueden impedir a los usuarios utilizar la aplicación, resultan obvias, pero que no siempre reparamos en validarlo.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9beefbe74221f48dbd3a68e700b7d824/0f98f/IntegrationAssistant-Test.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSFM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAATKRIP/aAAgBAQAGPwKVhKJWcf/EABkQAAIDAQAAAAAAAAAAAAAAAAABEBHR8f/aAAgBAQABPyFJzFuJw02f/9oADAMBAAIAAwAAABAzz//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAGxABAAICAwAAAAAAAAAAAAAAAQAREPAhQcH/2gAIAQEAAT8QWKBrTiUKWHpM0zzCty0//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Test&quot;
+        title=&quot;Integration Assistant - Test&quot;
+        src=&quot;/static/9beefbe74221f48dbd3a68e700b7d824/ec7ce/IntegrationAssistant-Test.jpg&quot;
+        srcset=&quot;/static/9beefbe74221f48dbd3a68e700b7d824/3f316/IntegrationAssistant-Test.jpg 243w,
+/static/9beefbe74221f48dbd3a68e700b7d824/0d3a1/IntegrationAssistant-Test.jpg 485w,
+/static/9beefbe74221f48dbd3a68e700b7d824/ec7ce/IntegrationAssistant-Test.jpg 970w,
+/static/9beefbe74221f48dbd3a68e700b7d824/8010b/IntegrationAssistant-Test.jpg 1455w,
+/static/9beefbe74221f48dbd3a68e700b7d824/0f98f/IntegrationAssistant-Test.jpg 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Release&lt;/h3&gt;
+&lt;p&gt;El apartado de Release, nos muestra cuatro apartados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ownership&lt;/strong&gt;. Nos recomienda agregar la información de contacto y que validemos si está realmente actualizada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Branding&lt;/strong&gt;. Incluir la información de marca con el logo y el nombre que mejor represente a tu compañía o producto, y por supuesto asegurarte de que no afecta a ninguna marca registrada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;. Minimizar y monitorizar manualmente la lista de propietarios de la aplicación o hacer rotados de credenciales.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;En user experience&lt;/strong&gt;. Incluir certificados correspondientes si se está desarrollando una aplicación para Microsoft 365.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/76330aa3834ea2e739e72d86f2c97f74/0f98f/IntegrationAssistant-Release.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSFM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAATKRIP/aAAgBAQAGPwKVhKJWcf/EABkQAAMAAwAAAAAAAAAAAAAAAAABERDR8f/aAAgBAQABPyFJNXScNmn/2gAMAwEAAgADAAAAEFPP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAcEAEAAgEFAAAAAAAAAAAAAAABABEhUWHB0fD/2gAIAQEAAT8QWKB2HUQUsaJnjOJQ5ity0//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Release&quot;
+        title=&quot;Integration Assistant - Release&quot;
+        src=&quot;/static/76330aa3834ea2e739e72d86f2c97f74/ec7ce/IntegrationAssistant-Release.jpg&quot;
+        srcset=&quot;/static/76330aa3834ea2e739e72d86f2c97f74/3f316/IntegrationAssistant-Release.jpg 243w,
+/static/76330aa3834ea2e739e72d86f2c97f74/0d3a1/IntegrationAssistant-Release.jpg 485w,
+/static/76330aa3834ea2e739e72d86f2c97f74/ec7ce/IntegrationAssistant-Release.jpg 970w,
+/static/76330aa3834ea2e739e72d86f2c97f74/8010b/IntegrationAssistant-Release.jpg 1455w,
+/static/76330aa3834ea2e739e72d86f2c97f74/0f98f/IntegrationAssistant-Release.jpg 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Monitor&lt;/h3&gt;
+&lt;p&gt;El último apartado, encontramos recomendaciones de monitorización. Algunas ya incluidas en otros apartados, y otras orientadas al ciclo de vida de una aplicación.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e5d562f87ddcc4a7a0fe250070e5d482/0f98f/IntegrationAssistant-Monitor.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSFM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAATKRIP/aAAgBAQAGPwKVhKJWcf/EABkQAAIDAQAAAAAAAAAAAAAAAADxARAR4f/aAAgBAQABPyGOeEojXp//2gAMAwEAAgADAAAAEPPP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAaEAEAAgMBAAAAAAAAAAAAAAABABEQUfDB/9oACAEBAAE/ECIgcaihSxpM4zzCty0//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Monitor&quot;
+        title=&quot;Integration Assistant - Monitor&quot;
+        src=&quot;/static/e5d562f87ddcc4a7a0fe250070e5d482/ec7ce/IntegrationAssistant-Monitor.jpg&quot;
+        srcset=&quot;/static/e5d562f87ddcc4a7a0fe250070e5d482/3f316/IntegrationAssistant-Monitor.jpg 243w,
+/static/e5d562f87ddcc4a7a0fe250070e5d482/0d3a1/IntegrationAssistant-Monitor.jpg 485w,
+/static/e5d562f87ddcc4a7a0fe250070e5d482/ec7ce/IntegrationAssistant-Monitor.jpg 970w,
+/static/e5d562f87ddcc4a7a0fe250070e5d482/8010b/IntegrationAssistant-Monitor.jpg 1455w,
+/static/e5d562f87ddcc4a7a0fe250070e5d482/0f98f/IntegrationAssistant-Monitor.jpg 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GatsbyJS en GitHub Pages con Azure DevOps]]></title><description><![CDATA[Generic badge Siguiendo con el anterior post en el que construíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado…]]></description><link>https://setvalue.net/2020/05/17/</link><guid isPermaLink="false">https://setvalue.net/2020/05/17/</guid><pubDate>Sun, 17 May 2020 06:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Siguiendo con el anterior &lt;a href=&quot;../16&quot;&gt;post&lt;/a&gt; en el que construíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado de esta web en un nuevo sitio de GitHub Pages.&lt;/p&gt;
 &lt;p&gt;Para desplegar la aplicación, utilizaremos &lt;a href=&quot;https://dev.azure.com&quot; target=&quot;_blank&quot;&gt;Azure DevOps&lt;/a&gt;, creando dos pipelines, uno para la integración continua (CI &lt;em&gt;Continuous Integration&lt;/em&gt;) y otro para la entrega continua (CD &lt;em&gt;Continuous Delivery&lt;/em&gt;).&lt;/p&gt;
 &lt;h2&gt;Configurando el repositorio&lt;/h2&gt;
