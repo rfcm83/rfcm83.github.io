@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>https://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 23 May 2020 11:57:23 GMT</lastBuildDate><item><title><![CDATA[Integration Assistant Azure AD]]></title><description><![CDATA[Hace poco se ha incluido una novedad en el registro de aplicaciones de Azure Active Directory. Azure siempre está incorporando alguna…]]></description><link>https://setvalue.net/2020/05/23/</link><guid isPermaLink="false">https://setvalue.net/2020/05/23/</guid><pubDate>Sat, 23 May 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hace poco se ha incluido una novedad en el registro de aplicaciones de &lt;strong&gt;Azure Active Directory&lt;/strong&gt;. Azure siempre está incorporando alguna novedad, y ésta no podría ser más útil.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>https://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 24 May 2020 08:55:17 GMT</lastBuildDate><item><title><![CDATA[Integration Assistant Azure AD]]></title><description><![CDATA[Hace poco se ha incluido una novedad en el registro de aplicaciones de Azure Active Directory. Azure siempre está incorporando alguna…]]></description><link>https://setvalue.net/2020/05/23/</link><guid isPermaLink="false">https://setvalue.net/2020/05/23/</guid><pubDate>Sat, 23 May 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hace poco se ha incluido una novedad en el registro de aplicaciones de &lt;strong&gt;Azure Active Directory&lt;/strong&gt;. Azure siempre está incorporando alguna novedad, y ésta no podría ser más útil.&lt;/p&gt;
 &lt;p&gt;Tal y cómo se autodefine, su objetivo es ayudar a construir integraciones de alta calidad y seguras. Te muestra cuáles son las &lt;em&gt;best practices&lt;/em&gt; y recomendaciones para ayudar a evitar descuidos habituales cuando nos integramos con la &lt;strong&gt;Microsoft Identity Platform&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2&gt;App Registration&lt;/h2&gt;
 &lt;p&gt;En la configuración del Azure Active Directory, en el apartado de &lt;a href=&quot;https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps&quot; target=&quot;_blank&quot;&gt;App Registrations&lt;/a&gt;, podemos seleccionar una aplicación que conozcamos cómo está configurada, y accedemos a su información del registro.&lt;/p&gt;
@@ -8,25 +8,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f834a1edb1f1188966172f671f384fcd/0f98f/AppRegistration-Overview.jpg&quot;
+    href=&quot;/static/7b850d78f6ccc98053540bd6b8e8446f/29114/AppRegistration-Overview.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHZttILD//EABkQAAMAAwAAAAAAAAAAAAAAAAACEhATQv/aAAgBAQABBQKFIU1odY//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAykQABAiD/2gAIAQEABj8CGlBpQcrj/8QAGRAAAgMBAAAAAAAAAAAAAAAAEBEAASHB/9oACAEBAAE/IabhwicBz//aAAwDAQACAAMAAAAQn9//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8QV//EABkQAQEBAQEBAAAAAAAAAAAAAAERACFx8f/aAAgBAQABPxAZAMtnKcUPG+F1YLwxW6t//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABRUlEQVQoz5WRyUrDMRCH88ZSN/DoQawWr1a72AdwK/gCVgUpeBA8ulVRpNL+l+yZJBPTxVJKFf34EWZCZg0pbNXXdg6Wt2uLxVphs7paauwenZePW3snrUrzaqT908v62fV6+XBho7JSaixt1QvFajxJQqnI+sEDehe8DXPAMB8kSZpyxpVSjPOE8l6aRZzzkycGgNK8L6ErHQ4zTUQyzgHAY6DSMgU51ynTVMJY2kkbtEUJKACjPS2SM8YZixUyYbS0xsY8wXkcKTrxpkulhkEv0Z0WSZmwxgjQF4/3ndfe7Xv6KWAwEI5nZeAfUj3MOQtJcioY0wDt5+7dR55xIbSZ3hIOi8yFSKW1Uh7xLVE5N+h9+DNkUkBhaPeE0vaXz5kNRsRRc4nxzaesm8t/BDvnEL2xrt3Jb17iArRz1n9jjNE/8wVE5m3xVSr+UwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;App Registration&quot;
         title=&quot;App Registration&quot;
-        src=&quot;/static/f834a1edb1f1188966172f671f384fcd/ec7ce/AppRegistration-Overview.jpg&quot;
-        srcset=&quot;/static/f834a1edb1f1188966172f671f384fcd/3f316/AppRegistration-Overview.jpg 243w,
-/static/f834a1edb1f1188966172f671f384fcd/0d3a1/AppRegistration-Overview.jpg 485w,
-/static/f834a1edb1f1188966172f671f384fcd/ec7ce/AppRegistration-Overview.jpg 970w,
-/static/f834a1edb1f1188966172f671f384fcd/8010b/AppRegistration-Overview.jpg 1455w,
-/static/f834a1edb1f1188966172f671f384fcd/0f98f/AppRegistration-Overview.jpg 1920w&quot;
+        src=&quot;/static/7b850d78f6ccc98053540bd6b8e8446f/587b0/AppRegistration-Overview.png&quot;
+        srcset=&quot;/static/7b850d78f6ccc98053540bd6b8e8446f/8aea6/AppRegistration-Overview.png 243w,
+/static/7b850d78f6ccc98053540bd6b8e8446f/44c61/AppRegistration-Overview.png 485w,
+/static/7b850d78f6ccc98053540bd6b8e8446f/587b0/AppRegistration-Overview.png 970w,
+/static/7b850d78f6ccc98053540bd6b8e8446f/5b795/AppRegistration-Overview.png 1455w,
+/static/7b850d78f6ccc98053540bd6b8e8446f/29114/AppRegistration-Overview.png 1920w&quot;
         sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -41,25 +41,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ddf1921d1d7230dc032e87a08846fd64/0f98f/AppRegistration-IAssistant.jpg&quot;
+    href=&quot;/static/42d9dd05d0962b4eb56b61690e2447f1/29114/AppRegistration-IAssistant.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdp0RMoH/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAITEiD/2gAIAQEAAQUCmphSa8f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAABkQAgMTL/2gAIAQEABj8C5CmBTAqf/8QAHBAAAQMFAAAAAAAAAAAAAAAAAAEQESFRgZHx/9oACAEBAAE/IUlohgXtA5x5P//aAAwDAQACAAMAAAAQcM//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxCI/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Qqv/EAB0QAQACAQUBAAAAAAAAAAAAAAEAEUEQIWGB0aH/2gAIAQEAAT8QoHYseEUKUc+EL3P0fNFblp//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABF0lEQVQoz52QS0vDQBSF5x+roNbHzo1Ygm6rxfhYS1Fw4bpUcKHgThKbVrTQlGbSdB6ZyTwSbxtEoQqNhzOPxXxz77lo9cDddtwtx909Ot+on9YOLxutNvi41W7e3Jc+ue64tw97jau1/eamc7Fed3dmyBlKOJcsyU1G4jGZRCzBNMFKMC2Ymlsv2Gb8eRiF4wjhOKZzdYPA83zf73r+a6//Vjro9T8Gg3A0GoZfhhVFK0/vd48vKJ4SKYUxmlHKGEvTVCmV/ZD6TVZrozUijHLOi6LAGBNC4HWxtNCE8kxKay2UFULAr3meLwtD2xDYGAMNSymLKkKpkFAQbhZy6wplZ3B5VGK+4RL7JwxpYVrlvigYvvxbn8Uua4Xxt8pOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Integration Assistant&quot;
         title=&quot;Integration Assistant&quot;
-        src=&quot;/static/ddf1921d1d7230dc032e87a08846fd64/ec7ce/AppRegistration-IAssistant.jpg&quot;
-        srcset=&quot;/static/ddf1921d1d7230dc032e87a08846fd64/3f316/AppRegistration-IAssistant.jpg 243w,
-/static/ddf1921d1d7230dc032e87a08846fd64/0d3a1/AppRegistration-IAssistant.jpg 485w,
-/static/ddf1921d1d7230dc032e87a08846fd64/ec7ce/AppRegistration-IAssistant.jpg 970w,
-/static/ddf1921d1d7230dc032e87a08846fd64/8010b/AppRegistration-IAssistant.jpg 1455w,
-/static/ddf1921d1d7230dc032e87a08846fd64/0f98f/AppRegistration-IAssistant.jpg 1920w&quot;
+        src=&quot;/static/42d9dd05d0962b4eb56b61690e2447f1/587b0/AppRegistration-IAssistant.png&quot;
+        srcset=&quot;/static/42d9dd05d0962b4eb56b61690e2447f1/8aea6/AppRegistration-IAssistant.png 243w,
+/static/42d9dd05d0962b4eb56b61690e2447f1/44c61/AppRegistration-IAssistant.png 485w,
+/static/42d9dd05d0962b4eb56b61690e2447f1/587b0/AppRegistration-IAssistant.png 970w,
+/static/42d9dd05d0962b4eb56b61690e2447f1/5b795/AppRegistration-IAssistant.png 1455w,
+/static/42d9dd05d0962b4eb56b61690e2447f1/29114/AppRegistration-IAssistant.png 1920w&quot;
         sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -73,25 +73,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c19cd058a21b05ef3fe854f8c9e0228b/0f98f/IntegrationAssistant-Summary.jpg&quot;
+    href=&quot;/static/39d80a559f1c01bcc3d3facfba7b1da5/29114/IntegrationAssistant-Summary.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAISIP/aAAgBAQABBQKFIUhMf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABMpEg/9oACAEBAAY/ApWEolZx/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAEQEdHx/9oACAEBAAE/IUnMW4nLTZ//2gAMAwEAAgADAAAAEBPP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAcEAEAAgEFAAAAAAAAAAAAAAABABEQQVHB0fD/2gAIAQEAAT8QWKBrTolCljZM9ZxhUZaf/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABE0lEQVQoz41Q20rDQBDNH6tUxD76ILS0vlpsSei7ioI/oCj4KYLU3ewte5uddZIoiJLUw2FgNzmXneJwXk2X1eminF5Uk9nmZLm9vHlc3T4R1/cvPa/unsuH17PV9cH5+nixnczLo9mGZlEbY1WdETLGDL6dGXJOeT+w+GBMKamtfeOCMSaUlto01iLmhBl/Mv9mwYR0zkYAoY1zLsaYSPQ/FFIrYwwiaqUJMYTUgW5iDDTHxFwZ7xz9rZTinNd13TTU2kFwir9rbUb0bW2SAQDlU3L4RoToo9+T3Fhn2/WglFII0RvRh5DCTu0gwljy19YRvfdU2HVPoCMkMN6QUbfmAXFvPF5vUEzeFNXPv6A6bhifs9FxxyDlHFMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Integration Assistant - Summary&quot;
         title=&quot;Integration Assistant - Summary&quot;
-        src=&quot;/static/c19cd058a21b05ef3fe854f8c9e0228b/ec7ce/IntegrationAssistant-Summary.jpg&quot;
-        srcset=&quot;/static/c19cd058a21b05ef3fe854f8c9e0228b/3f316/IntegrationAssistant-Summary.jpg 243w,
-/static/c19cd058a21b05ef3fe854f8c9e0228b/0d3a1/IntegrationAssistant-Summary.jpg 485w,
-/static/c19cd058a21b05ef3fe854f8c9e0228b/ec7ce/IntegrationAssistant-Summary.jpg 970w,
-/static/c19cd058a21b05ef3fe854f8c9e0228b/8010b/IntegrationAssistant-Summary.jpg 1455w,
-/static/c19cd058a21b05ef3fe854f8c9e0228b/0f98f/IntegrationAssistant-Summary.jpg 1920w&quot;
+        src=&quot;/static/39d80a559f1c01bcc3d3facfba7b1da5/587b0/IntegrationAssistant-Summary.png&quot;
+        srcset=&quot;/static/39d80a559f1c01bcc3d3facfba7b1da5/8aea6/IntegrationAssistant-Summary.png 243w,
+/static/39d80a559f1c01bcc3d3facfba7b1da5/44c61/IntegrationAssistant-Summary.png 485w,
+/static/39d80a559f1c01bcc3d3facfba7b1da5/587b0/IntegrationAssistant-Summary.png 970w,
+/static/39d80a559f1c01bcc3d3facfba7b1da5/5b795/IntegrationAssistant-Summary.png 1455w,
+/static/39d80a559f1c01bcc3d3facfba7b1da5/29114/IntegrationAssistant-Summary.png 1920w&quot;
         sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -107,25 +107,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/6b87a63a4f1bb3249cc81274085b8434/0f98f/IntegrationAssistant-Develop.jpg&quot;
+    href=&quot;/static/275146748659d35d53a9326c6051fba6/29114/IntegrationAssistant-Develop.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSFM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAATKRIP/aAAgBAQAGPwKVhKJWcf/EABkQAAMAAwAAAAAAAAAAAAAAAAABERDB8f/aAAgBAQABPyFJFVaThs0//9oADAMBAAIAAwAAABATz//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAHBABAAICAwEAAAAAAAAAAAAAAQARIUExwdHw/9oACAEBAAE/EEiia0PJyDDpM+M6lDlIqOJaf//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz42R3UrDMBSA88aK0+EuvRBWtl0XN1u9V1HYCygKvkkR2sY2aZq0OUk8SVFUsPXjQEPKd/5CDqN0sU5PV8lik86Wu/n6Or59jO+eMLYPL0Nc3D8n+9ez+ObgfHuyuppFydFydxxdkkoIyStnwRltofcHh2HcNJaUlDaccykzWtGyrFjDGtFKaaz7HSHl18E6RyhjSskeoFVd1/UGjLXW/Q/CGi6EQAPLN8KjlNJa94HxROSdi04pMKaua/TbFlv2oGmM72LEJ7Rm6GiAvCiyLHsL5HlOKcUUE3IrcWRcj2UBFJS/kNgC7mBCHj4oY6miKOpAmF2gDwBj8vAP5V5rrPl91PGyXgbclTH684XsTzCX+psPOcFwGYZ2Z64AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Integration Assistant - Develop&quot;
         title=&quot;Integration Assistant - Develop&quot;
-        src=&quot;/static/6b87a63a4f1bb3249cc81274085b8434/ec7ce/IntegrationAssistant-Develop.jpg&quot;
-        srcset=&quot;/static/6b87a63a4f1bb3249cc81274085b8434/3f316/IntegrationAssistant-Develop.jpg 243w,
-/static/6b87a63a4f1bb3249cc81274085b8434/0d3a1/IntegrationAssistant-Develop.jpg 485w,
-/static/6b87a63a4f1bb3249cc81274085b8434/ec7ce/IntegrationAssistant-Develop.jpg 970w,
-/static/6b87a63a4f1bb3249cc81274085b8434/8010b/IntegrationAssistant-Develop.jpg 1455w,
-/static/6b87a63a4f1bb3249cc81274085b8434/0f98f/IntegrationAssistant-Develop.jpg 1920w&quot;
+        src=&quot;/static/275146748659d35d53a9326c6051fba6/587b0/IntegrationAssistant-Develop.png&quot;
+        srcset=&quot;/static/275146748659d35d53a9326c6051fba6/8aea6/IntegrationAssistant-Develop.png 243w,
+/static/275146748659d35d53a9326c6051fba6/44c61/IntegrationAssistant-Develop.png 485w,
+/static/275146748659d35d53a9326c6051fba6/587b0/IntegrationAssistant-Develop.png 970w,
+/static/275146748659d35d53a9326c6051fba6/5b795/IntegrationAssistant-Develop.png 1455w,
+/static/275146748659d35d53a9326c6051fba6/29114/IntegrationAssistant-Develop.png 1920w&quot;
         sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -139,25 +139,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8f3e08218497725c6f72c2d95ae0dbc4/0f98f/IntegrationAssistant-Develop-Recommendation.jpg&quot;
+    href=&quot;/static/85866837c19c5c04f4c82b6854eab3fe/29114/IntegrationAssistant-Develop-Recommendation.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAey3gJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSVM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAABMpEAIP/aAAgBAQAGPwJRMomUTj//xAAXEAEBAQEAAAAAAAAAAAAAAAAAERDx/9oACAEBAAE/IYtcOG2v/9oADAMBAAIAAwAAABCTz//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAGxABAAICAwAAAAAAAAAAAAAAAQARIUHB0fD/2gAIAQEAAT8QFlA1o9SpS46RPGcShykVHEtP/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABLUlEQVQoz41RXUsCQRSdf1whRT72ECjaa5Ky1ntFQX+gKOiPqKTujrvzvbPz4XHNMDDtcLgc5s7ce+4dctweNrvD807SvBo2WoOz7t31w2vv8Q3sP3+sefP0nrx8XvTujy77p53bRjs5aQ0QSS6l5nkMLoYqunIVo4vRx8MIJKOUcy60ntCcZlnOOBNSae1DBMM2Y80fESOhjBmjnXPKlGVpITzy/wNhgkspQwiCQyho1Kg2CHsLkQWXpTHee3heLCgrCs4Y5wxlcG5hpqqs8/Cz4zEtcJUjO5vNxqPRZDIGp9OvdD6XQnjv4EVIaUq747HSRmsNe6wGNGwbY9biwMzfWw+BUpqmaVFD1lBKYX97xibrHCLWg4bWWswftrCv8+pvMNmmQ/gN1DJ/YwkwKW87WnHldgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Integration Assistant - Develop Recommendations&quot;
         title=&quot;Integration Assistant - Develop Recommendations&quot;
-        src=&quot;/static/8f3e08218497725c6f72c2d95ae0dbc4/ec7ce/IntegrationAssistant-Develop-Recommendation.jpg&quot;
-        srcset=&quot;/static/8f3e08218497725c6f72c2d95ae0dbc4/3f316/IntegrationAssistant-Develop-Recommendation.jpg 243w,
-/static/8f3e08218497725c6f72c2d95ae0dbc4/0d3a1/IntegrationAssistant-Develop-Recommendation.jpg 485w,
-/static/8f3e08218497725c6f72c2d95ae0dbc4/ec7ce/IntegrationAssistant-Develop-Recommendation.jpg 970w,
-/static/8f3e08218497725c6f72c2d95ae0dbc4/8010b/IntegrationAssistant-Develop-Recommendation.jpg 1455w,
-/static/8f3e08218497725c6f72c2d95ae0dbc4/0f98f/IntegrationAssistant-Develop-Recommendation.jpg 1920w&quot;
+        src=&quot;/static/85866837c19c5c04f4c82b6854eab3fe/587b0/IntegrationAssistant-Develop-Recommendation.png&quot;
+        srcset=&quot;/static/85866837c19c5c04f4c82b6854eab3fe/8aea6/IntegrationAssistant-Develop-Recommendation.png 243w,
+/static/85866837c19c5c04f4c82b6854eab3fe/44c61/IntegrationAssistant-Develop-Recommendation.png 485w,
+/static/85866837c19c5c04f4c82b6854eab3fe/587b0/IntegrationAssistant-Develop-Recommendation.png 970w,
+/static/85866837c19c5c04f4c82b6854eab3fe/5b795/IntegrationAssistant-Develop-Recommendation.png 1455w,
+/static/85866837c19c5c04f4c82b6854eab3fe/29114/IntegrationAssistant-Develop-Recommendation.png 1920w&quot;
         sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -173,25 +173,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9beefbe74221f48dbd3a68e700b7d824/0f98f/IntegrationAssistant-Test.jpg&quot;
+    href=&quot;/static/e598448839fae9a003afe65ff01aeaf1/29114/IntegrationAssistant-Test.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSFM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAATKRIP/aAAgBAQAGPwKVhKJWcf/EABkQAAIDAQAAAAAAAAAAAAAAAAABEBHR8f/aAAgBAQABPyFJzFuJw02f/9oADAMBAAIAAwAAABAzz//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EIj/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAGxABAAICAwAAAAAAAAAAAAAAAQAREPAhQcH/2gAIAQEAAT8QWKBrTiUKWHpM0zzCty0//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABC0lEQVQoz41QTUvDQBDdf6xSFHv0ILS0Xi22JHpXUfAPVBT8J17CTpLZbGYTd3ecNrUo1djHY3iw++bjqcNxOpymp5NkeJEORouT6c3l3XJ2/yycP752vHp4SZ7ezma3B+fz48n1YJwcjRZSVWEtmYKj5/jBvllV9syB/0dUGsAYUxG9QwEaCjRY2ZooRBbG7+Q1t4JZAaIj8iHUzrVtKyLK+35QWBlbWVE5gNZatkBEInJr9DdSubGNcyGEElHcWJbiaZqmM3vve/wKSpRp8qmu5VKS2tnkhPiFP801yckkCgCyLMtzWV9yWHW01obeCNQm9Z0h/TM35u7H/gn/MMu1sltXd7FN7ld8AhjlcXav1zm3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Integration Assistant - Test&quot;
         title=&quot;Integration Assistant - Test&quot;
-        src=&quot;/static/9beefbe74221f48dbd3a68e700b7d824/ec7ce/IntegrationAssistant-Test.jpg&quot;
-        srcset=&quot;/static/9beefbe74221f48dbd3a68e700b7d824/3f316/IntegrationAssistant-Test.jpg 243w,
-/static/9beefbe74221f48dbd3a68e700b7d824/0d3a1/IntegrationAssistant-Test.jpg 485w,
-/static/9beefbe74221f48dbd3a68e700b7d824/ec7ce/IntegrationAssistant-Test.jpg 970w,
-/static/9beefbe74221f48dbd3a68e700b7d824/8010b/IntegrationAssistant-Test.jpg 1455w,
-/static/9beefbe74221f48dbd3a68e700b7d824/0f98f/IntegrationAssistant-Test.jpg 1920w&quot;
+        src=&quot;/static/e598448839fae9a003afe65ff01aeaf1/587b0/IntegrationAssistant-Test.png&quot;
+        srcset=&quot;/static/e598448839fae9a003afe65ff01aeaf1/8aea6/IntegrationAssistant-Test.png 243w,
+/static/e598448839fae9a003afe65ff01aeaf1/44c61/IntegrationAssistant-Test.png 485w,
+/static/e598448839fae9a003afe65ff01aeaf1/587b0/IntegrationAssistant-Test.png 970w,
+/static/e598448839fae9a003afe65ff01aeaf1/5b795/IntegrationAssistant-Test.png 1455w,
+/static/e598448839fae9a003afe65ff01aeaf1/29114/IntegrationAssistant-Test.png 1920w&quot;
         sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -212,25 +212,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/76330aa3834ea2e739e72d86f2c97f74/0f98f/IntegrationAssistant-Release.jpg&quot;
+    href=&quot;/static/648d0cadb05e99faa5da3e89e40438b4/29114/IntegrationAssistant-Release.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSFM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAATKRIP/aAAgBAQAGPwKVhKJWcf/EABkQAAMAAwAAAAAAAAAAAAAAAAABERDR8f/aAAgBAQABPyFJNXScNmn/2gAMAwEAAgADAAAAEFPP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAcEAEAAgEFAAAAAAAAAAAAAAABABEhUWHB0fD/2gAIAQEAAT8QWKB2HUQUsaJnjOJQ5ity0//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABDklEQVQoz42QzU7DMBCE/caAKhA9ckBq1XKlolUCd0Ag8QIgkHgUTklc/2SdxPYyOBBxadPRZhRZ/na8K47n+XSZny+y6VU+mW3OlnfXD6+rxzfU+vmjr5un9+zl82J1f3S5Pl3cTubZyWwDF9Ja0pKj59ixb36cPXPgcUVRlKXW2hB9lbIoiq02ytiaKETuKw7FqYYfZlEq5Rx572tyXds2XRdAHCahjLbWopE1pgXcNPjaP8W4r5GotG2cCyEYY2wS+C4Jz8H5Hl6UW4WZcQkupVRKwYkIMLqMwBjVEeEGYMTC67oemJi0E/7deoxVVSETPGAk4804HEkeEoY5ez9o2/1W+pz/CkkY2+3WN9/DcbCfgRGUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Integration Assistant - Release&quot;
         title=&quot;Integration Assistant - Release&quot;
-        src=&quot;/static/76330aa3834ea2e739e72d86f2c97f74/ec7ce/IntegrationAssistant-Release.jpg&quot;
-        srcset=&quot;/static/76330aa3834ea2e739e72d86f2c97f74/3f316/IntegrationAssistant-Release.jpg 243w,
-/static/76330aa3834ea2e739e72d86f2c97f74/0d3a1/IntegrationAssistant-Release.jpg 485w,
-/static/76330aa3834ea2e739e72d86f2c97f74/ec7ce/IntegrationAssistant-Release.jpg 970w,
-/static/76330aa3834ea2e739e72d86f2c97f74/8010b/IntegrationAssistant-Release.jpg 1455w,
-/static/76330aa3834ea2e739e72d86f2c97f74/0f98f/IntegrationAssistant-Release.jpg 1920w&quot;
+        src=&quot;/static/648d0cadb05e99faa5da3e89e40438b4/587b0/IntegrationAssistant-Release.png&quot;
+        srcset=&quot;/static/648d0cadb05e99faa5da3e89e40438b4/8aea6/IntegrationAssistant-Release.png 243w,
+/static/648d0cadb05e99faa5da3e89e40438b4/44c61/IntegrationAssistant-Release.png 485w,
+/static/648d0cadb05e99faa5da3e89e40438b4/587b0/IntegrationAssistant-Release.png 970w,
+/static/648d0cadb05e99faa5da3e89e40438b4/5b795/IntegrationAssistant-Release.png 1455w,
+/static/648d0cadb05e99faa5da3e89e40438b4/29114/IntegrationAssistant-Release.png 1920w&quot;
         sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -245,25 +245,25 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e5d562f87ddcc4a7a0fe250070e5d482/0f98f/IntegrationAssistant-Monitor.jpg&quot;
+    href=&quot;/static/d78b3c726262350d87d294f777248630/29114/IntegrationAssistant-Monitor.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe0ngJx//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAISEyD/2gAIAQEAAQUChSFM04//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAYEAADAQEAAAAAAAAAAAAAAAAAATKRIP/aAAgBAQAGPwKVhKJWcf/EABkQAAIDAQAAAAAAAAAAAAAAAADxARAR4f/aAAgBAQABPyGOeEojXp//2gAMAwEAAgADAAAAEPPP/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QiP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAaEAEAAgMBAAAAAAAAAAAAAAABABEQUfDB/9oACAEBAAE/ECIgcaihSxpM4zzCty0//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAAA70lEQVQoz52QwUoDMRCG88ZWisUePQgtba8WW3b1rqLgCygVfBRPG7ObTWayO8k4dkVE2Vr68ednCPmHzKjBNB/P89NZNl7kw8l6NL++uH1a3j2LVg8vnS7vN9nj69ny5uh8dTK7Gk6z48laXBnnwBpOxKllCp/OxBz5f5IqtLbW1gBv2hRFYWxta+cBUuLf4q2+C2alqwoRiMgjUttSjHJ4P1RVW+ecVOLee7dFeqUf9IbfrQuIMcayLI0xMoK0CCF0ebnfFdZlJQGiiIhN08hr3hvlAQGAD0J9bb3/b7vCXezAsCxG5uz8L7I57OcDlZ9zw1/FtOIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Integration Assistant - Monitor&quot;
         title=&quot;Integration Assistant - Monitor&quot;
-        src=&quot;/static/e5d562f87ddcc4a7a0fe250070e5d482/ec7ce/IntegrationAssistant-Monitor.jpg&quot;
-        srcset=&quot;/static/e5d562f87ddcc4a7a0fe250070e5d482/3f316/IntegrationAssistant-Monitor.jpg 243w,
-/static/e5d562f87ddcc4a7a0fe250070e5d482/0d3a1/IntegrationAssistant-Monitor.jpg 485w,
-/static/e5d562f87ddcc4a7a0fe250070e5d482/ec7ce/IntegrationAssistant-Monitor.jpg 970w,
-/static/e5d562f87ddcc4a7a0fe250070e5d482/8010b/IntegrationAssistant-Monitor.jpg 1455w,
-/static/e5d562f87ddcc4a7a0fe250070e5d482/0f98f/IntegrationAssistant-Monitor.jpg 1920w&quot;
+        src=&quot;/static/d78b3c726262350d87d294f777248630/587b0/IntegrationAssistant-Monitor.png&quot;
+        srcset=&quot;/static/d78b3c726262350d87d294f777248630/8aea6/IntegrationAssistant-Monitor.png 243w,
+/static/d78b3c726262350d87d294f777248630/44c61/IntegrationAssistant-Monitor.png 485w,
+/static/d78b3c726262350d87d294f777248630/587b0/IntegrationAssistant-Monitor.png 970w,
+/static/d78b3c726262350d87d294f777248630/5b795/IntegrationAssistant-Monitor.png 1455w,
+/static/d78b3c726262350d87d294f777248630/29114/IntegrationAssistant-Monitor.png 1920w&quot;
         sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
