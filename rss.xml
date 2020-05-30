@@ -1,23 +1,203 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>http://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 30 May 2020 12:03:27 GMT</lastBuildDate><item><title><![CDATA[Integration Assistant Azure AD]]></title><description><![CDATA[Azure Active Directory tiene una novedad en el registro de aplicaciones para facilitar la configuración de un registro de aplicación. Hace poco se ha incluido una novedad en el registro de aplicaciones de Azure Active Directory. Azure siempre está incorporando alguna…]]></description><link>http://setvalue.net/2020/05/23/</link><guid isPermaLink="false">http://setvalue.net/2020/05/23/</guid><category><![CDATA[Azure]]></category><category><![CDATA[Azure AD]]></category><category><![CDATA[Microsoft Identity Platform]]></category><pubDate>Sat, 23 May 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hace poco se ha incluido una novedad en el registro de aplicaciones de &lt;strong&gt;Azure Active Directory&lt;/strong&gt;. Azure siempre está incorporando alguna novedad, y ésta no podría ser más útil.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[SetValue.NET]]></title><description><![CDATA[Mi nombre es Raúl Fernández de Córdoba, trabajo en Kabel como Cloud Solution Architect. En mi día a día, trato de definir las bases de las distintas soluciones técnicas que se van a implementar, asesorar y definir las mejores estrategias para resolver una necesidad.]]></description><link>http://setvalue.net</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 30 May 2020 13:40:27 GMT</lastBuildDate><item><title><![CDATA[Integration Assistant Azure AD]]></title><description><![CDATA[Azure Active Directory tiene una novedad en el registro de aplicaciones para facilitar la configuración de un registro de aplicación. Hace poco se ha incluido una novedad en el registro de aplicaciones de Azure Active Directory. Azure siempre está incorporando alguna…]]></description><link>http://setvalue.net/2020/05/23/</link><guid isPermaLink="false">http://setvalue.net/2020/05/23/</guid><category><![CDATA[Azure]]></category><category><![CDATA[Azure AD]]></category><category><![CDATA[Microsoft Identity Platform]]></category><pubDate>Sat, 23 May 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hace poco se ha incluido una novedad en el registro de aplicaciones de &lt;strong&gt;Azure Active Directory&lt;/strong&gt;. Azure siempre está incorporando alguna novedad, y ésta no podría ser más útil.&lt;/p&gt;
 &lt;p&gt;Tal y cómo se autodefine, su objetivo es ayudar a construir integraciones de alta calidad y seguras. Te muestra cuáles son las &lt;em&gt;best practices&lt;/em&gt; y recomendaciones para ayudar a evitar descuidos habituales cuando nos integramos con la &lt;strong&gt;Microsoft Identity Platform&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2&gt;App Registration&lt;/h2&gt;
 &lt;p&gt;En la configuración del Azure Active Directory, en el apartado de &lt;a href=&quot;https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps&quot; target=&quot;_blank&quot;&gt;App Registrations&lt;/a&gt;, podemos seleccionar una aplicación que conozcamos cómo está configurada, y accedemos a su información del registro.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/AppRegistration-Overview.png&quot; alt=&quot;App Registration&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7b850d78f6ccc98053540bd6b8e8446f/29114/AppRegistration-Overview.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABRUlEQVQoz5WRyUrDMRCH88ZSN/DoQawWr1a72AdwK/gCVgUpeBA8ulVRpNL+l+yZJBPTxVJKFf34EWZCZg0pbNXXdg6Wt2uLxVphs7paauwenZePW3snrUrzaqT908v62fV6+XBho7JSaixt1QvFajxJQqnI+sEDehe8DXPAMB8kSZpyxpVSjPOE8l6aRZzzkycGgNK8L6ErHQ4zTUQyzgHAY6DSMgU51ynTVMJY2kkbtEUJKACjPS2SM8YZixUyYbS0xsY8wXkcKTrxpkulhkEv0Z0WSZmwxgjQF4/3ndfe7Xv6KWAwEI5nZeAfUj3MOQtJcioY0wDt5+7dR55xIbSZ3hIOi8yFSKW1Uh7xLVE5N+h9+DNkUkBhaPeE0vaXz5kNRsRRc4nxzaesm8t/BDvnEL2xrt3Jb17iArRz1n9jjNE/8wVE5m3xVSr+UwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;App Registration&quot;
+        title=&quot;App Registration&quot;
+        src=&quot;/static/7b850d78f6ccc98053540bd6b8e8446f/587b0/AppRegistration-Overview.png&quot;
+        srcset=&quot;/static/7b850d78f6ccc98053540bd6b8e8446f/8aea6/AppRegistration-Overview.png 243w,
+/static/7b850d78f6ccc98053540bd6b8e8446f/44c61/AppRegistration-Overview.png 485w,
+/static/7b850d78f6ccc98053540bd6b8e8446f/587b0/AppRegistration-Overview.png 970w,
+/static/7b850d78f6ccc98053540bd6b8e8446f/5b795/AppRegistration-Overview.png 1455w,
+/static/7b850d78f6ccc98053540bd6b8e8446f/29114/AppRegistration-Overview.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Integration Assistant&lt;/h2&gt;
 &lt;p&gt;En el menú lateral, encontramos un blade llamado &lt;strong&gt;Integration Assistant (preview)&lt;/strong&gt;. Al acceder a él por primera vez, aparece un check list con el tipo de aplicación.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/AppRegistration-IAssistant.png&quot; alt=&quot;Integration Assistant&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/42d9dd05d0962b4eb56b61690e2447f1/29114/AppRegistration-IAssistant.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABF0lEQVQoz52QS0vDQBSF5x+roNbHzo1Ygm6rxfhYS1Fw4bpUcKHgThKbVrTQlGbSdB6ZyTwSbxtEoQqNhzOPxXxz77lo9cDddtwtx909Ot+on9YOLxutNvi41W7e3Jc+ue64tw97jau1/eamc7Fed3dmyBlKOJcsyU1G4jGZRCzBNMFKMC2Ymlsv2Gb8eRiF4wjhOKZzdYPA83zf73r+a6//Vjro9T8Gg3A0GoZfhhVFK0/vd48vKJ4SKYUxmlHKGEvTVCmV/ZD6TVZrozUijHLOi6LAGBNC4HWxtNCE8kxKay2UFULAr3meLwtD2xDYGAMNSymLKkKpkFAQbhZy6wplZ3B5VGK+4RL7JwxpYVrlvigYvvxbn8Uua4Xxt8pOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant&quot;
+        title=&quot;Integration Assistant&quot;
+        src=&quot;/static/42d9dd05d0962b4eb56b61690e2447f1/587b0/AppRegistration-IAssistant.png&quot;
+        srcset=&quot;/static/42d9dd05d0962b4eb56b61690e2447f1/8aea6/AppRegistration-IAssistant.png 243w,
+/static/42d9dd05d0962b4eb56b61690e2447f1/44c61/AppRegistration-IAssistant.png 485w,
+/static/42d9dd05d0962b4eb56b61690e2447f1/587b0/AppRegistration-IAssistant.png 970w,
+/static/42d9dd05d0962b4eb56b61690e2447f1/5b795/AppRegistration-IAssistant.png 1455w,
+/static/42d9dd05d0962b4eb56b61690e2447f1/29114/AppRegistration-IAssistant.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Una vez definido el tipo de aplicación que es, se evalúa y muestra el resumen de acciones verificadas.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/IntegrationAssistant-Summary.png&quot; alt=&quot;Integration Assistant - Summary&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/39d80a559f1c01bcc3d3facfba7b1da5/29114/IntegrationAssistant-Summary.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABE0lEQVQoz41Q20rDQBDNH6tUxD76ILS0vlpsSei7ioI/oCj4KYLU3ewte5uddZIoiJLUw2FgNzmXneJwXk2X1eminF5Uk9nmZLm9vHlc3T4R1/cvPa/unsuH17PV9cH5+nixnczLo9mGZlEbY1WdETLGDL6dGXJOeT+w+GBMKamtfeOCMSaUlto01iLmhBl/Mv9mwYR0zkYAoY1zLsaYSPQ/FFIrYwwiaqUJMYTUgW5iDDTHxFwZ7xz9rZTinNd13TTU2kFwir9rbUb0bW2SAQDlU3L4RoToo9+T3Fhn2/WglFII0RvRh5DCTu0gwljy19YRvfdU2HVPoCMkMN6QUbfmAXFvPF5vUEzeFNXPv6A6bhifs9FxxyDlHFMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Summary&quot;
+        title=&quot;Integration Assistant - Summary&quot;
+        src=&quot;/static/39d80a559f1c01bcc3d3facfba7b1da5/587b0/IntegrationAssistant-Summary.png&quot;
+        srcset=&quot;/static/39d80a559f1c01bcc3d3facfba7b1da5/8aea6/IntegrationAssistant-Summary.png 243w,
+/static/39d80a559f1c01bcc3d3facfba7b1da5/44c61/IntegrationAssistant-Summary.png 485w,
+/static/39d80a559f1c01bcc3d3facfba7b1da5/587b0/IntegrationAssistant-Summary.png 970w,
+/static/39d80a559f1c01bcc3d3facfba7b1da5/5b795/IntegrationAssistant-Summary.png 1455w,
+/static/39d80a559f1c01bcc3d3facfba7b1da5/29114/IntegrationAssistant-Summary.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;El resumen nos indica que no hay configurada una URL a la que redirigirse cuando se completa el login, lógico porque en concreto este registro está en blanco, no se ha configurado nada. Por otro lado, nos indica que si vamos a utilizar el flujo de autenticación implícito, debemos habilitar los ID Tokens. Y si queremos configurar un sign-out, debemos configurar también una URL de Logout.&lt;/p&gt;
 &lt;h3&gt;Develop&lt;/h3&gt;
 &lt;p&gt;En la pestaña de Desarrollo, está información básica,  y recomendaciones de implementación y de Experiencia de Usuario.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/IntegrationAssistant-Develop.png&quot; alt=&quot;Integration Assistant - Develop&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/275146748659d35d53a9326c6051fba6/29114/IntegrationAssistant-Develop.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABGUlEQVQoz42R3UrDMBSA88aK0+EuvRBWtl0XN1u9V1HYCygKvkkR2sY2aZq0OUk8SVFUsPXjQEPKd/5CDqN0sU5PV8lik86Wu/n6Or59jO+eMLYPL0Nc3D8n+9ez+ObgfHuyuppFydFydxxdkkoIyStnwRltofcHh2HcNJaUlDaccykzWtGyrFjDGtFKaaz7HSHl18E6RyhjSskeoFVd1/UGjLXW/Q/CGi6EQAPLN8KjlNJa94HxROSdi04pMKaua/TbFlv2oGmM72LEJ7Rm6GiAvCiyLHsL5HlOKcUUE3IrcWRcj2UBFJS/kNgC7mBCHj4oY6miKOpAmF2gDwBj8vAP5V5rrPl91PGyXgbclTH684XsTzCX+psPOcFwGYZ2Z64AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Develop&quot;
+        title=&quot;Integration Assistant - Develop&quot;
+        src=&quot;/static/275146748659d35d53a9326c6051fba6/587b0/IntegrationAssistant-Develop.png&quot;
+        srcset=&quot;/static/275146748659d35d53a9326c6051fba6/8aea6/IntegrationAssistant-Develop.png 243w,
+/static/275146748659d35d53a9326c6051fba6/44c61/IntegrationAssistant-Develop.png 485w,
+/static/275146748659d35d53a9326c6051fba6/587b0/IntegrationAssistant-Develop.png 970w,
+/static/275146748659d35d53a9326c6051fba6/5b795/IntegrationAssistant-Develop.png 1455w,
+/static/275146748659d35d53a9326c6051fba6/29114/IntegrationAssistant-Develop.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Estas recomendaciones nos dan acceso a artículos de la MSDN.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/IntegrationAssistant-Develop-Recommendation.png&quot; alt=&quot;Integration Assistant - Develop Recommendations&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/85866837c19c5c04f4c82b6854eab3fe/29114/IntegrationAssistant-Develop-Recommendation.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABLUlEQVQoz41RXUsCQRSdf1whRT72ECjaa5Ky1ntFQX+gKOiPqKTujrvzvbPz4XHNMDDtcLgc5s7ce+4dctweNrvD807SvBo2WoOz7t31w2vv8Q3sP3+sefP0nrx8XvTujy77p53bRjs5aQ0QSS6l5nkMLoYqunIVo4vRx8MIJKOUcy60ntCcZlnOOBNSae1DBMM2Y80fESOhjBmjnXPKlGVpITzy/wNhgkspQwiCQyho1Kg2CHsLkQWXpTHee3heLCgrCs4Y5wxlcG5hpqqs8/Cz4zEtcJUjO5vNxqPRZDIGp9OvdD6XQnjv4EVIaUq747HSRmsNe6wGNGwbY9biwMzfWw+BUpqmaVFD1lBKYX97xibrHCLWg4bWWswftrCv8+pvMNmmQ/gN1DJ/YwkwKW87WnHldgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Develop Recommendations&quot;
+        title=&quot;Integration Assistant - Develop Recommendations&quot;
+        src=&quot;/static/85866837c19c5c04f4c82b6854eab3fe/587b0/IntegrationAssistant-Develop-Recommendation.png&quot;
+        srcset=&quot;/static/85866837c19c5c04f4c82b6854eab3fe/8aea6/IntegrationAssistant-Develop-Recommendation.png 243w,
+/static/85866837c19c5c04f4c82b6854eab3fe/44c61/IntegrationAssistant-Develop-Recommendation.png 485w,
+/static/85866837c19c5c04f4c82b6854eab3fe/587b0/IntegrationAssistant-Develop-Recommendation.png 970w,
+/static/85866837c19c5c04f4c82b6854eab3fe/5b795/IntegrationAssistant-Develop-Recommendation.png 1455w,
+/static/85866837c19c5c04f4c82b6854eab3fe/29114/IntegrationAssistant-Develop-Recommendation.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Test&lt;/h3&gt;
 &lt;p&gt;En la pestaña de Test, se incluyen otras recomendaciones relacionadas con el Testing y con la Experiencia de Usuario. Algunas de estas últimas también recomendadas en el apartado de &lt;strong&gt;Develop&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Sugerencias como que verifiques las políticas de Acceso Condicional por si pueden impedir a los usuarios utilizar la aplicación, resultan obvias, pero que no siempre reparamos en validarlo.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/IntegrationAssistant-Test.png&quot; alt=&quot;Integration Assistant - Test&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e598448839fae9a003afe65ff01aeaf1/29114/IntegrationAssistant-Test.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABC0lEQVQoz41QTUvDQBDdf6xSFHv0ILS0Xi22JHpXUfAPVBT8J17CTpLZbGYTd3ecNrUo1djHY3iw++bjqcNxOpymp5NkeJEORouT6c3l3XJ2/yycP752vHp4SZ7ezma3B+fz48n1YJwcjRZSVWEtmYKj5/jBvllV9syB/0dUGsAYUxG9QwEaCjRY2ZooRBbG7+Q1t4JZAaIj8iHUzrVtKyLK+35QWBlbWVE5gNZatkBEInJr9DdSubGNcyGEElHcWJbiaZqmM3vve/wKSpRp8qmu5VKS2tnkhPiFP801yckkCgCyLMtzWV9yWHW01obeCNQm9Z0h/TM35u7H/gn/MMu1sltXd7FN7ld8AhjlcXav1zm3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Test&quot;
+        title=&quot;Integration Assistant - Test&quot;
+        src=&quot;/static/e598448839fae9a003afe65ff01aeaf1/587b0/IntegrationAssistant-Test.png&quot;
+        srcset=&quot;/static/e598448839fae9a003afe65ff01aeaf1/8aea6/IntegrationAssistant-Test.png 243w,
+/static/e598448839fae9a003afe65ff01aeaf1/44c61/IntegrationAssistant-Test.png 485w,
+/static/e598448839fae9a003afe65ff01aeaf1/587b0/IntegrationAssistant-Test.png 970w,
+/static/e598448839fae9a003afe65ff01aeaf1/5b795/IntegrationAssistant-Test.png 1455w,
+/static/e598448839fae9a003afe65ff01aeaf1/29114/IntegrationAssistant-Test.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Release&lt;/h3&gt;
 &lt;p&gt;El apartado de Release, nos muestra cuatro apartados:&lt;/p&gt;
 &lt;ul&gt;
@@ -26,137 +206,820 @@
 &lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;. Minimizar y monitorizar manualmente la lista de propietarios de la aplicación o hacer rotados de credenciales.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;End user experience&lt;/strong&gt;. Incluir los certificados correspondientes si se está desarrollando una aplicación para Microsoft 365.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/IntegrationAssistant-Release.png&quot; alt=&quot;Integration Assistant - Release&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/648d0cadb05e99faa5da3e89e40438b4/29114/IntegrationAssistant-Release.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAABDklEQVQoz42QzU7DMBCE/caAKhA9ckBq1XKlolUCd0Ag8QIgkHgUTklc/2SdxPYyOBBxadPRZhRZ/na8K47n+XSZny+y6VU+mW3OlnfXD6+rxzfU+vmjr5un9+zl82J1f3S5Pl3cTubZyWwDF9Ja0pKj59ixb36cPXPgcUVRlKXW2hB9lbIoiq02ytiaKETuKw7FqYYfZlEq5Rx572tyXds2XRdAHCahjLbWopE1pgXcNPjaP8W4r5GotG2cCyEYY2wS+C4Jz8H5Hl6UW4WZcQkupVRKwYkIMLqMwBjVEeEGYMTC67oemJi0E/7deoxVVSETPGAk4804HEkeEoY5ez9o2/1W+pz/CkkY2+3WN9/DcbCfgRGUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Release&quot;
+        title=&quot;Integration Assistant - Release&quot;
+        src=&quot;/static/648d0cadb05e99faa5da3e89e40438b4/587b0/IntegrationAssistant-Release.png&quot;
+        srcset=&quot;/static/648d0cadb05e99faa5da3e89e40438b4/8aea6/IntegrationAssistant-Release.png 243w,
+/static/648d0cadb05e99faa5da3e89e40438b4/44c61/IntegrationAssistant-Release.png 485w,
+/static/648d0cadb05e99faa5da3e89e40438b4/587b0/IntegrationAssistant-Release.png 970w,
+/static/648d0cadb05e99faa5da3e89e40438b4/5b795/IntegrationAssistant-Release.png 1455w,
+/static/648d0cadb05e99faa5da3e89e40438b4/29114/IntegrationAssistant-Release.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Monitor&lt;/h3&gt;
 &lt;p&gt;El último apartado, encontramos recomendaciones de monitorización. Algunas ya incluidas en otros apartados, y otras orientadas al ciclo de vida de una aplicación.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/IntegrationAssistant-Monitor.png&quot; alt=&quot;Integration Assistant - Monitor&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GatsbyJS en GitHub Pages con Azure DevOps]]></title><description><![CDATA[Despliega tu sitio web estático hecho con GatsbyJS en GitHub Pages con Azure DevOps.  Siguiendo con el anterior post en el que construíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado…]]></description><link>http://setvalue.net/2020/05/17/</link><guid isPermaLink="false">http://setvalue.net/2020/05/17/</guid><category><![CDATA[Azure DevOps]]></category><category><![CDATA[GitHub Pages]]></category><category><![CDATA[GatsbyJS]]></category><pubDate>Sun, 17 May 2020 06:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d78b3c726262350d87d294f777248630/29114/IntegrationAssistant-Monitor.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.32098765432099%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAAA70lEQVQoz52QwUoDMRCG88ZWisUePQgtba8WW3b1rqLgCygVfBRPG7ObTWayO8k4dkVE2Vr68ednCPmHzKjBNB/P89NZNl7kw8l6NL++uH1a3j2LVg8vnS7vN9nj69ny5uh8dTK7Gk6z48laXBnnwBpOxKllCp/OxBz5f5IqtLbW1gBv2hRFYWxta+cBUuLf4q2+C2alqwoRiMgjUttSjHJ4P1RVW+ecVOLee7dFeqUf9IbfrQuIMcayLI0xMoK0CCF0ebnfFdZlJQGiiIhN08hr3hvlAQGAD0J9bb3/b7vCXezAsCxG5uz8L7I57OcDlZ9zw1/FtOIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Integration Assistant - Monitor&quot;
+        title=&quot;Integration Assistant - Monitor&quot;
+        src=&quot;/static/d78b3c726262350d87d294f777248630/587b0/IntegrationAssistant-Monitor.png&quot;
+        srcset=&quot;/static/d78b3c726262350d87d294f777248630/8aea6/IntegrationAssistant-Monitor.png 243w,
+/static/d78b3c726262350d87d294f777248630/44c61/IntegrationAssistant-Monitor.png 485w,
+/static/d78b3c726262350d87d294f777248630/587b0/IntegrationAssistant-Monitor.png 970w,
+/static/d78b3c726262350d87d294f777248630/5b795/IntegrationAssistant-Monitor.png 1455w,
+/static/d78b3c726262350d87d294f777248630/29114/IntegrationAssistant-Monitor.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GatsbyJS en GitHub Pages con Azure DevOps]]></title><description><![CDATA[Despliega tu sitio web estático hecho con GatsbyJS en GitHub Pages con Azure DevOps.  Siguiendo con el anterior post en el que construíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado…]]></description><link>http://setvalue.net/2020/05/17/</link><guid isPermaLink="false">http://setvalue.net/2020/05/17/</guid><category><![CDATA[Azure DevOps]]></category><category><![CDATA[GitHub Pages]]></category><category><![CDATA[GatsbyJS]]></category><pubDate>Sun, 17 May 2020 06:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Siguiendo con el anterior &lt;a href=&quot;../16&quot;&gt;post&lt;/a&gt; en el que construíamos un sitio estático con GatsbyJS, nos enfrentamos a desplegar el resultado de esta web en un nuevo sitio de GitHub Pages.&lt;/p&gt;
 &lt;p&gt;Para desplegar la aplicación, utilizaremos &lt;a href=&quot;https://dev.azure.com&quot; target=&quot;_blank&quot;&gt;Azure DevOps&lt;/a&gt;, creando dos pipelines, uno para la integración continua (CI &lt;em&gt;Continuous Integration&lt;/em&gt;) y otro para la entrega continua (CD &lt;em&gt;Continuous Delivery&lt;/em&gt;).&lt;/p&gt;
 &lt;h2&gt;Configurando el repositorio&lt;/h2&gt;
 &lt;p&gt;El primer paso que debemos realizar es preparar el repositorio para activar y configurar GitHub Pages.&lt;/p&gt;
-&lt;p&gt;Creamos un nuevo branch llamado &lt;code&gt;gh-pages&lt;/code&gt; en el repositorio donde tenemos el sitio estático hecho con GatsbyJS.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/BranchCreateGH-Pages.png&quot; alt=&quot;New branch&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Creamos un nuevo branch llamado &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; en el repositorio donde tenemos el sitio estático hecho con GatsbyJS.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9dfd0becfc57624c3d79e6cf01c1049f/0b6f4/BranchCreateGH-Pages.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.08230452674898%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABw0lEQVQoz52Sy47cIBBF/f8fkc3sZpt8SBbJ5NUTdU+6p/3EGAqwAfumgJbVUl5SLF9hI3Pq3ipXUmg01wF9K6GkQdcINPWAvM/r5UeDoZ8wDgrXS4vFjYhBglQDZzpsUQGegFlhCwHV1y9HfPxwwPPhjMO3F3x/PjN0zAWS2nrc35urQNucIMQLuu6IYThBjme8O77Fw+EBbz4/oqp7gXPdoR8nKOOg3QLrA/SywnjABMCtbGAt6+Q2SFvUTQua0eFTW+P96wlP3SuqU6Nw6Qmd9hgoZjX84SAJWhOILBYfWSErxIh128A34rpmge/Fevg5ohJyQjdw3zqBXkyQiiF2ZlAC6gxVWRrTpPJ7ZOiWoUzla2UoGQPrHCptZgg9w3NDQ4gw1ubDRCYf1kTlmZXAZCwD1x2YVIAWzs2oyC4YKfBmqTbzZolaHKoMLfBJlUL3DncgJYcM1AwclIdx/BED3Q40e+QM5AIqAY35g8M7oOCBSPK50fPM/WOI+SUy/TNyBiqzoGeHlieE7NBlJ3kY6hb5NpgUWf81sis9TMDZrzfgfeT/HEoChliA1iaHqgyE1+nmMk1ept+G6LcOU/F09icwA53YNgCRpQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;New branch&quot;
+        title=&quot;New branch&quot;
+        src=&quot;/static/9dfd0becfc57624c3d79e6cf01c1049f/587b0/BranchCreateGH-Pages.png&quot;
+        srcset=&quot;/static/9dfd0becfc57624c3d79e6cf01c1049f/8aea6/BranchCreateGH-Pages.png 243w,
+/static/9dfd0becfc57624c3d79e6cf01c1049f/44c61/BranchCreateGH-Pages.png 485w,
+/static/9dfd0becfc57624c3d79e6cf01c1049f/587b0/BranchCreateGH-Pages.png 970w,
+/static/9dfd0becfc57624c3d79e6cf01c1049f/0b6f4/BranchCreateGH-Pages.png 984w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Configuramos GitHub Pages en este repositorio desde la pestaña de settings.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/GitHubPages-Settings.png&quot; alt=&quot;GitHub Pages Settings&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 741px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/482a48559958f17b5637359097afbdec/13e20/GitHubPages-Settings.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.48148148148148%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB6klEQVQ4y5WU65LaMAyF8/4P2G73B5cSSMKShTi+xpdTSZAs0KGz9cyHFE84to7sVNYVKFNg7IRxUDCjgdWWol7geWdoTnE+Qist73GuLgreBaBAqJrQY+UabIiVqbF2e6LD2nYSV7YVZI7YTR3q6Yg6XuHnffpAU3oc8xlVHTu8hy3e/RZvbk1siAa/fIs3xrX4SfwgUZ7bgUTR4jexnSktNqVBnY+oLJVyOV+QU76REKcJMQQhcU6kyDEghIgwFcRYljIFDrmgcs7h0LRo2k4Y1AhjyB/2jj2kBbU20BLp2Xpon+GmdBUpReCRc0blw4TjqUf30aM/D4i0y+8OEcOTIK/e9yTWf4J3670XOGestRQ9bMjwtKt5R7MIhwdBYx12ezL00OJAJWsq91nQLoJZDLsX/avkRCWyP+PNp/K6wJdiM4kFA3WSm8DEGB+MZnjVLLFIfCX2VTIJHZqGOtzidDpJZy90Mz7pKI0j3QSC4zAMUOqaS9ep46PxuJhEdqQvQf55KIpWU3T1zoP+bq+X7OZhwpWMe/H/Gff2VIFuQUMl7/cHdF1HXXWLpzN8m4xwf5ScvOvpBMze30ou8gdN3okvN5/YL6XU1TP2kL4w55GOk59E4J65ssXDf3XvmaXjOT/AlvGx+QMhr99xH69FwQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GitHub Pages Settings&quot;
+        title=&quot;GitHub Pages Settings&quot;
+        src=&quot;/static/482a48559958f17b5637359097afbdec/13e20/GitHubPages-Settings.png&quot;
+        srcset=&quot;/static/482a48559958f17b5637359097afbdec/8aea6/GitHubPages-Settings.png 243w,
+/static/482a48559958f17b5637359097afbdec/44c61/GitHubPages-Settings.png 485w,
+/static/482a48559958f17b5637359097afbdec/13e20/GitHubPages-Settings.png 741w&quot;
+        sizes=&quot;(max-width: 741px) 100vw, 741px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: Si tienes un Custom Domain ya agregado, GitHub Pages te sirve todos los sitios web desde el dominio que has configurado&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Por último, necesitaremos configurar un &lt;a href=&quot;https://github.com/settings/tokens&quot; target=&quot;_blank&quot;&gt;PAT (Personal access token)&lt;/a&gt; con permisos sobre repo.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/NewPAT.png&quot; alt=&quot;Create a new PAT&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/28108bdae85036c45a91fe549b4394b4/e4900/NewPAT.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.61316872427983%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAA7DAAAOwwHHb6hkAAABSElEQVQoz42Ti3KEIBRD/f8/rS/eqICmN6jV6druMpNBEA65ERvtM9ZtwyYqZYWxFlrrKj4bYzAqJe8KPmnNaGcsy1JhhDrnKkApDaUFph2UcdAiY/0uFxBihA/Si7zfx9M0o+GEtU6gqQKVwPgyilyYYEOCn1LtXUwwYak9DdD1qXVdq5rflp33GEaNKKcVWZBzFhXkckjG3PhnyduRH8XmBailVDp+144t/wPHUaHvB8kmHvl4WMmVJZuwl25jRsp0ee091ewnXcAgAEJYGudSkuycr+Ih8zxLya8g6ifDO5CTbdvhq20ls1zBwzCg63o4+Xjn+ucIHhzyixGg5B6y0SFjUCL2JRfc99z3PgLpyMqFpjjHceA9OzKNcaqHfFwyLyfLuzs8D2CO1vDvsTXLCnkH5EICWR6n6JAAXn7+RewvIF4cfgMW1qz74/a/MQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Create a new PAT&quot;
+        title=&quot;Create a new PAT&quot;
+        src=&quot;/static/28108bdae85036c45a91fe549b4394b4/587b0/NewPAT.png&quot;
+        srcset=&quot;/static/28108bdae85036c45a91fe549b4394b4/8aea6/NewPAT.png 243w,
+/static/28108bdae85036c45a91fe549b4394b4/44c61/NewPAT.png 485w,
+/static/28108bdae85036c45a91fe549b4394b4/587b0/NewPAT.png 970w,
+/static/28108bdae85036c45a91fe549b4394b4/e4900/NewPAT.png 988w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Almacenamos el token en un lugar seguro para utilizarlo más adelante.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/PAT.png&quot; alt=&quot;New PAT&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 740px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/10db90b0731288c69d137df16f5b9f8d/50383/PAT.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.983539094650205%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsSAAALEgHS3X78AAAA0ElEQVQY03XIW0+EMBAF4P7/36V78c313ay0BQqd6W1KC2GpZTUm3k6+nJwZptHsAEcwaFz5K9u2U4C8V1KNg7ERrO8GNk0UQ40P3k+RItWE2pGCp2zjOi+38k9Y6+edy5/jm0WGtadVxXWIt2HvVaftw5g2dmjSU7ucRD7LufZRpKPIB57un3wSqe7Hazzx/HCNZ5FfsFygXLA8Y2G9t1VXOfO1++Ckdx0RJNK/ZYIQtHVMmEYYLrDh8Fb7fjat5a8oBY120TBr/GEBtAqUfAc4dlEaWTwRPQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;New PAT&quot;
+        title=&quot;New PAT&quot;
+        src=&quot;/static/10db90b0731288c69d137df16f5b9f8d/50383/PAT.png&quot;
+        srcset=&quot;/static/10db90b0731288c69d137df16f5b9f8d/8aea6/PAT.png 243w,
+/static/10db90b0731288c69d137df16f5b9f8d/44c61/PAT.png 485w,
+/static/10db90b0731288c69d137df16f5b9f8d/50383/PAT.png 740w&quot;
+        sizes=&quot;(max-width: 740px) 100vw, 740px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Azure DevOps&lt;/h2&gt;
-&lt;p&gt;En Azure DevOps debemos crear dos pipelines, el primero hará la build de la solución y generará un artefacto, el segundo utilizará este artefacto y lo publicará en la rama &lt;code&gt;gh-pages&lt;/code&gt; del repositorio en el que estamos trabajando.&lt;/p&gt;
+&lt;p&gt;En Azure DevOps debemos crear dos pipelines, el primero hará la build de la solución y generará un artefacto, el segundo utilizará este artefacto y lo publicará en la rama &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; del repositorio en el que estamos trabajando.&lt;/p&gt;
 &lt;h3&gt;Pipeline&lt;/h3&gt;
 &lt;p&gt;Dentro del Team Project, en el menú seleccionamos el ítem &lt;strong&gt;Pipelines&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Step0.png&quot; alt=&quot;Pipeline&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 260px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5ed164ee17515b2386359a084899883d/86c28/Pipeline-Step0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 221.81069958847738%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAsCAIAAADqwg+aAAAACXBIWXMAAAsSAAALEgHS3X78AAAExElEQVRIx41WS4/bVBQ2/4Q1Eiv+AYvyBxACVogNe5BYs0ACVVQCjUDqooMQj7bzLG2aTDLOJHHs2E7ijB+x4/f7HTvJTFshVJA4NwOoaicz/nx8bSf+fM4959x7Dpblue57VhiUZXl+fr5arc7Oz1arJdw8ffKkKIr8FczXgBtMD/zXvvr8re1vXU07ahyddDttvDMcjwmK/HXvvm7oi8XifwKgKIswCPSZUZQlZkXhm7e/ef/gZ9+yjhoNkqRaTbxD9GiWrbWaYRSWRTl/AWBLHMeO5cINBs9nRbksEC7MhvFsdYbMPj+/MO8Sswv0B1YWc5Akyy6+WhTz9VFkWZamab4Z8D4WJ+nb970PW+U88hVVNS1LNwzDNF+c5yZgphe/cYv/YC+Yx/4pzwuSfCqcTng+yfLiWnJZFH8tl0/BK0WxRFjACRO+lonISZ7vWTPKtZYQaAgLnGVZxWZENpIYO/j+HbYRWCZFk2Oeo0/H84pk0FIz5R+82TxJTMs0bdNynaqaYarP/vz72ZM/IEowVTTlxWJeDShJsu2v57Vf0nKRJHGapdk65pXIhWc9f+/1vz67oXles33UoweKqr2Uz5s1Z+mi+3A1aOTlApI2SSDAeVXNmqYWy8KOM8/zoigK1wiCwK0AjOMmn9wxP/4xUWWeIEmGHTIsw00mOsrRa4BNJenGTeeLHcc1hIPDw8OHj+qNegvHNd20HduyN4tlYZI8hfSwVNWzbd91fccN0OjYhmFdLUC2t7biB4fpwb539164s5vs7ce7u8n+frS7u1F2dqL9/fT2bczb3v6t9RgfMLI2q7WOGifEEXGC90nLdc1NYttGkoQPHmDe1pbSqKu1WtjpGPXHer1uNZsw+jjut9uXC457vV6yvY0pna5PEB5BuL1e0O+HJBn2kQRE3+uh3zcKSWIzwzjs4D1eEA210T0h2FGbJk9YqkmRDYJUwKlRbIbhJRIE2FQUJuORKEq2aaqKrMrKDMaZosgyDKauXeFwTBRFSCjD0E3TgiTzfT/wA7iBYDnrYF4BDDTUmw1iwEgS/3v9Ed5uH+P4YMja1zERWRQFUZJ0wwTlPDwIIs/zsqJYFYDM9j2oFpBwNhiMVkYQOo5TiSxJ0k+1w9FkourqcQ8n+iRJ01Y1IM38VNJ0HdbmmBtzHDeecBcLqhLZg4wzTfBuHMVoSQfB2u3etT7DZFm6u3uv2elpqnLcOmYGNEkzDEUTkCGKcnW00HqeTiVlppqmwbIsNxoxw9HpmKMZVtVUeMPcPAVkNlygtoGR8cU+FATRGr6H4MLheRCNS5NkWmvUSHaoaspJp92jQSVLDQYDqj9E+pnRkGNoVteNV12ACYIAvoV9RZ7J1IDoDmhqAHxmPGKZ4RACBxeyT6mabr26h0Eyp1kSx1GapFDpoIkAoD4GSn+WrzsDVAOSGN55Gdjq6WJGhO40m5cJzC0I0EyDMIRNH7UJqF2Y/9c0vAwMisvep1LzlprkbqfblaTTETukaBo+ASZcvf1jWZrPuFAXomJtMXyv/NfwKrVqUa7ydJEnQFqtWwNo4IBdqdzkZZG+e7P8cidY5pDmgijwkuh4XhXVWKLbyUffPb/T9aMAVpg0lSYibzuVyP8ABevcYJUrmJgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Pipeline&quot;
+        title=&quot;Pipeline&quot;
+        src=&quot;/static/5ed164ee17515b2386359a084899883d/86c28/Pipeline-Step0.png&quot;
+        srcset=&quot;/static/5ed164ee17515b2386359a084899883d/8aea6/Pipeline-Step0.png 243w,
+/static/5ed164ee17515b2386359a084899883d/86c28/Pipeline-Step0.png 260w&quot;
+        sizes=&quot;(max-width: 260px) 100vw, 260px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Creamos un nuevo pipeline y elegimos como origen GitHub.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Step1.png&quot; alt=&quot;Connect Pipeline&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 724px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/117db92636514eab386e18836ffed3fb/a242d/Pipeline-Step1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 85.59670781893004%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACIElEQVQ4y5VT22rbQBTU//9Df6EU+tKHBlIKgRBbLgEltuJr4gpHsqS9ayVLnp7dWCahdeMsHFaX1WjOzJzg09UlUs7AuURWcthdB9t00KZCXdfoug77/R5N00Bpjd1ud7w3xvj3fbnnwXgxo4MKzLTY8Bpb3SE3ew/cL3e4bVsP4vbX9/21290KZqsNFLHZJGusV0twVsIoCSklseZ4fk79n89ZnuGXmyVyrvGYJBjcRphNHzCJY8TxA8b394iiu39+eKqCb4sxSqKM+R2ayQim3UMK4fWrqsoDuJbaQ2vvsQ0er77ThwYyjrAdXUNWNVhZQhBoyZgX3gFba/11b8pJhrcXl2hlgesUuJgDjcqRF8xrqMmsj67g688YpaiQphmWqzXFRaMkhkqpo5MfqeBXeENMNNZPT4gnYxQElmUZgRaepdPTtc+ofbe71p0EpyoYDIYeMCGXp7O5B8nz3FdRFH6XQr4YczDldZj/CnYYhn4CCmKVEEtJrTqA/o9GGzKjOgb3f4Z4wFE4pCmhePxeolvEKKSiYOuXqdi1Z2XvDeBwOKQ2Bbi0yHJOZkhviIuHq36szgcMBx6QqQabrYuKK8rbwTVnQq/dWYDjaOqjItIGRUKuKuGD7VxljFO4S9LSnt16EA1WkDTL1rbE1EKSQYJ0dG274oLDkDm9BD3oyWAvP/+AyRkq0olrC1E10Lb2UXIRUgdw4YBp9N5j+Qc2eCVTmV8IXQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Connect Pipeline&quot;
+        title=&quot;Connect Pipeline&quot;
+        src=&quot;/static/117db92636514eab386e18836ffed3fb/a242d/Pipeline-Step1.png&quot;
+        srcset=&quot;/static/117db92636514eab386e18836ffed3fb/8aea6/Pipeline-Step1.png 243w,
+/static/117db92636514eab386e18836ffed3fb/44c61/Pipeline-Step1.png 485w,
+/static/117db92636514eab386e18836ffed3fb/a242d/Pipeline-Step1.png 724w&quot;
+        sizes=&quot;(max-width: 724px) 100vw, 724px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Seleccionamos el repositorio que queremos publicar como sitio estático.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Step2.png&quot; alt=&quot;Select Pipeline&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 744px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/84fb564b4ca1bd53caa69745e9fc1310/cab8c/Pipeline-Step2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.71604938271605%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAByElEQVQ4y61SbWvbMBDW//8J+xNjsE9bWek22GBJnJbSraOQ2m6T+K2WZMuOJdvPdCIOien6QnPwcHo5Pbrn7ti7718Q8RzoOnDO0TQNyLKc40GUaNoete5QNxpKKRhj0Pc9tNaoqso+63agc3bjL1wgGQXTBZmoDeLSIFUt1lKjsHtjNNq2dTHkiXRYD+/Y9e0KhaqQpglWqyWElBBCQNhsSynQtQZPGWVFGNbsw2SBTCpc/7nC/Pwcvh/A8zzMZhbWp1m2C36JsU/+X+SVQquNy4znufNUS0JZliiK4lEkSYJovUYURVtVAiz8cYJK5KjqDeI4tgGR8xQgrXwifAxU9webPcUS8fAJ805O0dkOfv56ip/eLzSbxhFJW7+qrvFaYx+/WcmyRpLan7LUEeptN/dBE9BuQd2lctD50JQB7GI+sfI4jG6wXC4RBAHu7u6t9xGGIRZBiNDuV1GM+zjDOs2dNCoJEe932hFOp1N3abcuUBbSSS4IRQmuNijrBtTkbovx2BxIphEhwuet32E/o/EsHhCO6/EU/jebbGIl8xHheP2qLnvz2UGGbzX2+/LGNqA8HuHVxEfB1fEIb9+focr40Qj/AU7iKoKh9dw7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Select Pipeline&quot;
+        title=&quot;Select Pipeline&quot;
+        src=&quot;/static/84fb564b4ca1bd53caa69745e9fc1310/cab8c/Pipeline-Step2.png&quot;
+        srcset=&quot;/static/84fb564b4ca1bd53caa69745e9fc1310/8aea6/Pipeline-Step2.png 243w,
+/static/84fb564b4ca1bd53caa69745e9fc1310/44c61/Pipeline-Step2.png 485w,
+/static/84fb564b4ca1bd53caa69745e9fc1310/cab8c/Pipeline-Step2.png 744w&quot;
+        sizes=&quot;(max-width: 744px) 100vw, 744px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Al escoger el repositorio, deberemos configurar en GitHub el acceso que va a tener Azure Pipelines sobre nuestro repositorio. Tenemos dos opciones, dejar que tenga acceso a todos los repositorios, o dejar que sólo tenga acceso a los repositorios que seleccionemos.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Step2-Setup.png&quot; alt=&quot;Setup Azure Pipelines&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 742px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2df74c893787a9c824f70024e1bc2b9e/0f2bc/Pipeline-Step2-Setup.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.54320987654322%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABiklEQVQ4y6VUWU7DMBD12REfSFygH0hcAiTETyXEEUAVi4CWRV1DHMdb4/gx47Q0qC2ixdKLPft4ZhyhrYaUBbTWKAmhrhFj3BtCW4OyLGGthTEGzvn/OSyNhlKNQ85Sa4Nd1ppDWRbIc5muXRSKsm1KoJRa8EguZdLhwKyTeEQ759acilWkRsCrpjqG0EZIWPFX9HqGFF1SRK4jgzNj5UWYn4htupG3nbFcjCcTZFm+uLbCZ65QhbjJXQP61NtQpytXqOYTODuGdyME9w5vXuHKftq9prMeNDzag/tArEaI8+EaQrAQodJwZgCj32DJQOc9WHUPW9zBl49w6oHO9wvcobLPZPyK6Ae0t0A0+xLOV1DU2aKQqYZoVy/GDWOCrTPITRLzKlDdJIbDEaazLDVlOY8cYNmgb8NfZjI5ZAM2TN0mTKczeO+x21qNm9gWkoXctfoPz22pw/8Bcdw7xeFtBwc3HRz1TvA46SObSRqdsN9bvuxf4/y5i7OnLi5erjAuMiqBSdH2WV83g5QG13oEdQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Setup Azure Pipelines&quot;
+        title=&quot;Setup Azure Pipelines&quot;
+        src=&quot;/static/2df74c893787a9c824f70024e1bc2b9e/0f2bc/Pipeline-Step2-Setup.png&quot;
+        srcset=&quot;/static/2df74c893787a9c824f70024e1bc2b9e/8aea6/Pipeline-Step2-Setup.png 243w,
+/static/2df74c893787a9c824f70024e1bc2b9e/44c61/Pipeline-Step2-Setup.png 485w,
+/static/2df74c893787a9c824f70024e1bc2b9e/0f2bc/Pipeline-Step2-Setup.png 742w&quot;
+        sizes=&quot;(max-width: 742px) 100vw, 742px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Tras aprobar el acceso al repositorio, volvemos al pipeline, y lo configuramos para que utilice Node.js.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Step3.png&quot; alt=&quot;Configure Pipeline&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 885px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cc8faa5557351f528ddaa4a126507306/efc66/Pipeline-Step3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.37037037037037%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABpElEQVQ4y5WUy07DMBBF8/+fwRpW7FkgwaLi0bRFbQG1CAiBtGli17Gd52XGJVV5NCojjWzF8dGdO5N4p/0r6NzCGgOtDZqmgbUWWZa5vTYWUZzAFBXysnZndV27s7/SC94CFEWBsizpQY2fwaCPVCPOSiS6REHvMbCFcnwD9iYhklTgYXqP65tbzGYzzOdPGE/GGAwHpFThP+Gd0WVpNJ7f5wjDEKtVgjRNaV255BJZPVfRVtKVXtC/JO8khq8+FouIYAJSSqzXa6dOa+2geZ675H1XetcXPjKdYba4hxDCZZJsVDKYV0MNYxgr+OnZr6b0/CkUXXiMXrbKrM23xnPwWlVVZ3e3wNHQhyGpkTJOWesdjw17tq+b+4GjEQyV86YqCFLIKrns1rPNODUHJwGHsKQkKhtIKlcICaUyB+Iyd+MgoN/v05dSIKAL4qsJrDDlxohNx9uROMjDyWSKnD45NX5CEseIyb/lcunGZbe7u352Ah/vApi1RtjzIUmRUpvZa1X9FZ3A4JxBEkcnx6Rs4crVNJftMPNqjHVqOdufwz7wJ09bP0JZrPGvAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Configure Pipeline&quot;
+        title=&quot;Configure Pipeline&quot;
+        src=&quot;/static/cc8faa5557351f528ddaa4a126507306/efc66/Pipeline-Step3.png&quot;
+        srcset=&quot;/static/cc8faa5557351f528ddaa4a126507306/8aea6/Pipeline-Step3.png 243w,
+/static/cc8faa5557351f528ddaa4a126507306/44c61/Pipeline-Step3.png 485w,
+/static/cc8faa5557351f528ddaa4a126507306/efc66/Pipeline-Step3.png 885w&quot;
+        sizes=&quot;(max-width: 885px) 100vw, 885px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;En el último paso nos encontramos con un fichero YAML, con el nombre preestablecido de azure-pipelines.yml y que se almacenará en el repositorio de GitHub.&lt;/p&gt;
-&lt;p&gt;Este fichero, viene por defecto con un trigger que se desencadenará cuando se consoliden cambios en &lt;code&gt;master&lt;/code&gt;, además realiza la instalación de Node.js, ejecuta la instalación de los paquetes npm y la compilación de la solución.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;# Node.js
-# Build a general Node.js project with npm.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+&lt;p&gt;Este fichero, viene por defecto con un trigger que se desencadenará cuando se consoliden cambios en &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;, además realiza la instalación de Node.js, ejecuta la instalación de los paquetes npm y la compilación de la solución.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Node.js&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Build a general Node.js project with npm.&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# Add steps that analyze code, save build artifacts, deploy, and more:&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript&lt;/span&gt;
 
-trigger:
-- master
+&lt;span class=&quot;token key atrule&quot;&gt;trigger&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; master
 
-pool:
-  vmImage: &apos;ubuntu-latest&apos;
+&lt;span class=&quot;token key atrule&quot;&gt;pool&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;vmImage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;ubuntu-latest&apos;&lt;/span&gt;
 
-steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: &apos;10.x&apos;
-  displayName: &apos;Install Node.js&apos;
+&lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; NodeTool@0
+  &lt;span class=&quot;token key atrule&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;versionSpec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;10.x&apos;&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Install Node.js&apos;&lt;/span&gt;
 
-- script: |
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
     npm install
-    npm run build
-  displayName: &apos;npm install and build&apos;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Actualizamos el código YAML que viene por defecto, modificando los pasos de la operativa para que instale el &lt;code&gt;Gatsby-CLI&lt;/code&gt;, y con &lt;code&gt;yarn&lt;/code&gt; instale las dependencias y haga la build de la solución.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;# Build a GatsbyJS solution with npm and yarn.
+    npm run build&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;npm install and build&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Actualizamos el código YAML que viene por defecto, modificando los pasos de la operativa para que instale el &lt;code class=&quot;language-text&quot;&gt;Gatsby-CLI&lt;/code&gt;, y con &lt;code class=&quot;language-text&quot;&gt;yarn&lt;/code&gt; instale las dependencias y haga la build de la solución.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Build a GatsbyJS solution with npm and yarn.&lt;/span&gt;
 
-trigger:
-- master
+&lt;span class=&quot;token key atrule&quot;&gt;trigger&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; master
 
-pool:
-  vmImage: &apos;ubuntu-latest&apos;
+&lt;span class=&quot;token key atrule&quot;&gt;pool&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;vmImage&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;ubuntu-latest&apos;&lt;/span&gt;
 
-steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: &apos;10.x&apos;
-  displayName: &apos;Install Node.js&apos;
+&lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; NodeTool@0
+  &lt;span class=&quot;token key atrule&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;versionSpec&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;10.x&apos;&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Install Node.js&apos;&lt;/span&gt;
 
-- script: |
-    npm install -g gatsby-cli
-  displayName: &apos;Install Gatsby-CLI&apos;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+    npm install -g gatsby-cli&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Install Gatsby-CLI&apos;&lt;/span&gt;
 
-- script: |
-    yarn install
-  displayName: &apos;Install dependencies&apos;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+    yarn install&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Install dependencies&apos;&lt;/span&gt;
 
-- script: |
-    yarn build
-  displayName: &apos;Build&apos;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
+    yarn build&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Build&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;En el lateral derecho, tenemos la posibilidad de utilizar el asistente, el cual nos permitirá cargar nuevos pasos dentro del YAML para completar el pipeline.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Step4-Assistant.png&quot; alt=&quot;Pipeline Assistant&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 374px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0e8a2b7e9b827512d95f19bd96643500/52dba/Pipeline-Step4-Assistant.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 225.51440329218107%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAtCAYAAACu/EtoAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAFAklEQVRIx7VXy27bVhD1R/jf/CVFgf5AveyyQFZBgCBdFkgfSNFVUmThXWK7QGRZ4ksUKVIS37x8aHpmLkWLtmzJBkrj4j7EO5zXOTM+2Ww2tPvc3z/2bN/jmf+26xNeOLZN06lBTdPysX7piMFPpRSZY0NE9gKLPKcsy+ilT1M3/VoE1nVNeSc05ZGmsuazoiiOGk3TyCwCV6sVWaZJJsZkOiHLtuh2PKHFIqD1eiW/PzWWyyUpmD4ej+lkNwht2/b+4TV/9dCom1pmfv/q6kpryJIvLi5gekV5llNZluKG5zysxPX1tRZ4dnZGp6eniLZFtuXQfD6nmTOjHD6p8BEWzh9TquxmRVVVDdYssNfw3S/v6Pz8nOI4hpASAdFB4T37R4KVJtiv5Tc+j2O9j+KI4iimBiYHQTD04XMSe5/JnB2i4cj9kz5e/kRV2Ui0bZjrzlwyDF7bVJRKLmyd/1iis+YaKeFn+vDPzwiIgomhToVwSWEYismcOusowvmSkiQmbcQQMTwnSfLQ5B6fg5fbB7/tW4tA3ph/fKXlpUP1pibP8w8Swn1yeCDQ/utfmn+6oaqtyIHvJHIYS5i+XkcUwVz231EaPmYy+4gDQJv9rtg3eg3rGCQwcalKM0o4B9O0y8lC5ggjPcBGA4Grj1/o9odXFBs23VomkOKCHyfkuDMykEaGacAVMxHKsCxLzTAl0qnIMSs1FNhWNRXGnBpVCdQ0nPBykQu8eM1nfEHTGtNcirnQFIePcCYMfcgMwwzSdiwC/DKcqiNJYqDh+vMVGedvKTYdGsM8MXkyIRtmWigPChpqgqhB+VW/lj2IoenQ0wtUPpDx4YLKCMEACaRxSgkCsUbaMPC3DB5hzXsJ1FqTAp+xyfw8mjYvJYdewyIEUoy/qYb6juPQzJuTY1nk+Yuj8m9D9/KwXF3Sevoe1aumAIQQBCGIIaAQ/JbESc+HTBKyTtKe0Y9CyqGHs+FJpCySnMwwobZG0TYsCkBhYeCTt/BkPfc90ToIFhKQgz784gT0aexSqyBYfOdL6jgzpyfaGWYXyPHmHoSmiPJaOJI/kCHR95q8LZ+b9i7ZmRx232HfFag7nH+qGhapXkO3bGmSQxB8s825BPO2i2CocVHiAB2VNq+skn6clLQC25jGVErolGsLUCJphNmYmtJQxbgkBFEU8iHWkFmJLesFBqqlUYbI4ZBZRJUaaiVM4wt8VlcaZtseSAgCqVSAeXKQyEDgjuKd24Y15dlIeT8v6a0DbfClqQHusx2aYLZhrg1+nLHZiPBoNMLs6uCgp9n2P+19crDzhn510TGASaJo1XUFsSCDa0ucaELgNOH6wnUmRH5ywLjMJvB9b/L/Qg6/LxS9cSuJliQvSqnl6KbJA1H4nicmT8GVITQ6WEZ/8xW9ninKEFUfMPM8T4QGi4WQhQ/I+QtfhPE+BjmwO8R8DLVbU54ymesE+0aP5kEjuttsDskBefgtwyUUJO5nuLe562Fe4MPXSJnvvhUAeU4uUDKHyT4IIkP0tn1i0tVqLg3cIyZJB03MeXaPHNpOFZk7s8S0+q4C8tgSAf/GM9djBRgysh4gRXHXgcNcCrjGqoaV3vNF7r8ZhnyRBT5q8huY/P0IAoDPCZdPIIX7bdMyMGz5T8sCJ45GN8KLjBa+fL/e9AJnoK+bTBd19hm3F2xe2REF81/Raar/fdvf3nGP/R+6jZ/T7lkfiAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Pipeline Assistant&quot;
+        title=&quot;Pipeline Assistant&quot;
+        src=&quot;/static/0e8a2b7e9b827512d95f19bd96643500/52dba/Pipeline-Step4-Assistant.png&quot;
+        srcset=&quot;/static/0e8a2b7e9b827512d95f19bd96643500/8aea6/Pipeline-Step4-Assistant.png 243w,
+/static/0e8a2b7e9b827512d95f19bd96643500/52dba/Pipeline-Step4-Assistant.png 374w&quot;
+        sizes=&quot;(max-width: 374px) 100vw, 374px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Agregamos dos pasos nuevos, el primero realizará la copia de los ficheros generados en la build. El segundo paso la publicación del resultado como artefacto.&lt;/p&gt;
 &lt;p&gt;Para la copia de los ficheros, agregamos la tarea de copia e indicamos que debe copiar los ficheros que se generan en la carpeta &lt;em&gt;public&lt;/em&gt; al &lt;em&gt;Build Artifact Staging Directory&lt;/em&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;- task: CopyFiles@2
-  inputs:
-    sourceFolder: &quot;public&quot;
-    contents: &quot;**&quot;
-    targetFolder: &quot;$(Build.ArtifactStagingDirectory)&quot;
-    cleanTargetFolder: true
-  displayName: &quot;Copy built site&quot;
-  condition: and(succeeded(), ne(variables[&apos;Build.Reason&apos;], &apos;PullRequest&apos;))
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; CopyFiles@2
+  &lt;span class=&quot;token key atrule&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;sourceFolder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;public&quot;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;**&quot;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;targetFolder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$(Build.ArtifactStagingDirectory)&quot;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;cleanTargetFolder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Copy built site&quot;&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; and(succeeded()&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ne(variables&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Build.Reason&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &apos;PullRequest&apos;))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Tras la copia de ficheros, publicamos el resultado en el &lt;em&gt;Staging Artifact Directory&lt;/em&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;- task: PublishBuildArtifacts@1
-  inputs:
-    PathtoPublish: &quot;$(Build.ArtifactStagingDirectory)&quot;
-    ArtifactName: &quot;drop&quot;
-    publishLocation: &quot;Container&quot;
-  condition: and(succeeded(), ne(variables[&apos;Build.Reason&apos;], &apos;PullRequest&apos;))
-  displayName: &quot;Publish Build Artifacts&quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Al finalizar las modificaciones, salvamos, establecemos el mensaje de &lt;code&gt;commit&lt;/code&gt; y automáticamente se lanzará un pipeline que generará los ficheros estáticos necesarios para un sitio web de GitHub Pages. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-SaveAndRun.png&quot; alt=&quot;Pipeline Saven and run&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;task&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; PublishBuildArtifacts@1
+  &lt;span class=&quot;token key atrule&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;PathtoPublish&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;$(Build.ArtifactStagingDirectory)&quot;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;ArtifactName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;drop&quot;&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;publishLocation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Container&quot;&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;condition&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; and(succeeded()&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ne(variables&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Build.Reason&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &apos;PullRequest&apos;))
+  &lt;span class=&quot;token key atrule&quot;&gt;displayName&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Publish Build Artifacts&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Al finalizar las modificaciones, salvamos, establecemos el mensaje de &lt;code class=&quot;language-text&quot;&gt;commit&lt;/code&gt; y automáticamente se lanzará un pipeline que generará los ficheros estáticos necesarios para un sitio web de GitHub Pages. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 484px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/720e39ac2ace8f6efde0950fa228705d/ff42b/Pipeline-SaveAndRun.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 194.65020576131687%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAnCAYAAAAPZ2gOAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB70lEQVRIx+1WwU7CQBDdH/Hg0filxov+hhej8SdMlGhjEDAhVaK0hbZQaEtpYdw3ZsiWAAXl4IFJXma63b6+mc52V41GI4rjmJIkYQ+kaUpZltF0Ot0IzJF5eC4cDkiNx2OyLIva7TbV63VqNptk2zbNZrNKmAZBMGWqg4c6xHgR1EdRxLGoBzAO5HnOJPP5fAEmxEPD4ZB9r9fjFH5rStSAEG8NgoCvTdVFUVSmL3OUpChEYRhyDEBtv99nxXhgE5A+E4qKyWTC9QPMeFWd1oFThiqogRLf98nzPI6hDkAZJKV1kPv8UaBO+kjSx5jUEH22jTqpJadcldI2JqSVhNvUD7ZS4V9soTBJQDgv9ZRZk1X9tu6jMOE4SSlM9YBuD3Ph50vXMlaVvvKjmO4/dEMHvm6Tn3ZxXZdbCO2DGN5xHF6aVeVRqW6PPJvQYDDgVQKPZYhY1rjcQ8NXfSReersWf5PKBeE2zbvcRnslXF9Dg3AfdiA8EB4ID4T/lND8JxazMkpbwC4KN/5g5Sgr+3H5rKJjY6+WcezjQZxT7TOm56+YnrS3tE+ygpQc13a1q5eIjs4adHrZopOLFh2fN8hyM1KO0+U9WI5vgreuRx1Xx/p4hyOejHsagd+nV7tL1w823T7adKNxV3unjtOjb0ec/U9zdG3PAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Pipeline Saven and run&quot;
+        title=&quot;Pipeline Saven and run&quot;
+        src=&quot;/static/720e39ac2ace8f6efde0950fa228705d/ff42b/Pipeline-SaveAndRun.png&quot;
+        srcset=&quot;/static/720e39ac2ace8f6efde0950fa228705d/8aea6/Pipeline-SaveAndRun.png 243w,
+/static/720e39ac2ace8f6efde0950fa228705d/ff42b/Pipeline-SaveAndRun.png 484w&quot;
+        sizes=&quot;(max-width: 484px) 100vw, 484px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Una vez lanzado el pipeline, vemos el estado de la ejecución, y tenemos la posibilidad de ver los cambios o cancelar el propio pipeline.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Run.png&quot; alt=&quot;Pipeline Run&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a082dec6737870338c6bcb607f6b0766/a076e/Pipeline-Run.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24.69135802469136%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAfUlEQVQY05VOiwrDIBDz/z+1TsEiej6zxmIp0sEqBHLJXYz6bBuMMdBaw1qLGONrhBDgnBtcuX1HKQW9d7TWUGu9QP0+r5h+Sgnee4gIFFtRZOAdEgU558H5uMODc+6ox+dR0rl/cIaPwF8tnvRVK4s/Apne/gQbT6zeDPwCcRyIxO100XAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Pipeline Run&quot;
+        title=&quot;Pipeline Run&quot;
+        src=&quot;/static/a082dec6737870338c6bcb607f6b0766/587b0/Pipeline-Run.png&quot;
+        srcset=&quot;/static/a082dec6737870338c6bcb607f6b0766/8aea6/Pipeline-Run.png 243w,
+/static/a082dec6737870338c6bcb607f6b0766/44c61/Pipeline-Run.png 485w,
+/static/a082dec6737870338c6bcb607f6b0766/587b0/Pipeline-Run.png 970w,
+/static/a082dec6737870338c6bcb607f6b0766/5b795/Pipeline-Run.png 1455w,
+/static/a082dec6737870338c6bcb607f6b0766/a076e/Pipeline-Run.png 1825w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Si pulsamos en el Job, podemos acceder al estado de la ejecución del pipeline y ver cómo va avanzando.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Run-Log.png&quot; alt=&quot;Pipeline Log&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ccfdeb40ed83a236304c1767d3c587f9/d32a0/Pipeline-Run-Log.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.218106995884774%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA8klEQVQY03WR206DQBRF+Qw1sQyV23CJpfESW4v+/2+ooZQOoAh9IVlCIwaVPuzsM5PJysoZrSwKkiShLEuKPOchfsbzJGHgIfQZ+uzyV8Z3/TykPxtCR3uvPjkcDrRti9orNo8rHGmzvInwpIt0HeR3X82Nf6ABNnQH/EDliqZpyLKMON7gS8lycd1Z+t3s4nfGPfwUcAzVUrXn5e2VqqpIt1ue4phFFOG4LpbtHGNaNnPTQtd1xMhmEpgXJelu92O4Xq8IfJ8wDLBME8syMQyBEGIS9DdaXdcopY6Gfd/f3XJxfnZcsCFmGP3DiU85BfwCspDidq4ao+gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Pipeline Log&quot;
+        title=&quot;Pipeline Log&quot;
+        src=&quot;/static/ccfdeb40ed83a236304c1767d3c587f9/587b0/Pipeline-Run-Log.png&quot;
+        srcset=&quot;/static/ccfdeb40ed83a236304c1767d3c587f9/8aea6/Pipeline-Run-Log.png 243w,
+/static/ccfdeb40ed83a236304c1767d3c587f9/44c61/Pipeline-Run-Log.png 485w,
+/static/ccfdeb40ed83a236304c1767d3c587f9/587b0/Pipeline-Run-Log.png 970w,
+/static/ccfdeb40ed83a236304c1767d3c587f9/5b795/Pipeline-Run-Log.png 1455w,
+/static/ccfdeb40ed83a236304c1767d3c587f9/d32a0/Pipeline-Run-Log.png 1843w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Tras ejecutarse el pipeline, si no ha habido ningún error tendremos un tick verde en el resultado del Job, e internamente, en los logs, todas las operaciones estarán Ok y habrá un artefacto generado.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Pipeline-Run-Completed.png&quot; alt=&quot;Pipeline Log&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2cddd4c059a94c1a6107c7dbc89c5a52/bfd4b/Pipeline-Run-Completed.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABF0lEQVQoz4WR626CQBSE9z0qrCAgiAh9DAvq+z+ByE1YlMuv6Z5NaGpa4cdkLyf5MnOGiabBLU1RliUebYvkkoBzDcaag+sa1lz/Od+J5p67VWLVvUIjoV3XoSgKxMcjomAP33MXgfQ/zXRtpcRqUSPLMwghUFUVTkmMwN/B3TrQVh8v0DnwdGeVuOOaXvF8PJXTJP7CYe/D33lwHRuObf0Bzb1Z3TYopbNhGBTwnCQKGMrY5NS2NirK5HBpDayRwCzPFayua1zOJ4QSGEh5rqOi07IdCSa4sVASozJa2e7kcAJ+RiGiQ6DcEtAyDQVbap0RiDSOowLTDskNtUyyNyYsKdPgL6C3kfu+B+k3kKJOZfy3uzmH3zHUVeK2ixcOAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Pipeline Log&quot;
+        title=&quot;Pipeline Log&quot;
+        src=&quot;/static/2cddd4c059a94c1a6107c7dbc89c5a52/587b0/Pipeline-Run-Completed.png&quot;
+        srcset=&quot;/static/2cddd4c059a94c1a6107c7dbc89c5a52/8aea6/Pipeline-Run-Completed.png 243w,
+/static/2cddd4c059a94c1a6107c7dbc89c5a52/44c61/Pipeline-Run-Completed.png 485w,
+/static/2cddd4c059a94c1a6107c7dbc89c5a52/587b0/Pipeline-Run-Completed.png 970w,
+/static/2cddd4c059a94c1a6107c7dbc89c5a52/5b795/Pipeline-Run-Completed.png 1455w,
+/static/2cddd4c059a94c1a6107c7dbc89c5a52/bfd4b/Pipeline-Run-Completed.png 1871w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Release&lt;/h3&gt;
 &lt;p&gt;Accedemos al ítem &lt;strong&gt;Release&lt;/strong&gt;, dentro del menú Pipelines.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step0.png&quot; alt=&quot;Release Menu&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 260px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/88205a34cadad7b6fd8bac3b17c522c8/86c28/Release-Step0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 221.81069958847738%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAsCAIAAADqwg+aAAAACXBIWXMAAAsSAAALEgHS3X78AAAEzElEQVRIx41WS4/bVBQ2/4Q1Eiv+AYvyBxACVogNe5DYskHiISqVBSNRmILEo00nnVE6j0ziJJNx7NjOO3bs2I6vX9fx20lm2gqhFonjDI9qOtP487Vzk/jz+Y7vOeceIowizbGRi9M0PT8/X61WZ+dnq9USJo8fPUqSJHoB8RowITTsvPLFp2/cuWWp6nH5uNE8qddOOr0exdC/FQvaTFssFv8RAEmauBhr01mSpgSau69//827u784CB2XyzTNVCu1E+qU5fmDasWdu2mSxs8BtHieZyILJgR8P0vSZZLhQjZcz1Znmezz8wt5V8hOsj+INIlh+GF48dQkiddHEoZhEATR9YD7Cc8P3izY71fTeO7IiqIjpM1mM11/3s/rQOi299rN0XtFHHvOcDQai9JwPByMRn4YJRvJaZI8Wy4fw1tJkmWGBZzg8EZmRvajqIimjIWWsNCwLHCmaR7NGXnme8Tud2/xZYx0hqV7oz477MU5yWDlQJe27Gns+zrSdUNHlpnXMrj65M+/njz6A1YJXM1cXizifMiCJLzzZXzwa5AufN8LwiBcr3kucmKjp++8+uyTG6ptV+rHp2xbVtRL8Xy95TBYNB+u2uUoXUDQ+j4scJTXsqoqyTIxvNC27fl87q6BMbZygOj3Bx9t6x/+5CvSiKJpju9wPNcfDLQsRjeAmIjCja+MzwqGpY1293b3SvtH5aNqjVS1mWGgl4MQRRFbJtI027IcBztrgAubiGuyIAimaVqWqaoaKDHX5uAXlIcsSVLhQaHGtCV5cnh0eFxtVBpkvUnlsgyyBQESUTZNQ5YlSYZlVuGKkJ6DLIiGkYnMNGf6LdOAT5C/2TahTCalo32K40RhWDk+pJtUvUE2mzWyVqtUSUWSIFPQbHblIARN64vCWNUQxjLSpzqSdX1qoIk+A+kz29Id5+rhuoSxtRWXSvj3u+69QvjgQbS3F+/twcQvFv2dnXnh/rxQuGLs7Pi3bxP4xx8Om40WRYvjQenwYY0kyQrZ5lhD169TC0Gh27ZbLBLWrVtStWpWSatGSvv70sN9qVTSymWn0bh21Ot2q+VvbxNyve4xjEOdOq1WwHIhz4cch1stm6I2jFaLEFT1Z/KoI0lT26iy1Gmn2xr04WVsHhgTwng8gpetKOpU7vU6/W631+vp4JWmXevz/0slCJAS66g2vbmXpTTGkBiQHRvjBGJbvLtzr3JyqioyWSW5NkuzHMewFEXLsmy+lA/5LE4mojxVdH3G8zzI5jrdYa/PcryiKhdhC7g2JVEWf5D6hndRhzCer5GltW1bcNg2QldIIGRpclA+oPmOosqNk/opCyZ5pt1uM61OZp/rdvocy2tZYbnMJ8bjMRQrAxnSVGLaVLPNMm3gc70uz3U6LZqGD7rFKBD8L9YwKDpB6HvePPAD2OmgiQBkfQxs/WG07gyyPcD34J7LIFaPF1PKtSZhnPrgG8aZp9h1oehnbULWLsT/Ng2XQcDmUvxYrNxU/Mg6aTZFcdjlOwzLwiNAwsvLPxEG0bTvauN5slYMz0v/EZ5nr1qkqyhYRD6QVuvWABo4YOfabqI0Cd7+Ov38Pl5GgjAaC+ORKJi2ncc04WuG/8G3T7ebzhxDJRUn4kAYGWYu8t8dV9wu9GyFxAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Release Menu&quot;
+        title=&quot;Release Menu&quot;
+        src=&quot;/static/88205a34cadad7b6fd8bac3b17c522c8/86c28/Release-Step0.png&quot;
+        srcset=&quot;/static/88205a34cadad7b6fd8bac3b17c522c8/8aea6/Release-Step0.png 243w,
+/static/88205a34cadad7b6fd8bac3b17c522c8/86c28/Release-Step0.png 260w&quot;
+        sizes=&quot;(max-width: 260px) 100vw, 260px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Creamos una nueva Release Pipeline.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step1.png&quot; alt=&quot;New Release Pipeline&quot;&gt;&lt;/p&gt;
-&lt;p&gt;En pantalla se nos mostrará un workflow para configurar nuestro &lt;code&gt;Release Pipeline&lt;/code&gt;, por defecto Azure DevOps nos ofrece plantillas predefinidas con diversa funcionalidad para facilitar esta tarea. En nuestro caso, seleccionamos una plantilla vacía.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step2.png&quot; alt=&quot;Select Template&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Establecemos un nombre al Stage, y vamos al bloque &lt;code&gt;Artifacts&lt;/code&gt;, dónde configuraremos el artefacto resultante de la pipeline que hemos creado en el punto anterior.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step3.png&quot; alt=&quot;Select Artifact&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Después de agregarlo, configuramos el trigger que desencadenará la &lt;code&gt;Release Pipeline&lt;/code&gt;, pulsando en el símbolo del &lt;em&gt;rayo&lt;/em&gt; del artefacto e indicamos la entrega continua con cada build que se produzca.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step4.png&quot; alt=&quot;Continuous deployment trigger&quot;&gt;&lt;/p&gt;
-&lt;p&gt;En el bloque de &lt;code&gt;Stages&lt;/code&gt;, accedemos al Stage que tenemos y pulsamos sobre el resumen de &lt;em&gt;1 job, 0 task&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step5.png&quot; alt=&quot;Tasks Stage&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 322px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e437bd2525bf2af74afda26ddaab842b/fc778/Release-Step1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.02057613168725%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABmElEQVQ4y41T226CUBDk/3/C9Bua2pgm/oGPfaFeqSKiHhDkDk531p7eoqSbTA6uw56Z3cW5XC5g2LMvyOkDw7HE7HxGkqTY7/eI4khhTITDIRQcYKL4X4W1YNu2qKoKTdMgz3OUZangc5ZlKIpCQR45fW6cn5ZJ7rPfdZ2ecRzD931st1uEYagIgkCdqMJwt1PScjZDfDrBe/dETXfTHsN9czF8fMLLaITB4AHD5yHG4zEmk8m1IG8mOUgqFHWDUuzZ3K04Ho+Yz+fwPA+u62I6nWKxWGCz2Vwtn9MUWZ6haqTI5wWp5JIkQRRFaskYo6cOTXImMlqYPa7rWmfAvmvBk9g1QrI9IuEk1m0xKliv16pmJm2hOqtsJ+3iwCiAcL5tXdA2tRblcHgbifZ2noTdAJunQp52qNrDsqxRpEck/isCf4PVykNeyEtCPMt+sle0SiyXS/l/pVPmM/tGjl0/59cUuxadJFWZ3Gb3ziqkMubufUVfBW/tG4sQ7CUVspfsHQdxL/ie83fXGD9VEfxtYXt3C3TwAWZM7kdsyxKfAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;New Release Pipeline&quot;
+        title=&quot;New Release Pipeline&quot;
+        src=&quot;/static/e437bd2525bf2af74afda26ddaab842b/fc778/Release-Step1.png&quot;
+        srcset=&quot;/static/e437bd2525bf2af74afda26ddaab842b/8aea6/Release-Step1.png 243w,
+/static/e437bd2525bf2af74afda26ddaab842b/fc778/Release-Step1.png 322w&quot;
+        sizes=&quot;(max-width: 322px) 100vw, 322px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;En pantalla se nos mostrará un workflow para configurar nuestro &lt;code class=&quot;language-text&quot;&gt;Release Pipeline&lt;/code&gt;, por defecto Azure DevOps nos ofrece plantillas predefinidas con diversa funcionalidad para facilitar esta tarea. En nuestro caso, seleccionamos una plantilla vacía.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4029ac71622629b498dae25ff236ddbe/29114/Release-Step2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 40.74074074074074%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAIAAAB2/0i6AAAACXBIWXMAAAsSAAALEgHS3X78AAAAzklEQVQY04WRUY5DIQhF3f8+J9OY9hkQqYry5lqT+WiblhgDkgN4CYequ5tZ733Oeb4zvA/rrZs/QhsTZ/oZYi7I2RiAxxhvYZTWe9UGxB+1HA6QcBAhsLms42FiDn+GW7tVIxEt0lpzXwOqaiDiNs5qK76R/KaCBs9w77FIYhaRUsquDicw055k3ai5vRf4qpqIJOda64YxQuCcz28GOVglxngcB5pDgq1iuFNZef8Eo/OF9ZpSZsZX91Kgbmi1fu2MNf2UlvISDF/9h/8AicfXMU6rjsIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Select Template&quot;
+        title=&quot;Select Template&quot;
+        src=&quot;/static/4029ac71622629b498dae25ff236ddbe/587b0/Release-Step2.png&quot;
+        srcset=&quot;/static/4029ac71622629b498dae25ff236ddbe/8aea6/Release-Step2.png 243w,
+/static/4029ac71622629b498dae25ff236ddbe/44c61/Release-Step2.png 485w,
+/static/4029ac71622629b498dae25ff236ddbe/587b0/Release-Step2.png 970w,
+/static/4029ac71622629b498dae25ff236ddbe/5b795/Release-Step2.png 1455w,
+/static/4029ac71622629b498dae25ff236ddbe/29114/Release-Step2.png 1920w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Establecemos un nombre al Stage, y vamos al bloque &lt;code class=&quot;language-text&quot;&gt;Artifacts&lt;/code&gt;, dónde configuraremos el artefacto resultante de la pipeline que hemos creado en el punto anterior.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 669px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c806c3e8ea147c9c77dea12d10b654c7/99272/Release-Step3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 105.34979423868313%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB9klEQVQ4y6VVW3LbMAzMwXKcHqkfvUSP0Wnz20zTWrLrR5w0cSVZlkSKem6wtKmhNc5EaTmDgQiCS2BBUFd4ZfR9jynD+XWiTd3gioY8z1EUhdVZlqHrusmg1keEnm3bHgF1WUIpLaIs8BiQ2ge/NLdRyj4LWFcGRitZad8EupTuGSBzX+wUgmeFuyeNRDcnp/ONTMc/xM/iDLBpO/xOGtz8WOIm3CHSdOzx/fYWxhjrSG6Xy+UAGscxoii6DNh2PWY7g28/t/gS7BALYNdUsiFGVVXWsa5rpGk6RFUK55SLgPyOVY3nvMFDapAUlSy8zdurHHKS5QW0LqFNBSXCqN3JU2UAdBwdJCWliuOd8oifKuTX3kMCaq2RHg4W2AhvbdOgEaHjlOh8UJsyL/NBACmsnhHCWYipgD6wjZCAvAr7/d5Wk3PHybtTdhGy7Zh6J0ZG919FcT383qgcJdTkfIiQLwzTraQzSo8/OoxT8m3+mvseImRByB/bbQwwBhnbqYcIj/dQipIkVtzbyEN8oc3J2E7NNh0AK10genrEw/1GHoEVVqsVFosFgiDAfD7HbDazjwPt1Ov12uowDLHdbi1dtqCu9TZJiV9/MjwmhX0beZo58UlHCucUt+bWOXfpHp8v6dsPnze4/hTi49e/p/8D/mkQ8AXPC2w7pMH8PgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Select Artifact&quot;
+        title=&quot;Select Artifact&quot;
+        src=&quot;/static/c806c3e8ea147c9c77dea12d10b654c7/99272/Release-Step3.png&quot;
+        srcset=&quot;/static/c806c3e8ea147c9c77dea12d10b654c7/8aea6/Release-Step3.png 243w,
+/static/c806c3e8ea147c9c77dea12d10b654c7/44c61/Release-Step3.png 485w,
+/static/c806c3e8ea147c9c77dea12d10b654c7/99272/Release-Step3.png 669w&quot;
+        sizes=&quot;(max-width: 669px) 100vw, 669px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Después de agregarlo, configuramos el trigger que desencadenará la &lt;code class=&quot;language-text&quot;&gt;Release Pipeline&lt;/code&gt;, pulsando en el símbolo del &lt;em&gt;rayo&lt;/em&gt; del artefacto e indicamos la entrega continua con cada build que se produzca.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4ddc88a70a46cbd139dc2e9db7dff0b2/191e2/Release-Step4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24.69135802469136%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAlElEQVQY03WQ2w7DIAxD+f/f3OOEoFySEBgepVvXqp0lvxAnOsYUKajtBVWd3tTR+9WrmAUuRORMkLHbWjtljJaCTDIHJApPCtZPCD99D2ZiPJ4eKSWUsu0d54aIQMzzgUXgYx5B/UsoI+OcQ4zpNmNqrTv2ged05FyZsSwBNEjvZI6V7oiuf8iw1sJPyogQwu617Ru0qInKreXwUAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Continuous deployment trigger&quot;
+        title=&quot;Continuous deployment trigger&quot;
+        src=&quot;/static/4ddc88a70a46cbd139dc2e9db7dff0b2/587b0/Release-Step4.png&quot;
+        srcset=&quot;/static/4ddc88a70a46cbd139dc2e9db7dff0b2/8aea6/Release-Step4.png 243w,
+/static/4ddc88a70a46cbd139dc2e9db7dff0b2/44c61/Release-Step4.png 485w,
+/static/4ddc88a70a46cbd139dc2e9db7dff0b2/587b0/Release-Step4.png 970w,
+/static/4ddc88a70a46cbd139dc2e9db7dff0b2/5b795/Release-Step4.png 1455w,
+/static/4ddc88a70a46cbd139dc2e9db7dff0b2/191e2/Release-Step4.png 1836w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;En el bloque de &lt;code class=&quot;language-text&quot;&gt;Stages&lt;/code&gt;, accedemos al Stage que tenemos y pulsamos sobre el resumen de &lt;em&gt;1 job, 0 task&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/91703d9a34d4e6d871a2cff88f17d5ef/bfd4b/Release-Step5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 15.637860082304528%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAbElEQVQI133OzQ6EIAwEYN7/Kb15EFy0hZblZxbIejHRSb60h05S4ynCHYzPQXD+RJCElOtUa0Vr7VHOpcsopczbwSyrxbozHH9hKcGeiq3PnRUhhFm4jt+MqCoME0ElQv7mHseU1+/uRqR3fmrg61oC9pJdAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Tasks Stage&quot;
+        title=&quot;Tasks Stage&quot;
+        src=&quot;/static/91703d9a34d4e6d871a2cff88f17d5ef/587b0/Release-Step5.png&quot;
+        srcset=&quot;/static/91703d9a34d4e6d871a2cff88f17d5ef/8aea6/Release-Step5.png 243w,
+/static/91703d9a34d4e6d871a2cff88f17d5ef/44c61/Release-Step5.png 485w,
+/static/91703d9a34d4e6d871a2cff88f17d5ef/587b0/Release-Step5.png 970w,
+/static/91703d9a34d4e6d871a2cff88f17d5ef/5b795/Release-Step5.png 1455w,
+/static/91703d9a34d4e6d871a2cff88f17d5ef/bfd4b/Release-Step5.png 1871w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;En el job del agente agregamos una nueva tarea del tipo &lt;em&gt;Publish to GitHub Pages&lt;/em&gt; y configuramos la tarea.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step6.png&quot; alt=&quot;Task Configuration&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7465081c87986e26179ef413c106c9cb/bfd4b/Release-Step6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.97119341563786%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABEUlEQVQoz4WSjW6EIBCEff/HbDRn2hiRHwURpjtQrO15LcmXdRHH2WU7bRystdBaI4SAnHMhpXTS9q6knHAcB6LA2L7pvPcAasIXiaSjiO/7Xva4+EF9wJnnlLHHVHKeHccR3dtjwvCh8a6D4Et8qE1cO2zbVh0i37qsVEGe7fse3TwrKLVg0aagGE1tgZpnrM5hXdfqNkbEC8y5z8VKh2FA55yFkx7aEwNHkWXBJqLRB8HjkBY8Iz8pLROHTdAYg29siRRmCYROUuvtDXTZSi6C9oe7iyAdCpF9FDeveHL4SpAlB4mJDlmakH7DvkpL/hVkD3kpzNvoXOfyShur85b/EmzDXm70a4Dv4OKZaZrwCUbMDFAMdcW5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Task Configuration&quot;
+        title=&quot;Task Configuration&quot;
+        src=&quot;/static/7465081c87986e26179ef413c106c9cb/587b0/Release-Step6.png&quot;
+        srcset=&quot;/static/7465081c87986e26179ef413c106c9cb/8aea6/Release-Step6.png 243w,
+/static/7465081c87986e26179ef413c106c9cb/44c61/Release-Step6.png 485w,
+/static/7465081c87986e26179ef413c106c9cb/587b0/Release-Step6.png 970w,
+/static/7465081c87986e26179ef413c106c9cb/5b795/Release-Step6.png 1455w,
+/static/7465081c87986e26179ef413c106c9cb/bfd4b/Release-Step6.png 1871w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;En primer lugar debemos establecer el origen de los documentos, en el apartado &lt;em&gt;Documentation Source&lt;/em&gt;, examinamos y establecemos el resultado del artefacto&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step7.png&quot; alt=&quot;Task Configuration Source&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Una vez seleccionado el directorio, agregamos el wildcard &lt;code&gt;/**&lt;/code&gt; para que publique el contenido de la carpeta del artefacto y no la carpeta en sí, así evitaremos que la publicación agregue a nuestro sitio un subdirectorio con el nombre del drop.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 548px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/395f9df75749d209dff8fc03fe14de1b/a58fe/Release-Step7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 104.11522633744856%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACLElEQVQ4y41UW5KbMBDkFPnMpXKQvUQ+cpGcIEfJJlX7ZQwGvLYQ4g02oqMeLJfXsb1WVTNCGrXmpQnmecY0TbDWirw156AecT38GuUwDAh4KEkS5LmC1hq73c7JAkVRIE1TWbsk/AyBKP9/70Orbo9FL6Doqj0qk8OUNXRhUDetbNuZmJ3b9zHZhaiqa9QOYmHddEiTCOtUYZ1pJ3NE2wLxu0HRTjCdhWlvg/v1CKw2O6j9noTuFneJ0gZJvMa+6NAMM+reCjh/DIt+AuJMQSlHuMRoFveqXeiSoWU+n/E4Cfbk8t5Zx4QuhLIJNGoN4wgPh8OHkniYipMO41dV1QWhW2zyCIXOnZUGx+Px6XLhoD4NObvsLdRaoes6Ubh3+HrOQbJxHBfCs9mldoQ52ra969410WPCppEXopRCWZYC/htj0Pf93RB8ILwOLJ8aCb0k8jwX8sZd+Cnh5SJd5UES0yrv+lIe9twobmWZjYFeBJz4lHvQEsr69Jz8nJIhoPQh8Xs0QLLMnziOpTCzLBNsNpuz21RkwXItDEPRJaIoklB4PRomzYF+0zWa68Gb7/c93zRudSks/ZDsdNMnwmea1vNC7ntMB9cJpgX2uOx5HdZuwA8LmYdJQtc9GB8fbGJ081Q3eMsqvG0rxKrG4NY7wnFIDJ/sntKROF5+bfDl+298/fEH336uMI8tVqtQDGAVBM+2dh/DpDzgddvh73uPUI+YHcngXPZP9R+spmMmb5ksWwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Task Configuration Source&quot;
+        title=&quot;Task Configuration Source&quot;
+        src=&quot;/static/395f9df75749d209dff8fc03fe14de1b/a58fe/Release-Step7.png&quot;
+        srcset=&quot;/static/395f9df75749d209dff8fc03fe14de1b/8aea6/Release-Step7.png 243w,
+/static/395f9df75749d209dff8fc03fe14de1b/44c61/Release-Step7.png 485w,
+/static/395f9df75749d209dff8fc03fe14de1b/a58fe/Release-Step7.png 548w&quot;
+        sizes=&quot;(max-width: 548px) 100vw, 548px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Una vez seleccionado el directorio, agregamos el wildcard &lt;code class=&quot;language-text&quot;&gt;/**&lt;/code&gt; para que publique el contenido de la carpeta del artefacto y no la carpeta en sí, así evitaremos que la publicación agregue a nuestro sitio un subdirectorio con el nombre del drop.&lt;/p&gt;
 &lt;p&gt;A continuación completamos el resto de campos requeridos con las siguientes variables:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -196,17 +1059,190 @@ steps:
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step8.png&quot; alt=&quot;Task Configuration&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cc4600a21a5142e8dd734338e00fd942/5819f/Release-Step8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.72427983539094%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA8ElEQVQ4y61Tiw6DIAzk/790S3yBIBbBjqtinNkSdSO5lAC53rVFERF77wXDMHAIged5Pg2slGa2PrCnyAoEIBvHUeI0TXxnLQmYFUiMMaIMZFfUfYKCzbZt2WjN1lohTSkJYoyXIYRN0wh014navu8FuCvEJckR5Q4RLhVU1XUt6lBHosBoFFDKcBZCqLPVx/PJXVbnnNs6vu/88ezbG8Rs2XGd7VrrJEPMme7UbqshVEElImxTth3CPVLYFkI0YiEKP6lbFVquqkr8xzj9g3Cx/A91b3Mo/ziPyn4MbhESjaxzDctAm3UP1ZjFqz/mBVreTB94k9SLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Task Configuration&quot;
+        title=&quot;Task Configuration&quot;
+        src=&quot;/static/cc4600a21a5142e8dd734338e00fd942/587b0/Release-Step8.png&quot;
+        srcset=&quot;/static/cc4600a21a5142e8dd734338e00fd942/8aea6/Release-Step8.png 243w,
+/static/cc4600a21a5142e8dd734338e00fd942/44c61/Release-Step8.png 485w,
+/static/cc4600a21a5142e8dd734338e00fd942/587b0/Release-Step8.png 970w,
+/static/cc4600a21a5142e8dd734338e00fd942/5819f/Release-Step8.png 1042w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;En la pestaña de Variables, agregamos las variables que estamos utilizando en la tarea, y el PAT lo marcamos como variable de tipo &lt;em&gt;Secret&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Step9.png&quot; alt=&quot;Task Variables&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Establecemos un nombre al &lt;code&gt;Release Pipeline&lt;/code&gt;, pinchando sobre el nombre actual, guardamos y pulsamos en &lt;em&gt;Create release&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-CreateRelease.png&quot; alt=&quot;Create Release&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/40a3bf0601068bc1be684c0384a7c144/bfd4b/Release-Step9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 22.633744855967077%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsSAAALEgHS3X78AAAAfElEQVQY032P0Q7DIAhF/f9v7dKuglBAKZVlaZZ05wENHq5aXu99WTdAtN7HX9xdNaxLs7mWpdnOVitUAHoAEaNmRAxFCukAluKTRk1U/Up3Efmqiao2ojgys0MkXxG1TN+jZTMyDSL2G310PjgH7v3PzTq/kvvh40d64gRJlid7GMMOOwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Task Variables&quot;
+        title=&quot;Task Variables&quot;
+        src=&quot;/static/40a3bf0601068bc1be684c0384a7c144/587b0/Release-Step9.png&quot;
+        srcset=&quot;/static/40a3bf0601068bc1be684c0384a7c144/8aea6/Release-Step9.png 243w,
+/static/40a3bf0601068bc1be684c0384a7c144/44c61/Release-Step9.png 485w,
+/static/40a3bf0601068bc1be684c0384a7c144/587b0/Release-Step9.png 970w,
+/static/40a3bf0601068bc1be684c0384a7c144/5b795/Release-Step9.png 1455w,
+/static/40a3bf0601068bc1be684c0384a7c144/bfd4b/Release-Step9.png 1871w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Establecemos un nombre al &lt;code class=&quot;language-text&quot;&gt;Release Pipeline&lt;/code&gt;, pinchando sobre el nombre actual, guardamos y pulsamos en &lt;em&gt;Create release&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 628px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/86292bdb91160c10ef84b91bd5e03035/3d84d/Release-CreateRelease.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 152.26337448559673%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABwklEQVRIx+VWS07DMBT0tVhxSxacgCsgseIGIDZAKqEGlUYkIf/E+Q0Zt45CkuKGdseTpnb8eX4z7yWuiOMYlmVhvV7Dtm1st1vVBkEAWtu2PzAc031aXdcKYjxhsrl1wzGRpik+uqg2mw2iKESR58izDFmHoiiQ83mPsiwPRqjHRFVVanMUJ/DCeIcg7pxH4GGUhEiSBFLKicOx7Sm3cOIKj+8BnmwPKzdHbaA81raPUDss6wZZIZHlBWRZoWnmN5j0FdTJ97+QdfSoIemRrm6ZbfbDMFTSjGmPDxJMNcXWrUKnK5+p7xgcb5pmAj0n9Alziw5B15yGHmMrhgt+0+hQEiaUqRFr0HGcvjSoK6mzr2HKbp9lbtSiE7ruhvXn+77S6BgT+lRmkIU8R5sRco7yGCPkD08ndc/zVDvMJOcpgeu6KuJDiaIP5XCp+MYISYcFTK0YwfgDsARKQ2pHmnTKpJDeuM6OQV/Y5H8O2vRDdkILOny1TooQZzZxalYnWT57hP/Qoanyj72vjQ5N1+Viyksd9Q5vHnxcXD3j8voV96sAaeDC+fyEfiUXR/jmS9y+hLizou6yl6jk7m/HXzX8BiI4PwBMiXGgAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Create Release&quot;
+        title=&quot;Create Release&quot;
+        src=&quot;/static/86292bdb91160c10ef84b91bd5e03035/3d84d/Release-CreateRelease.png&quot;
+        srcset=&quot;/static/86292bdb91160c10ef84b91bd5e03035/8aea6/Release-CreateRelease.png 243w,
+/static/86292bdb91160c10ef84b91bd5e03035/44c61/Release-CreateRelease.png 485w,
+/static/86292bdb91160c10ef84b91bd5e03035/3d84d/Release-CreateRelease.png 628w&quot;
+        sizes=&quot;(max-width: 628px) 100vw, 628px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Accedemos a la Release creada, y una vez completado el proceso, si todo ha ido Ok, se mostrará un &lt;em&gt;Succeeded&lt;/em&gt; en el Stage.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-Completed.png&quot; alt=&quot;Release Completed&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 673px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/58877404d28f37e105b80527f9a8c273/c391c/Release-Completed.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 73.66255144032921%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABuElEQVQ4y5VTa5ODIAzk///BXh9T+zqrY1UErKKtuWxOHG374Y6ZFQjLsoSonHNUFCXlecHIqWBYa6lpGo4XdON527Y0DMMCaPhO4zGuPJOtMdSyAITu97ug73vyXUfO1ZPg8/mUvn88JfZ4PHg8kPcdFEVYlcbR9nQlyxvhyNWOKq2prmvqWNRanleaN3kRgfOm9aSZAyN146niHuuAMuxKV0aCEIFLpAG94Rj6d5hfjpuNR77CKYcooig6LMRCD+x2OzqfL5IKxF8xP0wF5aqqJkdhHkiYA5qvXuryBVqcBmEFYlkWjFJymN9yIWIReTJjKgqObeItbRLGdUtf8VqAMfiTIJwg6Vu+1vF4pGi/pziOJfkQBISjK9JW03d6pUvyTdktk1fFy4OzEISL0+VMSZJQmibiFK6CQ5Clb2oyd05Hza/adyKI0nkTRA5wEuqp49qTGvR+IQie53IJwA3AAxaCkqPxteYNBRweI5DDbeYIjzcJYnDLUlqt1kzgBeum3MwFP5VIEJqvKcMnIF9xVlJWaLlyaK8OP9Xga92qsAFF68f/E6L4zea1+VeokJtPCA7/I/gD2oaBQkG+UyoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Release Completed&quot;
+        title=&quot;Release Completed&quot;
+        src=&quot;/static/58877404d28f37e105b80527f9a8c273/c391c/Release-Completed.png&quot;
+        srcset=&quot;/static/58877404d28f37e105b80527f9a8c273/8aea6/Release-Completed.png 243w,
+/static/58877404d28f37e105b80527f9a8c273/44c61/Release-Completed.png 485w,
+/static/58877404d28f37e105b80527f9a8c273/c391c/Release-Completed.png 673w&quot;
+        sizes=&quot;(max-width: 673px) 100vw, 673px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Si vamos al resultado del Stage, podemos ver que, como con las Pipeline, se puede visualizar los logs de lo que ha sucedido durante el proceso.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Release-CompletedLog.png&quot; alt=&quot;Release Log&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 970px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/31ec64b4cb99ec5eda5b1bc7cc0b4f3e/bfd4b/Release-CompletedLog.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.51851851851852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAgElEQVQY05WO0QrDIAxF/f8/HOwHukFnNBFr1TMttI8dC5yXcJJ7XQwBM8NSIkbFq/BYnpRSDvZa6b3/pA5v4oImttr5SGB5vZEZEA1VvTgCb5iO9551XXG5NEqFkMYyCF6EqJG85dFup7V2pd9xeg46cyzbaCeo6fHslP5h3nwBOyU4uQNG15YAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Release Log&quot;
+        title=&quot;Release Log&quot;
+        src=&quot;/static/31ec64b4cb99ec5eda5b1bc7cc0b4f3e/587b0/Release-CompletedLog.png&quot;
+        srcset=&quot;/static/31ec64b4cb99ec5eda5b1bc7cc0b4f3e/8aea6/Release-CompletedLog.png 243w,
+/static/31ec64b4cb99ec5eda5b1bc7cc0b4f3e/44c61/Release-CompletedLog.png 485w,
+/static/31ec64b4cb99ec5eda5b1bc7cc0b4f3e/587b0/Release-CompletedLog.png 970w,
+/static/31ec64b4cb99ec5eda5b1bc7cc0b4f3e/5b795/Release-CompletedLog.png 1455w,
+/static/31ec64b4cb99ec5eda5b1bc7cc0b4f3e/bfd4b/Release-CompletedLog.png 1871w&quot;
+        sizes=&quot;(max-width: 970px) 100vw, 970px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Finalmente en el navegador, si entramos al sitio estático de GitHub Pages, visualizaremos algo como esto.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Gatsby-StarterWeb-GitHubPages.png&quot; alt=&quot;GitHub Pages&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub Pages + GatsbyJS]]></title><description><![CDATA[GitHub Pages y GatsbyJS.  En el anterior post se hablaba de qué era GitHub Pages, y cómo construir un sitio estático para documentar los repositorios o…]]></description><link>http://setvalue.net/2020/05/16/</link><guid isPermaLink="false">http://setvalue.net/2020/05/16/</guid><category><![CDATA[Basics]]></category><category><![CDATA[GitHub Pages]]></category><category><![CDATA[GatsbyJS]]></category><pubDate>Sat, 16 May 2020 13:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 954px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1ab4d7df97c9d6dc51fdaf701cbe0cbd/eb2af/Gatsby-StarterWeb-GitHubPages.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.78189300411523%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABv0lEQVQoz2OwMLd2tnd0snNwtLW3NbdSU1SRl5JVlJEHkrIS0kAkJSYBRzLiUnKSMkBZVUVlBRk5Bh03Cy1XU20XU3VHIy0XU2VbPSBDw9lYxU5f1c5A3cFIyUoHjlRs9PTcLAy9bMwCHK18nRjkEiyNC3y0slyV0xxMi/z08jw1s910c9x08jx4gtUZXMUYPKQYPCShyB2EGIGks4hmmhND0sSywrnNebMac2c1ZE6rAaKUSRVAMn1KVWh7lm9jsm9TChz5gZF/c4p3Y1LmpCqGF8+f37t799GDRzeu3/j65cv//////fv3nwjw+9dvhvfv3z969Ojxkyf3Hzz89OnTz5+//v79CzECDwAq+PLlC8PnL18+fPwEZH3+8vnN27dANnEW///69SvD9x8/vn///u3bNyDn2/dvEGuJ1fznzx+wI0H8n19+n1t7++OLryDOP6I0/wZq//H83v3DV69sOL2z7/yf33+Jtfnvvz8/vv6/tmzjwd61J2fveXnnMynO/v0byHp79+nB/m3PL90mPqpAmn+DNb97/Pna3qcvbn8Aaf5LXDz//g3V/OLWu7vHn/76/puYoIIAYEgDAK5tgiiVnZTJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GitHub Pages&quot;
+        title=&quot;GitHub Pages&quot;
+        src=&quot;/static/1ab4d7df97c9d6dc51fdaf701cbe0cbd/eb2af/Gatsby-StarterWeb-GitHubPages.png&quot;
+        srcset=&quot;/static/1ab4d7df97c9d6dc51fdaf701cbe0cbd/8aea6/Gatsby-StarterWeb-GitHubPages.png 243w,
+/static/1ab4d7df97c9d6dc51fdaf701cbe0cbd/44c61/Gatsby-StarterWeb-GitHubPages.png 485w,
+/static/1ab4d7df97c9d6dc51fdaf701cbe0cbd/eb2af/Gatsby-StarterWeb-GitHubPages.png 954w&quot;
+        sizes=&quot;(max-width: 954px) 100vw, 954px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub Pages + GatsbyJS]]></title><description><![CDATA[GitHub Pages y GatsbyJS.  En el anterior post se hablaba de qué era GitHub Pages, y cómo construir un sitio estático para documentar los repositorios o…]]></description><link>http://setvalue.net/2020/05/16/</link><guid isPermaLink="false">http://setvalue.net/2020/05/16/</guid><category><![CDATA[Basics]]></category><category><![CDATA[GitHub Pages]]></category><category><![CDATA[GatsbyJS]]></category><pubDate>Sat, 16 May 2020 13:35:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/rfcm83/DemoGatsbyJS/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/rfcm83-DemoGatsbyJS-%3CCOLOR%3E.svg&quot; alt=&quot;Generic badge&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;En el anterior &lt;a href=&quot;../10&quot;&gt;post&lt;/a&gt; se hablaba de qué era GitHub Pages, y cómo construir un sitio estático para documentar los repositorios o un sitio web para un uso no comercial. &lt;/p&gt;
 &lt;p&gt;Un sitio estático, no deja de ser contenido html, css y js. Aunque podemos utilizar una de las plantillas que nos ofrece GitHub Pages y a partir de ahí únicamente debemos subir ficheros markdown y ya la propia plantilla se encarga de construir la web estática. Sin embargo, esta aproximación no nos da mucho juego de cara a personalizar nuestro sitio.&lt;/p&gt;
 &lt;p&gt;Para poder crear nuestro propio sitio, personalizado, con el formato y los contenidos que prefiramos, existen múltiples framework que facilitan esta acción. &lt;/p&gt;
@@ -228,71 +1264,177 @@ steps:
 &lt;/ul&gt;
 &lt;p&gt;Para poder editar los ficheros de una forma ágil y sencilla, utilizaremos &lt;a href=&quot;https://code.visualstudio.com/#alt-downloads&quot; target=&quot;_blank&quot;&gt;Visual Studio Code&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Gatsby-cli&lt;/h3&gt;
-&lt;p&gt;Se trata de una herramienta publicada como paquete &lt;code&gt;npm&lt;/code&gt; que permite crear rápidamente nuevos desarrollos basados en Gatsby y ejecutar comandos para sitios Gatsby.&lt;/p&gt;
+&lt;p&gt;Se trata de una herramienta publicada como paquete &lt;code class=&quot;language-text&quot;&gt;npm&lt;/code&gt; que permite crear rápidamente nuevos desarrollos basados en Gatsby y ejecutar comandos para sitios Gatsby.&lt;/p&gt;
 &lt;p&gt;Este cliente nos va a permitir crear un sitio web en minutos, para ello instalamos el paquete npm de forma global desde línea de comandos.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;npm install -g gatsby-cli
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Gatsby-CLI.png&quot; alt=&quot;Gatsby-CLI!&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Una vez completada la instalación, podemos consultar la lista de comandos disponible en cualquier momento con el comando &lt;code&gt;gatsby --help&lt;/code&gt;. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 930px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b546d9897c519d949be63e683bfd1d7e/416ee/Gatsby-CLI.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95.4732510288066%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACv0lEQVQ4y5VUyXLaQBDV0WbRBkKAFiSB2AyElFNJKDt25T/t8nb0NRVySPnm73rp1/Ioim85vOrRTM/r18vI+nH8jZ/HXzgej3h5ecHr6yuen59xd3eHp6dHPDw84PGxsvf394rmmqDv7e0tbm5uYJ3vc3z9MEEeLbCYL3B2tsZ0OsV8XqIsZ5jNZrKe616/30cQBAjDUNeDwQC9Xk8tv33fh3W2SrAqxMmPkMQJ8jxHkiSCVC9yHUURJpPJ236FNE11L47j2iphHKUYR+IwqZxGo5GoqJQQjE5ig+EbeLnb7f6DTqcDK4hDeEEPnt+H1+vDccXRceG6HjzP04tN67gubDnrOh46XRvtdrtGRTiO4fQCIR0qfIHt9eF6vtaHtflrfSXrOBLUD8R6aLVaNZkSFlKz0XCozr4vSjxR5ziwbVsd6NxMy3Fs2LRyzrUrirlfK2RB2UkqaLXaODk5kQInWC6XKIpC68rasZ5Mm2pp6e+9WUcE1IQch/V6rfU5PT1VsGOLxUJBYlqODgMzgGkes6C/IaO1eJhlGYaStnHiWGw2m5qIo8TRYSB2ncGbnW3CIhlV8BLlsya8TCKCpPRhYO4zXYLNaMJ02srzrFbGDUZnvbjHi9zjmQFVdGVcfJmMcBjW82qaY401lUQQqQIqJRlLQMUmtYqwq/ur5RwfdzMU2VSfpGmcvpTdtsRmmWFaSNHLWV18OjJVBmgiy3KsVyXWZYC+U2VCMloKsA6fMhz2ASZpqT8EQzQej7U5HCsq54XqHcdyFkm6UZ0Vm0V/VXj5OcX3wwBpJmRF1c33PwCSmXIYAsL4mMBKePFljsO5RIozUZnW9TNjZFLit/lBNNM0fmYCrGwSYhxK4W1Hn5R5Rs1xMEPbHI/3PwWCr8y6/HaFi8srXF9f4XA4YL/fY7fbYbvdanP+B2VZ4g+NDQlgtM1HJgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby-CLI!&quot;
+        title=&quot;Gatsby-CLI!&quot;
+        src=&quot;/static/b546d9897c519d949be63e683bfd1d7e/416ee/Gatsby-CLI.png&quot;
+        srcset=&quot;/static/b546d9897c519d949be63e683bfd1d7e/8aea6/Gatsby-CLI.png 243w,
+/static/b546d9897c519d949be63e683bfd1d7e/44c61/Gatsby-CLI.png 485w,
+/static/b546d9897c519d949be63e683bfd1d7e/416ee/Gatsby-CLI.png 930w&quot;
+        sizes=&quot;(max-width: 930px) 100vw, 930px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Una vez completada la instalación, podemos consultar la lista de comandos disponible en cualquier momento con el comando &lt;code class=&quot;language-text&quot;&gt;gatsby --help&lt;/code&gt;. &lt;/p&gt;
 &lt;h3&gt;Crear sitio desde plantilla&lt;/h3&gt;
 &lt;p&gt;Con el Gatsby-CLI instalado, creamos un nuevo sitio a partir de una de las &lt;a href=&quot;https://www.gatsbyjs.org/starters/?v=2&quot; target=&quot;_blank&quot;&gt;plantillas&lt;/a&gt; gratuitas que ofrece Gatsby y la comunidad.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;gatsby new DemoGatsbyJS https://github.com/gatsbyjs/gatsby-starter-default
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Gatsby-StarterTemplate.png&quot; alt=&quot;Gatsby Starter Template!&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gatsby new DemoGatsbyJS https://github.com/gatsbyjs/gatsby-starter-default&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 930px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7f7e244c6e6e5f67db949357e5b1e818/416ee/Gatsby-StarterTemplate.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.55144032921811%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABnklEQVQ4y32T246CUAxFefV+V0QUvIPEn9YYkS9wEp0H3/2mDquZEoaYedhpT3PY3bs9OI/ntzyfD3m9XvJ+v+V+/5LL5SJZlkqapnK73TQaOGdZpiAH1+tVzueznE4ncXa7ncRxLEmSyHq9lsViIUEQSBj4Eoah1jhT50w+mUwU4/FYMRwOpdlsSqvVEme73crhcFCsVivZbDbi+750ez1pt9sKLhsajYbUarU/qNfrWgdOFEUCUGk5gBxVs9lMO5dJ/4ODMshMmeu60svVAS7Q3WAqqjDlSrjf7yXJSbHOXEajkc4ElOdEHfudTqeIoKre2UexHI9HWS6XugCIiVjGOsppSg3i6XRaNGIcOGGOxQy3mzBfSKIfQcoWDZ7naW0+n+vH9gLIGQ85cTAYKFDsBMuF8HT8ua+du92uWqIzF/r9vtbI+YgcWE60eavl6He7dMMmbw1bzJDLEALOzNFqtqTqwhzXneYWPJVugJxt24LKiyJHbfW5FFtGVfmtEQF2zDbRbBM/PZfCsv5muU1IscoiAKSfbBGrqsr4ATr2aE38IxPVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby Starter Template!&quot;
+        title=&quot;Gatsby Starter Template!&quot;
+        src=&quot;/static/7f7e244c6e6e5f67db949357e5b1e818/416ee/Gatsby-StarterTemplate.png&quot;
+        srcset=&quot;/static/7f7e244c6e6e5f67db949357e5b1e818/8aea6/Gatsby-StarterTemplate.png 243w,
+/static/7f7e244c6e6e5f67db949357e5b1e818/44c61/Gatsby-StarterTemplate.png 485w,
+/static/7f7e244c6e6e5f67db949357e5b1e818/416ee/Gatsby-StarterTemplate.png 930w&quot;
+        sizes=&quot;(max-width: 930px) 100vw, 930px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Cuando ya está completada la instalación, accedemos al directorio nuevo, e iniciamos la aplicación para explorar el nuevo sitio web.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;cd DemoGatsbyJS
-gatsby develop
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; DemoGatsbyJS
+gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;En el navegador, accediendo a &lt;a href=&quot;http://localhost:8000/&quot; _target=&quot;_blank&quot;&gt;localhost:8000&lt;/a&gt; podemos explorar el nuevo sitio web.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Gatsby-StarterWeb.png&quot; alt=&quot;Gatsby Starte Web&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 954px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/48c8e8563c688eb7299330092b26b5a2/eb2af/Gatsby-StarterWeb.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.78189300411523%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGklEQVQ4y52S3UtTYRzHz5+RJJNlkUVBRbGVbtkKFpQrNXsj36666MK8KKiLXkTzohcvHNZFhKFRlikRtagoU2JBeREaTDNp7GwELd3b2dx2zj6dcxbWInL64/nwPAe+z4ff8zxHMJvNlNssbN9ZhtVWyjaLiVUlK1huWEZhUYGOtv4XhYYCDMZCjMUGfY+xuAhhb2kte7bWUlFWz27TERzqbN9yGOv6/VjW7dMp31CJbVNVDjs2VrJr8wEc1joqbY0csh+n2t6AcMreQ9vRAc5V3edsxT1a1fWFmn7OVz+kpUbl4AAnTLeoW91F49rrNKzJpb6kS+fYSidnHL0I3Rdf8+DaO/quuOm77OZO+wi97cPcbhmi99IwPW1vuHH6OZ1NT3E2u3Ce/IvmLJ1NLrpbXyD4Az4mJj1MT39hfHwMKR5jqTWXSiDMzszg8/kQRT9er5dIJEIymUSRFTKZTBbl/ygqqCMajSFEo1FCoTDaHFVlweAPwuHwLxm/pQugVSymCucSCRIq8biEJEnEE3FkRdYDejCz8FFzhLIs596DJPO238Pst1hOOH9hOo06kAJfmRz5xOij9wx2fEBOyUsTKkqauJRh9O5jnl0dZOjmS8TPYS2Wcz95C9Nae2p9nw7g6niCODaVDSlKXrI/hdobCOlUVhj0x/j4ykdgKqR/67/CIo+sNTcvFCeCeNyi+iip+dBiO9SEPwEo5rQGGNnkOAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gatsby Starte Web&quot;
+        title=&quot;Gatsby Starte Web&quot;
+        src=&quot;/static/48c8e8563c688eb7299330092b26b5a2/eb2af/Gatsby-StarterWeb.png&quot;
+        srcset=&quot;/static/48c8e8563c688eb7299330092b26b5a2/8aea6/Gatsby-StarterWeb.png 243w,
+/static/48c8e8563c688eb7299330092b26b5a2/44c61/Gatsby-StarterWeb.png 485w,
+/static/48c8e8563c688eb7299330092b26b5a2/eb2af/Gatsby-StarterWeb.png 954w&quot;
+        sizes=&quot;(max-width: 954px) 100vw, 954px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Editar en Visual Studio Code&lt;/h3&gt;
 &lt;p&gt;Para poder editar el nuevo sitio web, accedemos a Visual Studio Code desde el directorio en el que hemos creado la aplicación Web.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;code .
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Una vez abierto el IDE, actualizamos el fichero &lt;code&gt;src/components/header.js&lt;/code&gt; y lo editamos:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;import { Link } from &quot;gatsby&quot;
-import PropTypes from &quot;prop-types&quot;
-import React from &quot;react&quot;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;code &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Una vez abierto el IDE, actualizamos el fichero &lt;code class=&quot;language-text&quot;&gt;src/components/header.js&lt;/code&gt; y lo editamos:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Link &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;gatsby&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; PropTypes &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;prop-types&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
 
-const Header = ({ siteTitle }) =&gt; (
-  &amp;#x3C;header
-    style={{
-      background: `#154D28`,
-      marginBottom: `1.45rem`,
-    }}
-  &gt;
-    &amp;#x3C;div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Header&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; siteTitle &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;header
+    style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      background&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;#154D28&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      marginBottom&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;1.45rem&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div
+      style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        margin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;0 auto&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        maxWidth&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;960&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        padding&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;1.45rem 1.0875rem&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h1 style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; margin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Link
+          to&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/&quot;&lt;/span&gt;
+          style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            color&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;white&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            textDecoration&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;siteTitle&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Link&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h1&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;header&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Si no has cerrado la sesión del navegador con la web de la plantilla en &lt;code class=&quot;language-text&quot;&gt;localhost:8000&lt;/code&gt;, el sitio se habrá actualizado el color morado por un verde oscuro. Si lo cerraste, vuelve a acceder después de lanzar un &lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 954px; &quot;
     &gt;
-      &amp;#x3C;h1 style={{ margin: 0 }}&gt;
-        &amp;#x3C;Link
-          to=&quot;/&quot;
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        &gt;
-          {siteTitle}
-        &amp;#x3C;/Link&gt;
-      &amp;#x3C;/h1&gt;
-    &amp;#x3C;/div&gt;
-  &amp;#x3C;/header&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Si no has cerrado la sesión del navegador con la web de la plantilla en &lt;code&gt;localhost:8000&lt;/code&gt;, el sitio se habrá actualizado el color morado por un verde oscuro. Si lo cerraste, vuelve a acceder después de lanzar un &lt;code&gt;gatsby develop&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/Gatsby-StarterWeb-Green.png&quot; alt=&quot;Gastby Starter Web Modified&quot;&gt;&lt;/p&gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dc5fc30662e0ff9162cfad7e359223a8/eb2af/Gatsby-StarterWeb-Green.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.78189300411523%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACHElEQVQ4y52Ry2sTQRzHBw9i/wIRmzZNtSamWBpjXNM0icm24KNor6JeFGyr0IIP8FVaq+hFikU9+Dh7EYqI6EFEEPGgPYgG2lhaYzZRMJrX7qbZ7OzXmW0NLAVN+2M+8/zOl9/MjwR8IYhhEeLuCKLhCEIdQWzd4oLd1ogmm92EzxvrG5bB95vtDmx2bIKrxWmOxCMKaIv40C7uRGtoOzxdAtxBD5p9LjR5nXDscKJFaIXL3wanf5sFd6Ad3m4/hL1BdB6IItQjgriPdiIydBC7+vbAc1xk8150nNwPYWAfAqc4PdjQ68ba6EbUdTegrstWZR1HrDdZE14PL7tPBm9dxOWHN3Dh/jWcv3cV5+6OMEYxNHEJZ++M4PTtYRy7PohDo304fKV/OWP9ODI2wM5P4MzEMMj3VArxmTjm5+YR+xyDqqhYbWhlDSSb/Y1k8hskKYVEIoFCoYByuQydUhiGYUINCkr/DdcVi0UQ3uVyOXNRZGaZzC/k8/mqWa3wkGUZZKFUQomhqgoURYFaUll2uikwhcb/n2ox1HXdcrig6Hj7eBrZH7JFXLthpQLWoKS/Iv4mhqkn7zE5/gG6pq/OkNIKq6yBqUdP8eLmJF4/eAnpS57LLP9Ts2GFp8fi51waz8efQfo0uyhaqlwt8VfHa0Aq2qJhJiXj46sk0rM5c02pseIn8+SItmQozWQw/U5iRdGqopVmyA3/AHECm2d0yDaYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Gastby Starter Web Modified&quot;
+        title=&quot;Gastby Starter Web Modified&quot;
+        src=&quot;/static/dc5fc30662e0ff9162cfad7e359223a8/eb2af/Gatsby-StarterWeb-Green.png&quot;
+        srcset=&quot;/static/dc5fc30662e0ff9162cfad7e359223a8/8aea6/Gatsby-StarterWeb-Green.png 243w,
+/static/dc5fc30662e0ff9162cfad7e359223a8/44c61/Gatsby-StarterWeb-Green.png 485w,
+/static/dc5fc30662e0ff9162cfad7e359223a8/eb2af/Gatsby-StarterWeb-Green.png 954w&quot;
+        sizes=&quot;(max-width: 954px) 100vw, 954px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Git&lt;/h3&gt;
 &lt;p&gt;Por último, agregamos los ficheros a un repositorio y hacemos commit.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;git init
-git remote add origin https://github.com/rfcm83/DemoGatsbyJS.git
-git pull
-git add .
-git commit -m &apos;First commit Gatsby Web Starter Kit&apos;
-git push origin master -f
-&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[GitHub Pages]]></title><description><![CDATA[Cómo utilizar GitHub Pages para alojar tus páginas estáticas. Hola, bienvenidos. Hace años que no escribo en un blog, pero lo cierto es que de un tiempo hacía aquí, he pensado en volver a escribir, y…]]></description><link>http://setvalue.net/2020/05/10/</link><guid isPermaLink="false">http://setvalue.net/2020/05/10/</guid><category><![CDATA[Basics]]></category><category><![CDATA[GitHub Pages]]></category><pubDate>Sun, 10 May 2020 16:45:00 GMT</pubDate><content:encoded>&lt;p&gt;Hola, bienvenidos. Hace años que no escribo en un blog, pero lo cierto es que de un tiempo hacía aquí, he pensado en volver a escribir, y después de estar trasteando con algunos CMS basados en todo tipo de tecnologías (principalmente en .NET Core), me he decidido a probar GitHub Pages, y la verdad es que me he llevado una grata sorpresa.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin https://github.com/rfcm83/DemoGatsbyJS.git
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; pull
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&apos;First commit Gatsby Web Starter Kit&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push origin master -f&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[GitHub Pages]]></title><description><![CDATA[Cómo utilizar GitHub Pages para alojar tus páginas estáticas. Hola, bienvenidos. Hace años que no escribo en un blog, pero lo cierto es que de un tiempo hacía aquí, he pensado en volver a escribir, y…]]></description><link>http://setvalue.net/2020/05/10/</link><guid isPermaLink="false">http://setvalue.net/2020/05/10/</guid><category><![CDATA[Basics]]></category><category><![CDATA[GitHub Pages]]></category><pubDate>Sun, 10 May 2020 16:45:00 GMT</pubDate><content:encoded>&lt;p&gt;Hola, bienvenidos. Hace años que no escribo en un blog, pero lo cierto es que de un tiempo hacía aquí, he pensado en volver a escribir, y después de estar trasteando con algunos CMS basados en todo tipo de tecnologías (principalmente en .NET Core), me he decidido a probar GitHub Pages, y la verdad es que me he llevado una grata sorpresa.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://pages.github.com&quot; target=&quot;_blank&quot;&gt;GitHub Pages&lt;/a&gt;, es un servicio de alojamiento de sitios estáticos que permite crear desde cero un sitio web personal, o crear uno para la documentación de un proyecto en GitHub. Los ficheros HTML, CSS y JavaScript provienen de un repositorio de GitHub.&lt;/p&gt;
 &lt;p&gt;Se puede alojar un sitio en el dominio *.github.io o en un dominio propio.&lt;/p&gt;
 &lt;p&gt;Existen tres tipos de sitios, proyecto, usuario y organización. &lt;/p&gt;
@@ -300,47 +1442,128 @@ git push origin master -f
 &lt;p&gt;Los sitios de Usuario u Organización son sitios que están conectados a una cuenta específica de GitHub. Estos repositorios tienen una serie de peculiaridades, y es que no pueden ser un repositorio privado, tampoco puede tener otro nombre, ni los ficheros alojarse que se visualizan en el sitio estar en una rama distinta a master.&lt;/p&gt;
 &lt;p&gt;Para crear un sitio personal o de organización se deben seguir los siguientes pasos:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Crear un nuevo repositorio en GitHub con el siguiente formato &lt;code&gt;username.github.io&lt;/code&gt;, donde &lt;code&gt;username&lt;/code&gt; es el nombre de usuario u organización en GitHub.&lt;/li&gt;
+&lt;li&gt;Crear un nuevo repositorio en GitHub con el siguiente formato &lt;code class=&quot;language-text&quot;&gt;username.github.io&lt;/code&gt;, donde &lt;code class=&quot;language-text&quot;&gt;username&lt;/code&gt; es el nombre de usuario u organización en GitHub.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/CreateNewRepository.png&quot; alt=&quot;New Repo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 707px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7567e71b80d944b1e6b8d49cac45c668/394f7/CreateNewRepository.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 89.30041152263375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGUlEQVQ4y6VUyZLTMBT0F8KBD+A+VZz5P+DAgQN8AYUTe+JVjrV5b/pJDjMwkKSKVHWevKjV6n5ykucZ0vQH6qpCnuc4HnNeH5AeDrDWYV1WzPP8Fywv7i3LguRUaxSNRl5pdL2DsxbWWHjvYbQJpBE2VmPD2DkHw7Ex8b686/2AZN2AhX/TskHG//tLPFfa1jVciOSu66ANlRELt7VtXIgrSb0HyZdvX5HSN3XuMYwj8seCOKEoa4wjvaGHE4nt6G6qC4TfDymqpkVHQkffRF13PqPvDQy90uITa6/jc7/DeXpH+IH+Wc3q45aVUmhJqFSHM4nihAEDcTFfiByNv5CFcJyGtn0g7XXHd+IOkqZVUB0VaVHkwhZnehmx/hNLwBbHa6zTNCPhtrGFpFemvD2btPxBvNDLOfgZ60tIbyZFVeNUlGipdJomBjEGTOPTOFxz9YvxV1O2liF0iv71vyYPw/iMbPqNMGznWh86yzBUzVDOJBoioYQyDIFYQhDSe9QFhbJNWV2qEAiRpHxRJknLvbsb+5hleDwVKOhjWVZEyaYukWV5aHCzn+snhTeOnhy1tmUfSlUtKoYkfl56U47fuHu6m3gjFO3RKX5p2h6q6UN7SE9WjUJZN8ipPj9RNRfS1qP3y9VskqMpkOrHgIzjdY0NGgLZ/fR7QKHX2JNXFb768IA3n97h9ccHvP38nhPmW5+Aq4Q/AdQZeNltUuXCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;New Repo&quot;
+        title=&quot;New Repo&quot;
+        src=&quot;/static/7567e71b80d944b1e6b8d49cac45c668/394f7/CreateNewRepository.png&quot;
+        srcset=&quot;/static/7567e71b80d944b1e6b8d49cac45c668/8aea6/CreateNewRepository.png 243w,
+/static/7567e71b80d944b1e6b8d49cac45c668/44c61/CreateNewRepository.png 485w,
+/static/7567e71b80d944b1e6b8d49cac45c668/394f7/CreateNewRepository.png 707w&quot;
+        sizes=&quot;(max-width: 707px) 100vw, 707px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;Clonar el repositorio&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git clone https://github.com/username/username.github.io.git
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/username/username.github.io.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;Agregar un fichero index.html con un &quot;Hola Mundo&quot;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;#x3C;!DOCTYPE html&gt;
-&amp;#x3C;html&gt;
-    &amp;#x3C;head&gt;
-    &amp;#x3C;title&gt;Hola GitHub Pages!&amp;#x3C;/title&gt;
-    &amp;#x3C;/head&gt;
-    &amp;#x3C;body&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token doctype&quot;&gt;&amp;lt;!DOCTYPE html&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Hola GitHub Pages!&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
         Hola Mundo!
-    &amp;#x3C;/body&gt;
-&amp;#x3C;/html&gt;
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Push de los cambios&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;git add --all
-git commit -m &quot;Primer commit, hola mundo&quot; 
-git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; --all
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit -m &lt;span class=&quot;token string&quot;&gt;&quot;Primer commit, hola mundo&quot;&lt;/span&gt; 
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push -u origin master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;Acceder al nuevo sitio&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/HelloWorld.png&quot; alt=&quot;Hello World!&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3fb82d349d8623aff386ebfa6af55978/5a190/HelloWorld.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.60493827160494%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAAAd0lEQVQoz+3SsQqAIBCAYZ8ynETJPKkHdnZIkHwANbOuWoKmWuubTrgflyNCiFa2/dBL1HVKKdBagqKUNjeMMQDAHc45hsR7P4UQYyylzBf4XG7K4ZxzzgT31lewJyml9zH+/scfiPEwa63Lc/t5Wmudc+NzxpgNyxEWrEYb4C8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Hello World!&quot;
+        title=&quot;Hello World!&quot;
+        src=&quot;/static/3fb82d349d8623aff386ebfa6af55978/5a190/HelloWorld.png&quot;
+        srcset=&quot;/static/3fb82d349d8623aff386ebfa6af55978/8aea6/HelloWorld.png 243w,
+/static/3fb82d349d8623aff386ebfa6af55978/44c61/HelloWorld.png 485w,
+/static/3fb82d349d8623aff386ebfa6af55978/5a190/HelloWorld.png 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Sitio de Proyecto&lt;/h2&gt;
-&lt;p&gt;A diferencia de los otros tipos de sitios, estos permiten crear un website a partir de una rama o una carpeta de un repositorio existente, por supuesto, el repositorio no puede cumplir con la convención de nombre (&lt;code&gt;username.github.io&lt;/code&gt;) establecida para los sitios de organización o personales.&lt;/p&gt;
+&lt;p&gt;A diferencia de los otros tipos de sitios, estos permiten crear un website a partir de una rama o una carpeta de un repositorio existente, por supuesto, el repositorio no puede cumplir con la convención de nombre (&lt;code class=&quot;language-text&quot;&gt;username.github.io&lt;/code&gt;) establecida para los sitios de organización o personales.&lt;/p&gt;
 &lt;p&gt;Sobre un repositorio de proyecto, se puede elegir uno de estos tres orígenes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Utilizar un branch llamado gh-pages&lt;/li&gt;
 &lt;li&gt;Utilizar la rama master como origen para contruir el sitio&lt;/li&gt;
 &lt;li&gt;Utilizar un directorio &quot;docs&quot; dentro de la rama master&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/ProjectGitHubPages.png&quot; alt=&quot;Project GitHub Pages&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 734px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/32300652cd363fba5fb104b187db9149/c6d67/ProjectGitHubPages.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.83127572016461%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGklEQVQ4y51Ua4+bQAzM//+HVatWl2sSCJTsm30yZxtIUl0vHxppZGeXHewZL4e+u+B8OePSdRQ7LMuC//nxOcbBzQ0mLHAhwWgN5zzBbbCw1sAYjRBo3VrKDa3xupNca94Ld9LDzRdcdcJoIgYdKM4YJdKaLRhMFnA+UuRnJ1eg5wodKlQoMJS7BPgMHBQRDirgqjx6iv3No5ss5QmdboKzavf8oiqm0OSwTTsWmLjARm7ZeyrbSLmtNUEpBTlnihl1wz2vtFcacm3cJPe5Ym/ZkB5vx3e8n844/j7hphQ8vcQYK3pybknPHc7PpHlFSFUIV76/CB2+/fiF7z/fcDx1MNajtoUqoUorV7y8cPbh7p0wpYzppjGMEww7TBXEXBBTkegD/Y8Jc2pI1OpOsGytfiIstYr9XdcLhmGUseBx4PUYo5DyeIW06fZiFoWQK1BKk35aCNiQlBK4+lrr/vim2ddgQw98gA8qbcRt7wPmOUpMRMwPyYHXtT0qZMJMY2Kd3+CgyOEwz+DqmZRbZ9f5hXxDOMpN8hHKVfi4dtHuhHSIdcoyf8/IQvqqzX+awhpydTPpF0m75x+3/Opj8ElDNqHvr7jQl2Yc/6wjQhqyKbzH2A3iinmfb9KXLnPf/LVwpI3fbgbrs0YvmvGerPGc2nXv+SX7JGymtPUzRCOzz57ZHF+hYWlNaYdJz2RWQpbq00bKFT9M+QBrpC+0IB/bUwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Project GitHub Pages&quot;
+        title=&quot;Project GitHub Pages&quot;
+        src=&quot;/static/32300652cd363fba5fb104b187db9149/c6d67/ProjectGitHubPages.png&quot;
+        srcset=&quot;/static/32300652cd363fba5fb104b187db9149/8aea6/ProjectGitHubPages.png 243w,
+/static/32300652cd363fba5fb104b187db9149/44c61/ProjectGitHubPages.png 485w,
+/static/32300652cd363fba5fb104b187db9149/c6d67/ProjectGitHubPages.png 734w&quot;
+        sizes=&quot;(max-width: 734px) 100vw, 734px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Una vez seleccionada una configuración, se repite los pasos del 2 al 5 del anterior epígrafe y se obtiene un &quot;Hola Mundo&quot; en un sitio de Proyecto.&lt;/p&gt;
 &lt;h2&gt;¿Listo para empezar?&lt;/h2&gt;
 &lt;p&gt;Existen dos posibilidades para comenzar a crear un sitio web estático de GitHub Pages.&lt;/p&gt;
@@ -351,11 +1574,67 @@ git push -u origin master
 &lt;h3&gt;Basado en plantilla&lt;/h3&gt;
 &lt;p&gt;GitHub Pages dispone de una gran variedad de plantillas para empezar a crear un nuevo sitio estático.&lt;/p&gt;
 &lt;p&gt;Las plantillas se pueden seleccionar desde la sección GitHub Pages de la configuración del Repositorio.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/ChooseTheme.png&quot; alt=&quot;Choose a Theme&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Una vez seleccionada la plantilla, se procede a crear ficheros en formato markdown, creando un primer fichero &lt;code&gt;readme.md&lt;/code&gt;, una vez realizado el push, el sitio de GitHub Pages cargará el contenido del fichero aplicando la plantilla seleccionada.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;../../../assets/blog/GitHubPagesTemplate.png&quot; alt=&quot;Hello World with GitHub Pages Template&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 732px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d55e5f57990ee9d49964a0c5c9dde8ed/d0cc0/ChooseTheme.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.83127572016461%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAB6UlEQVQ4y6VUi26DMAzk/39zZTwLJIG8SLjZDkXdpG7aVulkk9DDd3ZS1fUNbduiIbw3Lf76O45DUBl3QBM2F6C1xrquMITVcDQwxkArhW3baM9AUc5rhvaV0gJr7UVajWbHoAJG7TEqJxiUpeeAQUdBz/v8nuQR07pD2YTF7gLlMtYAbBGo5jUSiUW/bBgWi25aBUzS6oxWZTSEThc0KmG2Wf5swgOk0h9EypJZEkk9ckY+kVLCvkfsMSJRTCnKc8l3xP1ATJlFss6Ch2T2q37npvTo+gFKG/GRo5acvCP/2DNeXzcHTXJtSCfJxVcIN+tQNx2absA4LVRB/l1nz3gRstz7eMc0TfDeExwcRUsfcs7BUnXOB6oow8d8jUchec5PQpb2Vje4key262UEmJDJBPIcsPlC+FPFVYg7NPlkxCv73euC/FThV3BDqxACBFTV5e4/TkvFk3+71YL7fZLOygkgbzWPFHVXn6PF4G5L5AmwHsuWyI7Sca6+4q4+SuacZ3BWBhPh+EbeV1wVMsGnzfNL+Qf5Lz3kUelpoNu2wzzPdCLoJMR4xQd2al4Mkfwuey89ZFa+WTT5JjcMQ5dbxpynRfx6WufTE/zZTAKr/CSZG6OWAia+Iq0vZ76oFePCQ18qfkX4AdCbMMm2R6Q1AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Choose a Theme&quot;
+        title=&quot;Choose a Theme&quot;
+        src=&quot;/static/d55e5f57990ee9d49964a0c5c9dde8ed/d0cc0/ChooseTheme.png&quot;
+        srcset=&quot;/static/d55e5f57990ee9d49964a0c5c9dde8ed/8aea6/ChooseTheme.png 243w,
+/static/d55e5f57990ee9d49964a0c5c9dde8ed/44c61/ChooseTheme.png 485w,
+/static/d55e5f57990ee9d49964a0c5c9dde8ed/d0cc0/ChooseTheme.png 732w&quot;
+        sizes=&quot;(max-width: 732px) 100vw, 732px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Una vez seleccionada la plantilla, se procede a crear ficheros en formato markdown, creando un primer fichero &lt;code class=&quot;language-text&quot;&gt;readme.md&lt;/code&gt;, una vez realizado el push, el sitio de GitHub Pages cargará el contenido del fichero aplicando la plantilla seleccionada.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b74808ba1dadf5a652517b86cdadef61/5a190/GitHubPagesTemplate.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 71.60493827160494%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAABkUlEQVQoz52Sy07CQBiF5w2IJGg7vUHtlU4LSqUUVsaFceGCjaWFKMT4AL6BiTs3PpdLlz6AqBEsEg1bj8WFiQHRr/+085/OaU5mSsKMVqvl+349CBpBgLYeNiqViuu6DmOmaZm6ZjT2jYNT7/CsmZwHuwcVl21v14iqqoqiyIpCKeU4jud5iovjJUkqzimpRbouRJfi1Z14cVO7vjX2IoVulNRN4jiOpmnNZtiJ43a7HXWioyhKuknYDHVNtyzLzNAte9NyUJrFTMuGilcEA2bbtmuf+Dv1nZrvI325XIauf8NA+Ky+WkMng4x+v3/8jV6vB2XwG+R5NJpOp5PJZDQej19ecEvT9HUFYCFpOpnNZpjeD4ePT0/Dhwf43zLel4IFpNvtJnGCnPPw4CQLjPBxHCeLgZEUCoVcLsdRvsyYjV1yHBT2U5JE6GuLyefzBAcpimJJVZnnMeZWt7aq1aosSZQKMh6LkWWZYAgZ/ByOx6+CFl8UloIFRJFl+kMVVuDTjNjz2V9BcuJ5nvMvGGMfmXv2KJ7NagAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Hello World with GitHub Pages Template&quot;
+        title=&quot;Hello World with GitHub Pages Template&quot;
+        src=&quot;/static/b74808ba1dadf5a652517b86cdadef61/5a190/GitHubPagesTemplate.png&quot;
+        srcset=&quot;/static/b74808ba1dadf5a652517b86cdadef61/8aea6/GitHubPagesTemplate.png 243w,
+/static/b74808ba1dadf5a652517b86cdadef61/44c61/GitHubPagesTemplate.png 485w,
+/static/b74808ba1dadf5a652517b86cdadef61/5a190/GitHubPagesTemplate.png 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Desde cero&lt;/h3&gt;
-&lt;p&gt;Otra opción es empezar a crear contenido estático, empezando con un fichero &lt;code&gt;index.html&lt;/code&gt;. Una vez realizado el primer push, el contenido nuevo estará disponible en GitHub Pages.&lt;/p&gt;
+&lt;p&gt;Otra opción es empezar a crear contenido estático, empezando con un fichero &lt;code class=&quot;language-text&quot;&gt;index.html&lt;/code&gt;. Una vez realizado el primer push, el contenido nuevo estará disponible en GitHub Pages.&lt;/p&gt;
 &lt;p&gt;Esta aproximación, aunque es más compleja, permite un mayor grado de personalización. Existen múltiples generadores de contenido estático que permiten crear las páginas y assets de una forma sencilla, lo cual facilita en gran medida la construcción de nuevos contenidos.&lt;/p&gt;
 &lt;h2&gt;Límites y usos prohibidos&lt;/h2&gt;
 &lt;p&gt;Los sitios de GitHub Pages tienen los siguientes límites:&lt;/p&gt;
