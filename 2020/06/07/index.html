@@ -354,7 +354,7 @@
 <h3>Configuración</h3>
 <p>Dentro del servicio en el Portal de Azure, a diferencia de otros servicios, se puede establecer muy pocas configuraciones, eso sí, son bastante atípicas comparadas con otros servicios <em>PaaS</em> como las Web App.</p>
 <h4>Configuration</h4>
-<p>Permite establecer settings por <code class="language-text">Environment</code>, los settings son encriptados y expuestos sobre un canal también encriptado. Otra peculiaridad respecto a otros servicios, es que estos settings no son para ser utilizados por el sitio estático en sí, sino que son para API's utilizadas como backend dentro del servicio, es decir para las Azure Functions asociadas a este servicio.</p>
+<p>Permite establecer settings por <code class="language-text">Environment</code>, los settings son encriptados y expuestos sobre un canal también encriptado. Otra peculiaridad respecto a otros servicios es que estos settings no son para ser utilizados por el sitio estático en sí, sino que son para API's utilizadas como backend dentro del servicio, es decir para las Azure Functions asociadas a este servicio.</p>
 <h4>Custom Domains</h4>
 <p>La característica de Custom Domain en un servicio <em>PaaS</em> como la Web App o la API App, es un servicio que requiere un Service Plan mayor al gratuito, en este caso, el servicio "viene de caja" con la funcionalidad de forma gratuita, y para configurarlo basta con crear un registro CNAME que apunte a la url del sitio estático <code class="language-text">*.azurestaticapps.net</code>.</p>
 <p><span
@@ -576,9 +576,9 @@
 <li>Path relativo de la API si la hubiera</li>
 <li>Path relativo del directorio del artefacto si éste existiera</li>
 </ul>
-<p>Por supuesto, todos los token como <em>secure string</em>, es decir encriptados de forma automática desde la creación del servicio <em>PaaS</em> en el Portal de Azure.</p>
+<p>Por supuesto, todos los tokens como <em>secure string</em>, es decir encriptados de forma automática desde la creación del servicio <em>PaaS</em> en el Portal de Azure.</p>
 <h2>Conclusiones</h2>
-<p>Esta solución está aún en preview, y seguramente sufra cambios cuando se consolide y esté más madura. Tiene limitaciones, por ejemplo, que no esté integrada con Azure DevOps, que aunque todo hace sospechar lo peor para Azure DevOps, es hoy por hoy la plataforma más completa para ALM desde mi humilde opinión.</p>
+<p>Esta solución está aún en preview, y seguramente sufra cambios cuando se consolide y esté más madura. Tiene limitaciones, por ejemplo, que no esté integrada con Azure DevOps, que, aunque todo hace sospechar lo peor para Azure DevOps, es hoy por hoy la plataforma más completa para ALM desde mi humilde opinión.</p>
 <p>La idea es muy buena, crear un sitio estático hoy en día es muy habitual, y tener este tipo de soluciones que te permitan desplegar de forma gratuita, con buenas prácticas de DevOps, haciendo CI / CD sin posibilidad de que se pueda desplegar de forma manual, es una buena noticia para el mundo de los desarrolladores.</p>
 <p>Ampliar la funcionalidad con Azure Functions también es un punto muy bueno, a pesar de la limitación tecnológica a JavaScript, aunque por otro lado es comprensible, si estamos hablando de un sitio estático.</p>
 <p>Estos son los JavaScript Frameworks con los que se puede desarrollar una solución estática compatible con el servicio:</p>
