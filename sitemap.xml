@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>http://setvalue.net/2020/07/04/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/2020/06/27/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/2020/06/21/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/2020/06/16/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -13,6 +14,7 @@
 <url> <loc>http://setvalue.net/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://setvalue.net/tags/basics/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/docker/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/dotnet/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/monitor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -30,6 +32,5 @@
 <url> <loc>http://setvalue.net/tags/microsoft-identity-platform/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/azure-dev-ops/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/git-hub-pages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://setvalue.net/tags/basics/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
