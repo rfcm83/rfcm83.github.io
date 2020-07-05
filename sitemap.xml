@@ -30,7 +30,6 @@
 <url> <loc>http://setvalue.net/tags/serverless/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/azure-ad/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/microsoft-identity-platform/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://setvalue.net/tags/azure-dev-ops/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/git-hub-pages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://setvalue.net/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
