@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "framework-781d8c3da2b97ab386a4.js"
   },
   {
-    "url": "app-95a608fc803973b631fb.js"
+    "url": "app-50edcac28b1002c82553.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "7d900e9f127fbe27a41beafd561ff2c0"
+    "revision": "e925777f0cfe6b92eac688cbea446a0d"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-5a1ee105f05b3144b807.js"
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "polyfill-1c1f602307ef1935f639.js"
   },
   {
-    "url": "component---src-templates-tags-js-344d31cacc36f6dfb854.js"
+    "url": "component---src-templates-blog-list-js-44047e5524ffeddf3650.js"
   },
   {
     "url": "8f2d471fb7333c6c0018ac531eee0249a8ca709b-88f761789ca5ffd93b6d.js"
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "777cf710-1fbef7f6d0b7fd14b613.js"
   },
   {
-    "url": "page-data/tags/actions/page-data.json",
-    "revision": "05ff6b91b3079fb6a1e86d9e70b478e4"
+    "url": "page-data/2/page-data.json",
+    "revision": "1d3165b77329d2dfa59ee594d71df39a"
   },
   {
     "url": "page-data/sq/d/2744294623.json",
@@ -85,63 +85,15 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "075233102236e28bc19902a49c672416"
+    "revision": "dceb7132fa127caa8a04ba969a904d2a"
   },
   {
-    "url": "page-data/tags/azure/page-data.json",
-    "revision": "70ea97c5e20c498c12b59bdb6783348a"
+    "url": "page-data/3/page-data.json",
+    "revision": "f688002459dd992923aed8b6f06b9e02"
   },
   {
-    "url": "page-data/tags/azure-ad/page-data.json",
-    "revision": "3fd3c573c89e44c20a00e07b8ad3c4e2"
-  },
-  {
-    "url": "page-data/tags/basics/page-data.json",
-    "revision": "d0f6aad253168ad1c9d8f586d54cecfb"
-  },
-  {
-    "url": "page-data/tags/best-practices/page-data.json",
-    "revision": "f4bba297bb441333847e12f89bc3c480"
-  },
-  {
-    "url": "page-data/tags/codespaces/page-data.json",
-    "revision": "6df524aba0dc101d05cb70c870cc5e7a"
-  },
-  {
-    "url": "page-data/tags/dev-ops/page-data.json",
-    "revision": "c192f464b22ee0b7f5f93f3f553ad2db"
-  },
-  {
-    "url": "page-data/tags/develop/page-data.json",
-    "revision": "6003682003d8f72b45a7466528c9afbc"
-  },
-  {
-    "url": "page-data/tags/docker/page-data.json",
-    "revision": "8f1c80649247d68e2284e45c6d25b5a3"
-  },
-  {
-    "url": "page-data/tags/dotnet/page-data.json",
-    "revision": "b0e210ebdf341100dec96271d11d01f4"
-  },
-  {
-    "url": "page-data/tags/free/page-data.json",
-    "revision": "253e970923c09e1b0a327912e608addd"
-  },
-  {
-    "url": "page-data/tags/functions/page-data.json",
-    "revision": "e63e092614b70488ac0f8d19200fbfa7"
-  },
-  {
-    "url": "page-data/tags/gatsby-js/page-data.json",
-    "revision": "7fcd7514d5934e51a6aefbc3883e4b7f"
-  },
-  {
-    "url": "page-data/tags/git-hub/page-data.json",
-    "revision": "e17b3fe73d359844eee6a46ed04ac1c1"
-  },
-  {
-    "url": "page-data/tags/git-hub-pages/page-data.json",
-    "revision": "31e74c68fe6daf5adefdbb5e0a487bae"
+    "url": "page-data/4/page-data.json",
+    "revision": "d36e21863be5a65b99536aafc74e295b"
   },
   {
     "url": "component---src-pages-tags-js-cb13c41c919508999a8a.js"
@@ -151,60 +103,8 @@ self.__precacheManifest = [
     "revision": "0cc40673741d6548f360c24cde84427e"
   },
   {
-    "url": "page-data/tags/lets-encrypt/page-data.json",
-    "revision": "6698506b2d20393f969fe4a75c13cef8"
-  },
-  {
-    "url": "page-data/tags/logic-apps/page-data.json",
-    "revision": "95af9c5b65c491943e18d43214f1bc29"
-  },
-  {
-    "url": "page-data/tags/managed-identity/page-data.json",
-    "revision": "0ee474ac64bdd34575764004d2796839"
-  },
-  {
-    "url": "page-data/tags/microsoft-identity-platform/page-data.json",
-    "revision": "dc6e5d2d449b38a958eff249a45745ce"
-  },
-  {
-    "url": "page-data/tags/microsoft-teams/page-data.json",
-    "revision": "1abb935069c4845bfd52aa6454632fa4"
-  },
-  {
-    "url": "page-data/tags/monitor/page-data.json",
-    "revision": "6a59c4e876f81915b62af68f6fe9e0ad"
-  },
-  {
-    "url": "page-data/tags/patterns/page-data.json",
-    "revision": "1423120824f38a262ee2d693aba6f1bb"
-  },
-  {
-    "url": "page-data/tags/preview/page-data.json",
-    "revision": "71b4105b4b944836c39ffec5f099bf6b"
-  },
-  {
-    "url": "page-data/tags/productivity/page-data.json",
-    "revision": "bb66d8939a93d5fd23f0a772bdef8167"
-  },
-  {
-    "url": "page-data/tags/serverless/page-data.json",
-    "revision": "01ed71c8e8fe8cb86b054b4ccddd7702"
-  },
-  {
-    "url": "page-data/tags/ssl/page-data.json",
-    "revision": "ed993a524993bb559daefdd3bc3e2210"
-  },
-  {
-    "url": "page-data/tags/vs-code/page-data.json",
-    "revision": "b45895dfe1717ecac79bd48c1ddad97d"
-  },
-  {
-    "url": "page-data/tags/web-app/page-data.json",
-    "revision": "ab25da6dab1dec0f1ae74d22ccac1eed"
-  },
-  {
     "url": "manifest.webmanifest",
-    "revision": "b856b6c48c00e8116271920212cf7b3a"
+    "revision": "9af44c7f055f8e020e13dd4c7412cbc4"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -296,7 +196,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-95a608fc803973b631fb.js`))) {
+  if (!resources || !(await caches.match(`/app-50edcac28b1002c82553.js`))) {
     return await fetch(event.request)
   }
 
