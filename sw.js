@@ -62,11 +62,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/2/page-data.json",
-    "revision": "431abd339a91a09fb4e399fcd335039e"
+    "revision": "442f945795d7982a93371cf7882fd0e8"
   },
   {
     "url": "page-data/sq/d/2744294623.json",
-    "revision": "8cd3d1009dd7a4e87aa9bf2d753194dd"
+    "revision": "17aa0e151a35c862b0809e4345f97d91"
   },
   {
     "url": "page-data/sq/d/3114762285.json",
@@ -74,7 +74,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/550521386.json",
-    "revision": "3420aaf58cd898cc58985e07182a9211"
+    "revision": "130eec1dd2de7830791ad71bbbfbe6ce"
   },
   {
     "url": "page-data/sq/d/764694655.json",
@@ -86,22 +86,22 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/3/page-data.json",
-    "revision": "c97fd5b157fc7e87904839774c2ecf71"
+    "revision": "bbf31d9f452d95c0a414b8aa83100b42"
   },
   {
     "url": "page-data/4/page-data.json",
-    "revision": "ec02159b54e5cfc2b36a2aa1447b37e4"
+    "revision": "c6a57aaa16e4499811a016c870c71e44"
   },
   {
     "url": "page-data/5/page-data.json",
-    "revision": "70be12f84f833d058ba936af06162ca4"
+    "revision": "f6d139068611f33e95956fccff6badaa"
   },
   {
     "url": "component---src-pages-tags-js-ae4904c178592181da10.js"
   },
   {
     "url": "page-data/tags/page-data.json",
-    "revision": "1700a98c5cbae1b60a0a819e30ea3b0a"
+    "revision": "94813dcbc7e603fb1e4cd7eb6a6e6c58"
   },
   {
     "url": "manifest.webmanifest",
