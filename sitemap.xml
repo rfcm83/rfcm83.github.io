@@ -33,6 +33,7 @@
 <url> <loc>https://www.setvalue.net/tags/cli/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/git-hub/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/actions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.setvalue.net/tags/best-practices/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/productivity/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/security/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/microsoft-teams/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -53,7 +54,6 @@
 <url> <loc>https://www.setvalue.net/tags/docker/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/dotnet/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/monitor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.setvalue.net/tags/best-practices/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/gatsby-js/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/patterns/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.setvalue.net/tags/microsoft-identity-platform/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
