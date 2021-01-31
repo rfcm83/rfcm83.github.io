@@ -62,11 +62,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/2/page-data.json",
-    "revision": "442f945795d7982a93371cf7882fd0e8"
+    "revision": "0bc47b90ba99470829ba33df6dcf7f02"
   },
   {
     "url": "page-data/sq/d/2744294623.json",
-    "revision": "932440bea564576eabcc8c5abc2500ff"
+    "revision": "ec1fde6e34decfffeaf8a3f02fded919"
   },
   {
     "url": "page-data/sq/d/3114762285.json",
@@ -74,7 +74,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/550521386.json",
-    "revision": "cbb55fa2da6b8bea7c6a40cf50f7097a"
+    "revision": "1efba65204d24c6acefeeab474a160d2"
   },
   {
     "url": "page-data/sq/d/764694655.json",
@@ -86,26 +86,26 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/3/page-data.json",
-    "revision": "bbf31d9f452d95c0a414b8aa83100b42"
+    "revision": "30833bf450eef376a973e058b1316a15"
   },
   {
     "url": "page-data/4/page-data.json",
-    "revision": "ec8180c179ce77f14cd9ba0ebc5f2541"
+    "revision": "10cbbdacc8e500c7cc87fa7e70c09a78"
   },
   {
     "url": "page-data/5/page-data.json",
-    "revision": "f6d139068611f33e95956fccff6badaa"
+    "revision": "bffb874decf7dcde320de3a3b4e0594a"
   },
   {
     "url": "page-data/6/page-data.json",
-    "revision": "29b437aee126b4c5d825b84e1bc7e9e7"
+    "revision": "e95293823765944b2cc1fce67765a1f6"
   },
   {
     "url": "component---src-pages-tags-js-ae4904c178592181da10.js"
   },
   {
     "url": "page-data/tags/page-data.json",
-    "revision": "1951b4495188baf206a1d9b2ed2b323e"
+    "revision": "55de42094bf453b3595eaee041b3e056"
   },
   {
     "url": "manifest.webmanifest",
