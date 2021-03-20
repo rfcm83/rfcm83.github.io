@@ -27,46 +27,43 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-c1102ad0fb643afcc783.js"
+    "url": "webpack-runtime-33eddddb61f039f2bc1f.js"
   },
   {
-    "url": "styles.2b79eae4a99311ad657b.css"
+    "url": "styles.8b9af57c816dcfaf0b68.css"
   },
   {
-    "url": "styles-407fe62976dc5310c43e.js"
+    "url": "framework-195c5a45ccc0b0805ce0.js"
   },
   {
-    "url": "framework-305b3707783ccc9d7ca6.js"
-  },
-  {
-    "url": "app-c584aeb0aa883e8f1128.js"
+    "url": "app-71c7a31e6dae02234af2.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "53acb00cbc5578bfaf9f9a3c45bf7d5a"
+    "revision": "293421e405b8afd1b87cd2ff1c27a23d"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-ad6431e4664bcf916d19.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-44e6c687a88026cfc124.js"
   },
   {
-    "url": "polyfill-d0a90a918e39f7bd0bdc.js"
+    "url": "polyfill-5c6a5f5a78b8fa2f4991.js"
   },
   {
-    "url": "component---src-templates-blog-list-js-0227f6d2627af97a4a7b.js"
+    "url": "777cf710-2eaf281018b0dafc6836.js"
   },
   {
-    "url": "8f2d471fb7333c6c0018ac531eee0249a8ca709b-20f0cac0237fd466a027.js"
+    "url": "8f2d471fb7333c6c0018ac531eee0249a8ca709b-c03c2883bd0c1b259011.js"
   },
   {
-    "url": "777cf710-76a45f57e6b3e9a3d300.js"
+    "url": "component---src-templates-blog-list-js-952190c30e54ec8f5a9a.js"
   },
   {
     "url": "page-data/2/page-data.json",
-    "revision": "0bc47b90ba99470829ba33df6dcf7f02"
+    "revision": "8f5449f045e4d1d6b6800a48ea41f317"
   },
   {
     "url": "page-data/sq/d/2744294623.json",
-    "revision": "ec1fde6e34decfffeaf8a3f02fded919"
+    "revision": "9c01fdc932b99870e90a3908a4ac6950"
   },
   {
     "url": "page-data/sq/d/3114762285.json",
@@ -74,7 +71,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/550521386.json",
-    "revision": "1efba65204d24c6acefeeab474a160d2"
+    "revision": "e685254410de02ec5c6e99369d29e2bc"
   },
   {
     "url": "page-data/sq/d/764694655.json",
@@ -82,30 +79,30 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "0407f3eb0cdc763f7fe76a5764671d15"
+    "revision": "da0cf99905caa3fa616aa467cb1ba498"
   },
   {
     "url": "page-data/3/page-data.json",
-    "revision": "30833bf450eef376a973e058b1316a15"
+    "revision": "75cbae8348ed85741cda0c5858288c4c"
   },
   {
     "url": "page-data/4/page-data.json",
-    "revision": "10cbbdacc8e500c7cc87fa7e70c09a78"
+    "revision": "9e18ac219f38f864c8870b5f4fa9dbdd"
   },
   {
     "url": "page-data/5/page-data.json",
-    "revision": "bffb874decf7dcde320de3a3b4e0594a"
+    "revision": "3ce821d8dddbd27251f3552e77bf63ac"
   },
   {
     "url": "page-data/6/page-data.json",
-    "revision": "e95293823765944b2cc1fce67765a1f6"
+    "revision": "ad1b1a0582c11b63422fc564c02a7a8d"
   },
   {
-    "url": "component---src-pages-tags-js-ae4904c178592181da10.js"
+    "url": "component---src-pages-tags-js-5f8b1e8c81cdda6f7009.js"
   },
   {
     "url": "page-data/tags/page-data.json",
-    "revision": "55de42094bf453b3595eaee041b3e056"
+    "revision": "b87670e923eb0c0dbf88c669bb4f3ca1"
   },
   {
     "url": "manifest.webmanifest",
@@ -116,7 +113,7 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|avif|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
@@ -201,7 +198,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-c584aeb0aa883e8f1128.js`))) {
+  if (!resources || !(await caches.match(`/app-71c7a31e6dae02234af2.js`))) {
     return await fetch(event.request)
   }
 
