@@ -63,7 +63,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/2744294623.json",
-    "revision": "a9082ba3324a37045f13c78be5e8f4bc"
+    "revision": "6ad29f8b8e10c78de3f790b992b0bc93"
   },
   {
     "url": "page-data/sq/d/3114762285.json",
@@ -71,7 +71,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/550521386.json",
-    "revision": "36d69ae26a0ebec3c0280ea5dad99f96"
+    "revision": "ec969e39fce341366a197b772817d8ce"
   },
   {
     "url": "page-data/sq/d/764694655.json",
@@ -102,7 +102,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/tags/page-data.json",
-    "revision": "109df8e6f152cbe61ba622ad4bae07a1"
+    "revision": "ee62888d114940f10de7f3ac6c4c4427"
   },
   {
     "url": "manifest.webmanifest",
